@@ -1,0 +1,1069 @@
+﻿Log file open, 03/24/17 17:27:23
+LogInit:Display: Running engine for game: Submariner
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1489236595) SRandInit(1489236595).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.630278
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: E:/UE4/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.24-21.27.24:235][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.24-21.27.24:235][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.24-21.27.24:284][  0]LogInit: Computer: JULIETA
+[2017.03.24-21.27.24:284][  0]LogInit: User: TimClancy
+[2017.03.24-21.27.24:284][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.24-21.27.24:284][  0]LogInit: High frequency timer resolution =3.215206 MHz
+[2017.03.24-21.27.24:284][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.03.24-21.27.24:284][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.24-21.27.24:284][  0]LogMemory: Process Physical Memory: 262.59 MB used, 262.59 MB peak
+[2017.03.24-21.27.24:284][  0]LogMemory: Process Virtual Memory: 262.73 MB used, 262.73 MB peak
+[2017.03.24-21.27.24:284][  0]LogMemory: Physical Memory: 4888.92 MB used,  3254.55 MB free, 8143.47 MB total
+[2017.03.24-21.27.24:284][  0]LogMemory: Virtual Memory: 644.25 MB used,  3254.55 MB free, 134217728.00 MB total
+[2017.03.24-21.27.24:831][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.24-21.27.28:503][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.24-21.27.28:537][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.24-21.27.28:537][  0]LogD3D11RHI:       4059/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.24-21.27.28:543][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.24-21.27.28:543][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.24-21.27.28:543][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.24-21.27.28:547][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.24-21.27.28:547][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.24-21.27.28:547][  0]LogWindows: EnumDisplayDevices:
+[2017.03.24-21.27.28:547][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.24-21.27.28:547][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.24-21.27.28:547][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.24-21.27.28:547][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.24-21.27.28:547][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.24-21.27.28:547][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.24-21.27.28:547][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.03.24-21.27.28:547][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.03.24-21.27.28:548][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.24-21.27.28:564][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.24-21.27.28:574][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.24-21.27.28:624][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../Unreal Projects/Submariner/Intermediate/Shaders/WorkingDirectory/11964/).
+[2017.03.24-21.27.28:624][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tim Clancy/AppData/Local/Temp/UnrealShaderWorkingDir/3E8D1F6946C5A7BC2A7C828B294E4C8B/'.
+[2017.03.24-21.27.28:624][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.24-21.27.33:407][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.24-21.27.33:462][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.24-21.27.33:517][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.24-21.27.33:561][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.24-21.27.33:616][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.24-21.27.33:659][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.24-21.27.33:701][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.24-21.27.33:743][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.24-21.27.33:775][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.24-21.27.33:823][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.24-21.27.33:864][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.24-21.27.33:906][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.24-21.27.33:946][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.24-21.27.33:988][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.24-21.27.34:028][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.24-21.27.34:110][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.24-21.27.34:110][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.24-21.27.34:137][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.24-21.27.34:268][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.24-21.27.34:299][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.24-21.27.34:342][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.24-21.27.34:385][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.24-21.27.34:427][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.24-21.27.34:508][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.24-21.27.34:508][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.24-21.27.35:294][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.24-21.27.35:609][  0]LogDerivedDataCache: Loaded boot cache 0.31s 50MB C:/Users/Tim Clancy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.24-21.27.35:609][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tim Clancy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.24-21.27.35:609][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Submariner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.24-21.27.35:609][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.24-21.27.35:609][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Submariner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.24-21.27.35:609][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.24-21.27.35:705][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.24-21.27.35:718][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tim Clancy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.24-21.27.35:727][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.24-21.27.35:855][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.24-21.27.35:855][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.24-21.27.45:725][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.24-21.27.45:728][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.24-21.27.46:102][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.24-21.27.46:209][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.24-21.27.46:282][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.24-21.27.46:282][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.24-21.27.46:282][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.24-21.27.49:406][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: submariner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2308320845
+[2017.03.24-21.27.49:465][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.03.24-21.27.49:552][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.072938 seconds
+[2017.03.24-21.27.49:557][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.03.24-21.27.49:557][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.03.24-21.27.49:557][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.24-21.27.49:598][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.24-21.28.11:264][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.24-21.28.11:310][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.24-21.28.12:270][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.24-21.28.12:806][  0]SourceControl: Info Source control is disabled
+[2017.03.24-21.28.12:896][  0]SourceControl: Info Source control is disabled
+[2017.03.24-21.28.12:955][  0]SourceControl: Info Source control is disabled
+[2017.03.24-21.28.13:010][  0]SourceControl: Info Source control is disabled
+[2017.03.24-21.28.14:622][  0]LogEngine: Initializing Engine...
+[2017.03.24-21.28.14:697][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.03.24-21.28.15:329][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.24-21.28.15:340][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.28.15:351][  0]LogInit: FAudioDevice initialized.
+[2017.03.24-21.28.15:378][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Tim Clancy/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.24-21.28.15:388][  0]LogInit: Texture streaming: Enabled
+[2017.03.24-21.28.15:547][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.24-21.28.15:712][  0]LogInit: Transaction tracking system initialized
+[2017.03.24-21.28.16:052][  0]BlueprintLog: New page: Editor Load
+[2017.03.24-21.28.17:092][  0]LocalizationService: Info Localization service is disabled
+[2017.03.24-21.28.17:891][  0]LogConsoleResponse:Display: 
+[2017.03.24-21.28.21:321][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.24-21.28.21:321][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.24-21.28.21:388][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Submariner/Content/' took 0.07s
+[2017.03.24-21.28.24:607][  0]SourceControl: Info Source control is disabled
+[2017.03.24-21.28.24:607][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.24-21.28.24:629][  0]LightingResults: New page: Lighting Build
+[2017.03.24-21.28.24:657][  0]MapCheck: New page: Map Check
+[2017.03.24-21.28.24:657][  0]LightingResults: New page: Lighting Build
+[2017.03.24-21.28.26:682][  0]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.28.26:741][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.24-21.28.26:741][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.24-21.28.26:770][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.598ms to complete.
+[2017.03.24-21.28.26:770][  0]LogFileHelpers: Loading map 'Captain' took 2.163
+[2017.03.24-21.28.27:182][  0]LogCollectionManager: Loaded 0 collections in 0.001504 seconds
+[2017.03.24-21.28.27:247][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Submariner/Saved/Collections/' took 0.01s
+[2017.03.24-21.28.27:247][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Submariner/Content/Developers/TimClancy/Collections/' took 0.01s
+[2017.03.24-21.28.27:247][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/Submariner/Content/Collections/' took 0.01s
+[2017.03.24-21.28.27:247][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.24-21.28.27:257][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2245 classes and 453 folders.
+[2017.03.24-21.28.27:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.24-21.28.27:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.24-21.28.27:303][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.24-21.28.28:532][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.24-21.28.28:584][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.24-21.28.28:663][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.24-21.28.28:669][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.24-21.28.28:745][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.24-21.28.28:745][  0]LogLoad: (Engine Initialization) Total time: 82.98 seconds
+[2017.03.24-21.28.28:745][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
+[2017.03.24-21.28.28:745][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.24-21.28.28:745][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.24-21.28.29:084][  0]LogOcInput: OculusInput pre-init called
+[2017.03.24-21.28.29:105][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.24-21.28.29:122][  0]LogSlate: Took 0.016094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.24-21.28.29:138][  0]LogSlate: Took 0.013249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.24-21.28.29:156][  0]LogSlate: Took 0.012525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.24-21.28.29:584][  0]LogSlate: Took 0.004040 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.24-21.28.29:627][  0]LogRenderer: Reallocating scene render targets to support 1168x572 NumSamples 1 (Frame:2).
+[2017.03.24-21.28.29:694][  1]LogAssetRegistry: Asset discovery search completed in 40.2501 seconds
+[2017.03.24-21.28.29:694][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.03.24-21.28.29:694][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.03.24-21.28.30:355][  3]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.24-21.28.38:502][182]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.28.38:516][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.28.38:516][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.28.38:516][182]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:28:38 PM)
+[2017.03.24-21.28.38:516][182]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.28.38:519][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002341s)
+[2017.03.24-21.28.38:520][182]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.28.38:520][182]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2017.03.24-21.28.38:520][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.003560s)
+[2017.03.24-21.28.38:537][182]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.28.38:544][182]LogInit: FAudioDevice initialized.
+[2017.03.24-21.28.39:044][182]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.28.39:047][182]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.28.39
+[2017.03.24-21.28.39:047][182]LogWorld: Bringing up level for play took: 0.001079
+[2017.03.24-21.28.39:076][182]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.03.24-21.28.39:077][182]LogBlueprintUserMessages: [SubmarineCharacter_C_0] Hello
+[2017.03.24-21.28.39:077][182]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.201
+[2017.03.24-21.28.39:078][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.28.43:429][688]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.44:179][778]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.49:858][458]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.50:058][482]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.50:242][504]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.50:400][523]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.51:425][646]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.51:591][666]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.51:758][686]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.56:741][283]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.57:008][315]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.57:183][336]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.57:333][354]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.28.59:143][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.28.59:226][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.29.02:250][927]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.24-21.29.02:822][927]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.03.24-21.29.03:460][927]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.24-21.29.03:894][927]LogSlate: Took 0.021758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.24-21.29.04:294][928]LogSlate: Took 0.018313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.24-21.29.59:467][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.24-21.29.59:591][356]LogSavePackage: Save=104.17ms
+[2017.03.24-21.29.59:591][356]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/CaptainDC93360848810728B4854C8B7C618F6E.tmp' to '../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap'
+[2017.03.24-21.29.59:593][356]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap
+[2017.03.24-21.29.59:618][356]LogFileHelpers: Saving map 'Captain' took 0.187
+[2017.03.24-21.30.00:755][475]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.30.00:778][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.00:778][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.30.00:778][475]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:30:00 PM)
+[2017.03.24-21.30.00:778][475]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.30.00:780][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002271s)
+[2017.03.24-21.30.00:781][475]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.30.00:781][475]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2017.03.24-21.30.00:781][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.003427s)
+[2017.03.24-21.30.00:803][475]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.30.00:810][475]LogInit: FAudioDevice initialized.
+[2017.03.24-21.30.00:844][475]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.30.00:846][475]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.30.00
+[2017.03.24-21.30.00:865][475]LogWorld: Bringing up level for play took: 0.020556
+[2017.03.24-21.30.00:867][475]LogBlueprintUserMessages: [SubmarineCharacter_C_0] Hello
+[2017.03.24-21.30.00:867][475]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.009
+[2017.03.24-21.30.00:867][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.03:893][835]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.30.04:403][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.04:443][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.12:451][822]BlueprintLog: New page: Compile SubmarineCharacter
+[2017.03.24-21.30.14:625][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineCharacter" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineCharacter.uasset" SILENT=true
+[2017.03.24-21.30.14:681][ 62]LogSavePackage: Save=49.04ms
+[2017.03.24-21.30.14:681][ 62]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineCharacterF10BA8E348DC2F31BE0B74B7DC7D2B8B.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineCharacter.uasset'
+[2017.03.24-21.30.14:682][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineCharacter.uasset
+[2017.03.24-21.30.31:370][ 18]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.30.32:275][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.30.32:286][104]LogSavePackage: Save=9.43ms
+[2017.03.24-21.30.32:286][104]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerController5EBFAA194B161BB2F9E3EC8B661D85D0.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.30.32:287][104]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.30.34:225][336]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.30.34:242][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.34:242][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.30.34:242][336]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:30:34 PM)
+[2017.03.24-21.30.34:242][336]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.30.34:244][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001949s)
+[2017.03.24-21.30.34:245][336]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.30.34:245][336]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2017.03.24-21.30.34:246][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.003227s)
+[2017.03.24-21.30.34:268][336]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.30.34:274][336]LogInit: FAudioDevice initialized.
+[2017.03.24-21.30.34:302][336]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.30.34:304][336]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.30.34
+[2017.03.24-21.30.34:304][336]LogWorld: Bringing up level for play took: 0.001062
+[2017.03.24-21.30.34:306][336]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.571
+[2017.03.24-21.30.34:306][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.38:498][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.38:544][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.42:920][353]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.30.43:483][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.30.43:494][399]LogSavePackage: Save=9.32ms
+[2017.03.24-21.30.43:494][399]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerControllerADC820F54CB0B46003D941819E3C7256.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.30.43:495][399]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.30.44:898][567]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.30.44:915][567]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.44:915][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.30.44:916][567]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:30:44 PM)
+[2017.03.24-21.30.44:916][567]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.30.44:918][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001876s)
+[2017.03.24-21.30.44:918][567]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.30.44:918][567]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2017.03.24-21.30.44:918][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002712s)
+[2017.03.24-21.30.44:941][567]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.30.44:947][567]LogInit: FAudioDevice initialized.
+[2017.03.24-21.30.44:978][567]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.30.44:980][567]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.30.44
+[2017.03.24-21.30.44:980][567]LogWorld: Bringing up level for play took: 0.001311
+[2017.03.24-21.30.44:982][567]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.105
+[2017.03.24-21.30.44:982][567]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.48:429][977]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.30.48:475][977]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.03:427][758]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.31.04:092][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.31.04:103][816]LogSavePackage: Save=9.60ms
+[2017.03.24-21.31.04:103][816]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerController887AA7C244F3F779C38CB08F2B5AFB84.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.31.04:105][816]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.31.05:559][990]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.31.05:576][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.05:576][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.31.05:576][990]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:31:05 PM)
+[2017.03.24-21.31.05:576][990]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.31.05:578][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001829s)
+[2017.03.24-21.31.05:579][990]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.31.05:579][990]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2017.03.24-21.31.05:579][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002990s)
+[2017.03.24-21.31.05:601][990]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.31.05:607][990]LogInit: FAudioDevice initialized.
+[2017.03.24-21.31.05:639][990]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.31.05:641][990]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.31.05
+[2017.03.24-21.31.05:641][990]LogWorld: Bringing up level for play took: 0.001134
+[2017.03.24-21.31.05:643][990]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.766
+[2017.03.24-21.31.05:643][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.11:580][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.11:628][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.16:216][231]LogRenderer: Reallocating scene render targets to support 1168x940 NumSamples 1 (Frame:8362).
+[2017.03.24-21.31.29:497][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.24-21.31.30:766][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.24-21.31.31:327][954]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.03.24-21.31.33:299][185]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.24-21.31.33:892][254]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.31.33:909][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.33:909][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.31.33:909][254]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:31:33 PM)
+[2017.03.24-21.31.33:909][254]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.31.33:911][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001925s)
+[2017.03.24-21.31.33:912][254]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.31.33:912][254]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2017.03.24-21.31.33:912][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002943s)
+[2017.03.24-21.31.33:933][254]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.31.33:939][254]LogInit: FAudioDevice initialized.
+[2017.03.24-21.31.33:973][254]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.31.33:975][254]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.31.33
+[2017.03.24-21.31.33:975][254]LogWorld: Bringing up level for play took: 0.001186
+[2017.03.24-21.31.33:977][254]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.9
+[2017.03.24-21.31.33:977][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.38:695][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.38:741][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.31.56:254][859]BlueprintLog: New page: Compile SubmarineCharacter
+[2017.03.24-21.31.56:882][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineCharacter" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineCharacter.uasset" SILENT=true
+[2017.03.24-21.31.56:926][895]LogSavePackage: Save=42.09ms
+[2017.03.24-21.31.56:926][895]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineCharacter6F4674A14F30DDB7D81C2C8765C73878.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineCharacter.uasset'
+[2017.03.24-21.31.56:927][895]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineCharacter.uasset
+[2017.03.24-21.31.58:555][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.24-21.31.58:662][ 81]LogSavePackage: Save=89.88ms
+[2017.03.24-21.31.58:662][ 81]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/CaptainB3309FB44B1A7862B960F1812276FCF3.tmp' to '../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap'
+[2017.03.24-21.31.58:663][ 81]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap
+[2017.03.24-21.31.58:687][ 81]LogFileHelpers: Saving map 'Captain' took 0.167
+[2017.03.24-21.32.00:227][264]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.32.00:244][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.00:244][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.32.00:244][264]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:32:00 PM)
+[2017.03.24-21.32.00:244][264]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.32.00:246][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001772s)
+[2017.03.24-21.32.00:246][264]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.32.00:246][264]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.03.24-21.32.00:247][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002733s)
+[2017.03.24-21.32.00:270][264]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.32.00:276][264]LogInit: FAudioDevice initialized.
+[2017.03.24-21.32.00:306][264]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.32.00:308][264]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.32.00
+[2017.03.24-21.32.00:308][264]LogWorld: Bringing up level for play took: 0.001084
+[2017.03.24-21.32.00:310][264]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.567
+[2017.03.24-21.32.00:310][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.04:083][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.04:128][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.07:977][168]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.32.08:491][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.32.08:506][208]LogSavePackage: Save=9.70ms
+[2017.03.24-21.32.08:506][208]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerControllerFC443FBF4174728547FE4BAA929A0EF5.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.32.08:507][208]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.32.09:584][337]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.32.09:601][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.09:601][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.32.09:601][337]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:32:09 PM)
+[2017.03.24-21.32.09:601][337]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.32.09:603][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001901s)
+[2017.03.24-21.32.09:603][337]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.32.09:604][337]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.03.24-21.32.09:604][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002747s)
+[2017.03.24-21.32.09:625][337]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.32.09:632][337]LogInit: FAudioDevice initialized.
+[2017.03.24-21.32.09:665][337]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.32.09:667][337]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.32.09
+[2017.03.24-21.32.09:667][337]LogWorld: Bringing up level for play took: 0.001147
+[2017.03.24-21.32.09:668][337]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.792
+[2017.03.24-21.32.09:669][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.12:437][665]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.12:479][665]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.19:477][490]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.32.19:995][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.32.20:005][530]LogSavePackage: Save=9.21ms
+[2017.03.24-21.32.20:005][530]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerControllerF03FB33D433524F62FE7528CD2639037.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.32.20:007][530]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.32.22:174][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.32.22:184][789]LogSavePackage: Save=9.08ms
+[2017.03.24-21.32.22:184][789]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerController46A3D6E84D414D2130B8F781213CC95E.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.32.22:204][789]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.32.22:552][831]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.32.22:689][831]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.32.23:958][968]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.32.23:975][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.23:975][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.32.23:975][968]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:32:23 PM)
+[2017.03.24-21.32.23:975][968]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.32.23:977][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001812s)
+[2017.03.24-21.32.23:977][968]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.32.23:978][968]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2017.03.24-21.32.23:978][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002987s)
+[2017.03.24-21.32.24:000][968]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.32.24:007][968]LogInit: FAudioDevice initialized.
+[2017.03.24-21.32.24:039][968]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.32.24:041][968]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.32.24
+[2017.03.24-21.32.24:041][968]LogWorld: Bringing up level for play took: 0.001124
+[2017.03.24-21.32.24:042][968]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.834
+[2017.03.24-21.32.24:043][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.34:084][168]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.32.35:492][337]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.32.39:567][826]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.32.40:467][934]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.32.40:925][989]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.32.41:251][ 28]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.32.41:592][ 69]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.32.51:266][229]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.51:309][229]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.32.58:327][ 56]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.32.58:824][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.32.58:835][ 94]LogSavePackage: Save=9.88ms
+[2017.03.24-21.32.58:835][ 94]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerControllerA4270ECA4DE3E01E9B8874B9E87639AD.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.32.58:837][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.33.00:070][241]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.33.00:087][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.33.00:087][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.33.00:087][241]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:33:00 PM)
+[2017.03.24-21.33.00:087][241]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.33.00:089][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001771s)
+[2017.03.24-21.33.00:090][241]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.33.00:090][241]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2017.03.24-21.33.00:090][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002991s)
+[2017.03.24-21.33.00:112][241]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.33.00:119][241]LogInit: FAudioDevice initialized.
+[2017.03.24-21.33.00:148][241]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.33.00:150][241]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.33.00
+[2017.03.24-21.33.00:151][241]LogWorld: Bringing up level for play took: 0.001104
+[2017.03.24-21.33.00:152][241]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.724
+[2017.03.24-21.33.00:152][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.33.17:499][318]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.33.17:958][373]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.33.19:800][594]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.33.22:925][969]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.33.27:426][509]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.33.36:529][601]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.33.37:906][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.33.37:950][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.33.44:846][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarinePlayerController" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset" SILENT=true
+[2017.03.24-21.33.44:857][584]LogSavePackage: Save=9.18ms
+[2017.03.24-21.33.44:857][584]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarinePlayerController8FAE94D9414A1C683DBE61A87D12B62D.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset'
+[2017.03.24-21.33.44:858][584]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarinePlayerController.uasset
+[2017.03.24-21.33.45:276][634]BlueprintLog: New page: Compile SubmarinePlayerController
+[2017.03.24-21.33.54:118][560]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.03.24-21.33.54:192][561]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Submariner
+
+[2017.03.24-21.33.54:192][561]LogTemp:Display: CWD: E:\UE4\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.03.24-21.33.54:192][561]LogTemp:Display: Initial Dir: E:\UE4\UE_4.15
+
+[2017.03.24-21.33.54:192][561]LogTemp:Display: Env CWD: E:\UE4\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.03.24-21.33.54:192][561]LogTemp:Display: BranchPath = JULIETA/E/UE4/UE_4.15/Engine/Binaries --- GameBranchPath = JULIETA/E/UE4/UE_4.15/Engine/Binaries
+
+[2017.03.24-21.33.54:205][562]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Tim Clancy\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.03.24-21.33.54:205][562]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.03.24-21.33.54:205][562]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.03.24-21.33.54:205][562]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.03.24-21.33.54:205][562]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.03.24-21.33.54:205][562]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.03.24-21.34.01:674][275]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.24-21.39.42:896][ 60]AssetReimport: New page: Outstanding source content changes 1:39:42 PM
+[2017.03.24-21.39.42:929][ 61]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:/Unreal Projects/Submariner/Content/Textures/crosshair.png)
+[2017.03.24-21.39.43:114][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/crosshair" FILE="../../../../../Unreal Projects/Submariner/Content/Textures/crosshair.uasset" SILENT=true
+[2017.03.24-21.39.43:162][ 62]LogSavePackage: Save=47.43ms
+[2017.03.24-21.39.43:162][ 62]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/crosshair0FEABCB944B35D02701D02B88E58099A.tmp' to '../../../../../Unreal Projects/Submariner/Content/Textures/crosshair.uasset'
+[2017.03.24-21.39.43:164][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Textures/crosshair.uasset
+[2017.03.24-21.39.46:171][417]AssetReimport: Info Importing new asset /Game/Textures/crosshair.
+[2017.03.24-21.39.50:007][865]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.24-21.39.57:995][788]BlueprintLog: New page: Compile SubmarineHUD
+[2017.03.24-21.39.58:562][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineHUD" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset" SILENT=true
+[2017.03.24-21.39.58:576][835]LogSavePackage: Save=12.62ms
+[2017.03.24-21.39.58:576][835]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineHUDB26F6EF444921C124680708AA48A5FA0.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset'
+[2017.03.24-21.39.58:578][835]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset
+[2017.03.24-21.40.01:143][142]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.40.01:187][142]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.01:187][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.40.01:187][142]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:40:01 PM)
+[2017.03.24-21.40.01:187][142]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.40.01:189][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001925s)
+[2017.03.24-21.40.01:189][142]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.40.01:190][142]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2017.03.24-21.40.01:190][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.003126s)
+[2017.03.24-21.40.01:213][142]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.40.01:219][142]LogInit: FAudioDevice initialized.
+[2017.03.24-21.40.01:249][142]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.40.01:251][142]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.40.01
+[2017.03.24-21.40.01:251][142]LogWorld: Bringing up level for play took: 0.001457
+[2017.03.24-21.40.01:253][142]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.377
+[2017.03.24-21.40.01:253][142]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.13:615][620]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.13:815][644]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.14:315][704]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.14:499][726]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.14:690][749]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.14:873][771]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.15:065][794]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.17:723][113]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.17:949][140]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.18:199][170]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.20:607][459]LogBlueprintUserMessages: [Button_422] Hello
+[2017.03.24-21.40.22:450][680]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.22:495][680]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.23:577][803]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.40.23:596][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.23:596][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.40.23:596][803]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:40:23 PM)
+[2017.03.24-21.40.23:596][803]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.40.23:598][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001808s)
+[2017.03.24-21.40.23:599][803]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.40.23:599][803]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2017.03.24-21.40.23:599][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002914s)
+[2017.03.24-21.40.23:625][803]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.40.23:631][803]LogInit: FAudioDevice initialized.
+[2017.03.24-21.40.23:662][803]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.40.23:664][803]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.40.23
+[2017.03.24-21.40.23:664][803]LogWorld: Bringing up level for play took: 0.001257
+[2017.03.24-21.40.23:666][803]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.789
+[2017.03.24-21.40.23:666][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.24:774][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.24:820][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.40.27:964][202]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.03.24-21.40.28:013][203]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Submariner
+
+[2017.03.24-21.40.28:013][203]LogTemp:Display: CWD: E:\UE4\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.03.24-21.40.28:013][203]LogTemp:Display: Initial Dir: E:\UE4\UE_4.15
+
+[2017.03.24-21.40.28:013][203]LogTemp:Display: Env CWD: E:\UE4\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.03.24-21.40.28:014][203]LogTemp:Display: BranchPath = JULIETA/E/UE4/UE_4.15/Engine/Binaries --- GameBranchPath = JULIETA/E/UE4/UE_4.15/Engine/Binaries
+
+[2017.03.24-21.40.28:037][204]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Tim Clancy\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.03.24-21.40.28:037][204]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.03.24-21.40.28:037][204]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.03.24-21.40.28:037][204]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.03.24-21.40.28:037][204]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.03.24-21.40.28:037][204]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.03.24-21.41.09:016][546]BlueprintLog: New page: Compile SubmarineHUD
+[2017.03.24-21.41.09:397][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineHUD" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset" SILENT=true
+[2017.03.24-21.41.09:432][578]LogSavePackage: Save=28.23ms
+[2017.03.24-21.41.09:432][578]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineHUD3EDA0C2A4E1427E110722185F9724396.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset'
+[2017.03.24-21.41.09:433][578]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset
+[2017.03.24-21.41.10:755][733]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.41.10:774][733]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.41.10:774][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.41.10:774][733]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:41:10 PM)
+[2017.03.24-21.41.10:774][733]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.41.10:776][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001854s)
+[2017.03.24-21.41.10:777][733]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.41.10:777][733]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2017.03.24-21.41.10:777][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002870s)
+[2017.03.24-21.41.10:800][733]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.41.10:806][733]LogInit: FAudioDevice initialized.
+[2017.03.24-21.41.10:836][733]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.41.10:838][733]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.41.10
+[2017.03.24-21.41.10:838][733]LogWorld: Bringing up level for play took: 0.001261
+[2017.03.24-21.41.10:840][733]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.037
+[2017.03.24-21.41.10:840][733]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.41.13:904][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.41.13:946][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.41.35:488][669]BlueprintLog: New page: Compile SubmarineHUD
+[2017.03.24-21.41.36:051][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineHUD" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset" SILENT=true
+[2017.03.24-21.41.36:065][721]LogSavePackage: Save=11.88ms
+[2017.03.24-21.41.36:065][721]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineHUDE9A5C1F6410AFD2D2E5134860706B2E8.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset'
+[2017.03.24-21.41.36:066][721]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset
+[2017.03.24-21.41.37:800][926]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.41.37:818][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.41.37:818][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.41.37:818][926]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:41:37 PM)
+[2017.03.24-21.41.37:818][926]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.41.37:820][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001883s)
+[2017.03.24-21.41.37:821][926]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.41.37:822][926]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2017.03.24-21.41.37:822][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.003508s)
+[2017.03.24-21.41.37:845][926]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.41.37:851][926]LogInit: FAudioDevice initialized.
+[2017.03.24-21.41.37:886][926]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.41.37:888][926]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.41.37
+[2017.03.24-21.41.37:889][926]LogWorld: Bringing up level for play took: 0.001325
+[2017.03.24-21.41.37:890][926]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 1.014
+[2017.03.24-21.41.37:890][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.41.41:202][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.41.41:246][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.43.04:407][555]BlueprintLog: New page: Compile SubmarineHUD
+[2017.03.24-21.43.05:098][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineHUD" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset" SILENT=true
+[2017.03.24-21.43.05:112][624]LogSavePackage: Save=12.10ms
+[2017.03.24-21.43.05:112][624]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineHUD4294FD7B4281F225FE9707B978E60E5A.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset'
+[2017.03.24-21.43.05:113][624]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset
+[2017.03.24-21.43.08:067][975]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.43.08:086][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.43.08:086][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.43.08:086][975]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:43:08 PM)
+[2017.03.24-21.43.08:086][975]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.43.08:088][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002020s)
+[2017.03.24-21.43.08:089][975]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.43.08:089][975]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2017.03.24-21.43.08:089][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.003282s)
+[2017.03.24-21.43.08:112][975]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.43.08:119][975]LogInit: FAudioDevice initialized.
+[2017.03.24-21.43.08:150][975]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.43.08:153][975]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.43.08
+[2017.03.24-21.43.08:153][975]LogWorld: Bringing up level for play took: 0.001410
+[2017.03.24-21.43.08:154][975]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.722
+[2017.03.24-21.43.08:155][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.43.15:285][827]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.43.15:329][827]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.43.47:516][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Captain' took 0.017
+[2017.03.24-21.43.47:518][ 82]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SubmarineGameMode] ([1] browsable assets)...
+[2017.03.24-21.43.47:518][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SubmarineGameMode]
+[2017.03.24-21.43.47:534][ 82]LogSavePackage: Save=10.81ms
+[2017.03.24-21.43.47:534][ 82]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineGameMode_Auto11B1CE84749727AEF2E0203A19887EB1E.tmp' to '../../../../../Unreal Projects/Submariner/Saved/Autosaves/Game/Blueprints/SubmarineGameMode_Auto1.uasset'
+[2017.03.24-21.43.47:535][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Saved/Autosaves/Game/Blueprints/SubmarineGameMode_Auto1.uasset
+[2017.03.24-21.43.47:535][ 82]LogFileHelpers: Auto-saving content packages took 0.018
+[2017.03.24-21.44.05:074][462]BlueprintLog: New page: Compile SubmarineHUD
+[2017.03.24-21.44.05:503][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineHUD" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset" SILENT=true
+[2017.03.24-21.44.05:517][500]LogSavePackage: Save=12.65ms
+[2017.03.24-21.44.05:517][500]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineHUDDFB9594D412E6139DB6CF0AB72606F1C.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset'
+[2017.03.24-21.44.05:518][500]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineHUD.uasset
+[2017.03.24-21.44.07:223][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SubmarineGameMode" FILE="../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineGameMode.uasset" SILENT=true
+[2017.03.24-21.44.07:236][699]LogSavePackage: Save=10.86ms
+[2017.03.24-21.44.07:236][699]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/SubmarineGameMode1AEF8E1E4538981098FE908313CB6B55.tmp' to '../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineGameMode.uasset'
+[2017.03.24-21.44.07:237][699]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Blueprints/SubmarineGameMode.uasset
+[2017.03.24-21.44.08:619][864]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.44.08:638][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.08:638][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.44.08:638][864]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:44:08 PM)
+[2017.03.24-21.44.08:638][864]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.44.08:640][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001796s)
+[2017.03.24-21.44.08:641][864]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.44.08:641][864]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.03.24-21.44.08:641][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.002543s)
+[2017.03.24-21.44.08:665][864]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.44.08:671][864]LogInit: FAudioDevice initialized.
+[2017.03.24-21.44.08:701][864]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.44.08:703][864]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.44.08
+[2017.03.24-21.44.08:703][864]LogWorld: Bringing up level for play took: 0.001164
+[2017.03.24-21.44.08:704][864]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.172
+[2017.03.24-21.44.08:705][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.10:155][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.10:204][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.11:098][134]MapCheck: New page: Map Check
+[2017.03.24-21.44.11:108][134]Cmd: MAP REBUILD ALLVISIBLE
+[2017.03.24-21.44.11:108][134]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.03.24-21.44.11:206][134]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.03.24-21.44.11:207][134]LogTemp:Display: Added material ShaderMap 0x000001678BC19280 with Material 0x0000016798B25600 to ShaderMapsBeingCompiled
+[2017.03.24-21.44.11:210][134]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000001678BC19280
+[2017.03.24-21.44.11:213][134]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel, compiling. 
+[2017.03.24-21.44.11:214][134]LogTemp:Display: Added material ShaderMap 0x000001678BC18B80 with Material 0x0000016798B25300 to ShaderMapsBeingCompiled
+[2017.03.24-21.44.11:216][134]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel, GameThreadShaderMap 0x000001678BC18B80
+[2017.03.24-21.44.11:218][134]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.03.24-21.44.11:219][134]LogTemp:Display: Added material ShaderMap 0x0000016721677C80 with Material 0x0000016798B27100 to ShaderMapsBeingCompiled
+[2017.03.24-21.44.11:221][134]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, GameThreadShaderMap 0x0000016721677C80
+[2017.03.24-21.44.11:224][134]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.03.24-21.44.11:225][134]LogTemp:Display: Added material ShaderMap 0x0000016721676B00 with Material 0x0000016739D20A00 to ShaderMapsBeingCompiled
+[2017.03.24-21.44.11:227][134]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Floor, GameThreadShaderMap 0x0000016721676B00
+[2017.03.24-21.44.11:229][134]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.03.24-21.44.11:230][134]LogTemp:Display: Added material ShaderMap 0x000001672CF29D00 with Material 0x0000016739D21900 to ShaderMapsBeingCompiled
+[2017.03.24-21.44.11:232][134]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Wall, GameThreadShaderMap 0x000001672CF29D00
+[2017.03.24-21.44.11:969][134]LogTemp:Display: Finished compile of shader map 0x000001678BC18B80
+[2017.03.24-21.44.11:969][134]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel complete, GameThreadShaderMap 0x000001678BC18B80, marking material FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel as finished
+[2017.03.24-21.44.11:969][134]LogTemp:Display: Marking material as finished 0x0000016798B25300
+[2017.03.24-21.44.12:004][134]LogTemp:Display: Finished compile of shader map 0x0000016721677C80
+[2017.03.24-21.44.12:004][134]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 complete, GameThreadShaderMap 0x0000016721677C80, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 as finished
+[2017.03.24-21.44.12:004][134]LogTemp:Display: Marking material as finished 0x0000016798B27100
+[2017.03.24-21.44.12:017][134]LogTemp:Display: Finished compile of shader map 0x000001678BC19280
+[2017.03.24-21.44.12:017][134]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000001678BC19280, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.03.24-21.44.12:017][134]LogTemp:Display: Marking material as finished 0x0000016798B25600
+[2017.03.24-21.44.12:072][134]LogTemp:Display: Finished compile of shader map 0x0000016721676B00
+[2017.03.24-21.44.12:072][134]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Floor complete, GameThreadShaderMap 0x0000016721676B00, marking material FDebugViewModeMaterialProxy M_Basic_Floor as finished
+[2017.03.24-21.44.12:072][134]LogTemp:Display: Marking material as finished 0x0000016739D20A00
+[2017.03.24-21.44.12:095][134]LogTemp:Display: Finished compile of shader map 0x000001672CF29D00
+[2017.03.24-21.44.12:095][134]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Wall complete, GameThreadShaderMap 0x000001672CF29D00, marking material FDebugViewModeMaterialProxy M_Basic_Wall as finished
+[2017.03.24-21.44.12:095][134]LogTemp:Display: Marking material as finished 0x0000016739D21900
+[2017.03.24-21.44.12:097][134]TextureStreamingBuild:Display: Compiling optional shaders took 0.900 seconds.
+[2017.03.24-21.44.12:102][134]LogLevel:Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.03.24-21.44.12:106][134]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.03.24-21.44.12:124][134]LightingResults: New page: Lighting Build - Mar 24, 2017, 1:44:12 PM
+[2017.03.24-21.44.12:168][134]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.24-21.44.12:215][134]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.24-21.44.12:223][134]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.24-21.44.12:744][134]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.24-21.44.12:744][134]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11964
+[2017.03.24-21.44.17:050][134]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.24-21.44.17:050][134]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.24-21.44.17:050][134]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.24-21.44.17:050][134]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.24-21.44.17:050][134]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.24-21.44.17:050][134]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.24-21.44.17:189][134]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.03.24-21.44.17:189][134]MapCheck: New page: Captain - Mar 24, 2017, 1:44:17 PM
+[2017.03.24-21.44.17:190][134]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.03.24-21.44.17:224][134]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 34.779ms to complete.
+[2017.03.24-21.44.17:247][134]LogEditorBuildUtils: Build time 0:06
+[2017.03.24-21.44.18:767][194]Job is a success!
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256) - 117 MB total VRAM
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128) - 117 MB total VRAM
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256) - 117 MB total VRAM
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32) - 117 MB total VRAM
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64) - 117 MB total VRAM
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64) - 117 MB total VRAM
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32) - 117 MB total VRAM
+[2017.03.24-21.44.18:875][195]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X128) - 117 MB total VRAM
+[2017.03.24-21.44.18:911][195]Lightmass on JULIETA: 661 ms total, 164 ms importing, 19 ms setup, 121 ms photons, 307 ms processing, 0 ms extra exporting [4/4 mappings]. Threads: 1.17 sec total, 332 ms processing.
+[2017.03.24-21.44.18:919][195]LogStaticLightingSystem: Illumination: 6.77 sec (32 ms encoding lightmaps, 21 ms encoding shadowmaps)
+[2017.03.24-21.44.18:919][195]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.24-21.44.18:919][195]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.24-21.44.19:052][195]DumpUnbuiltLightIteractions
+[2017.03.24-21.44.19:052][195]Lights with unbuilt interactions: 0
+[2017.03.24-21.44.19:052][195]
+[2017.03.24-21.44.19:052][195]Primitives with unbuilt interactions: 0
+[2017.03.24-21.44.19:103][196]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.24-21.44.19:103][196]MapCheck: New page: Captain - Mar 24, 2017, 1:44:19 PM
+[2017.03.24-21.44.19:138][196]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.928ms to complete.
+[2017.03.24-21.44.22:132][540]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.24-21.44.22:151][540]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.22:152][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.24-21.44.22:152][540]PIE: New page: PIE session: Captain (Mar 24, 2017, 1:44:22 PM)
+[2017.03.24-21.44.22:152][540]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.03.24-21.44.22:154][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002501s)
+[2017.03.24-21.44.22:155][540]LogAIModule: Creating AISystem for world Captain
+[2017.03.24-21.44.22:155][540]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2017.03.24-21.44.22:155][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.003504s)
+[2017.03.24-21.44.22:178][540]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.24-21.44.22:185][540]LogInit: FAudioDevice initialized.
+[2017.03.24-21.44.22:220][540]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.24-21.44.22:222][540]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.24-17.44.22
+[2017.03.24-21.44.22:223][540]LogWorld: Bringing up level for play took: 0.001144
+[2017.03.24-21.44.22:224][540]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.652
+[2017.03.24-21.44.22:225][540]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.24:445][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.24:489][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.03.24-21.44.27:825][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.24-21.44.27:942][172]LogSavePackage: Save=94.40ms
+[2017.03.24-21.44.27:942][172]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/Captain2363A2474D6E946D56B1B8B0E43A159D.tmp' to '../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap'
+[2017.03.24-21.44.27:943][172]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Levels/Captain.umap
+[2017.03.24-21.44.27:968][172]LogFileHelpers: Saving map 'Captain' took 0.178
+[2017.03.24-21.44.27:971][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../Unreal Projects/Submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.03.24-21.44.28:016][172]LogSavePackage: Save=38.68ms
+[2017.03.24-21.44.28:016][172]LogSavePackage: Moving '../../../../../Unreal Projects/Submariner/Saved/Captain_BuiltDataA18F8A344474803C335019A0F3F93F35.tmp' to '../../../../../Unreal Projects/Submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.03.24-21.44.28:017][172]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/Submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.03.24-21.44.29:432][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.24-21.44.29:499][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.24-21.44.29:548][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.24-21.44.29:607][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.24-21.44.29:655][325]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.24-21.44.29:861][326]Cmd: QUIT_EDITOR
+[2017.03.24-21.44.30:571][326]LogExit: Preparing to exit.
+[2017.03.24-21.44.31:818][326]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Submariner/Content/' was aborted.
+[2017.03.24-21.44.31:907][326]LogExit: Editor shut down
+[2017.03.24-21.44.31:908][326]LogExit: Transaction tracking system shut down
+[2017.03.24-21.44.32:029][326]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.24-21.44.32:029][326]LogExit: Object subsystem successfully closed.
+[2017.03.24-21.44.32:053][326]LogD3D11RHI: Shutdown
+[2017.03.24-21.44.32:053][326]LogD3D11RHI: CleanupD3DDevice
+[2017.03.24-21.44.32:145][326]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (510)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module TextureEditor (508)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (506)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.03.24-21.44.32:152][326]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.03.24-21.44.32:152][326]LogDirectoryWatcher: A directory notification for 'E:/UE4/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.24-21.44.32:157][326]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.03.24-21.44.32:157][326]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.03.24-21.44.32:157][326]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.03.24-21.44.32:158][326]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Submariner/Content/Collections/' was aborted.
+[2017.03.24-21.44.32:158][326]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Submariner/Content/Developers/TimClancy/Collections/' was aborted.
+[2017.03.24-21.44.32:158][326]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/Submariner/Saved/Collections/' was aborted.
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.03.24-21.44.32:158][326]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.03.24-21.44.32:892][326]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.03.24-21.44.32:893][326]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.03.24-21.44.32:893][326]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.03.24-21.44.32:893][326]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.03.24-21.44.32:893][326]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.03.24-21.44.32:893][326]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.03.24-21.44.32:893][326]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.03.24-21.44.32:893][326]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.03.24-21.44.32:933][326]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.03.24-21.44.32:933][326]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.03.24-21.44.32:933][326]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.03.24-21.44.32:933][326]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.03.24-21.44.32:933][326]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.03.24-21.44.32:933][326]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.03.24-21.44.32:934][326]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.03.24-21.44.32:934][326]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.03.24-21.44.32:934][326]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.03.24-21.44.32:940][326]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.03.24-21.44.32:940][326]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.03.24-21.44.32:941][326]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.03.24-21.44.32:975][326]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.03.24-21.44.32:976][326]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.03.24-21.44.32:977][326]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.03.24-21.44.32:977][326]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.03.24-21.44.32:977][326]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.03.24-21.44.32:977][326]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.03.24-21.44.32:979][326]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.03.24-21.44.32:979][326]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.03.24-21.44.32:979][326]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.03.24-21.44.32:979][326]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.03.24-21.44.33:079][326]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.03.24-21.44.33:179][326]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.03.24-21.44.33:180][326]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.03.24-21.44.33:180][326]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.03.24-21.44.33:180][326]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.03.24-21.44.33:180][326]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.03.24-21.44.33:180][326]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.03.24-21.44.33:182][326]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.03.24-21.44.33:182][326]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.03.24-21.44.33:182][326]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.03.24-21.44.33:182][326]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.03.24-21.44.33:182][326]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.03.24-21.44.33:182][326]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.03.24-21.44.33:376][326]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.24-21.44.33:376][326]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Projects/Submariner/Content/' was aborted.
+[2017.03.24-21.44.33:376][326]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.24-21.44.33:376][326]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.03.24-21.44.33:381][326]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.03.24-21.44.33:422][326]LogDerivedDataCache: Shutdown
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.24-21.44.33:422][326]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.24-21.44.33:422][326]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.24-21.44.33:423][326]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.24-21.44.33:423][326]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.24-21.44.33:423][326]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.24-21.44.33:423][326]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E3B95A8-48CC-0013-EC45-7FAD855ECDA2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=f0fb9a1046a033af8442fa9793ac3e97%7Cd20a21c93136405296a383bf37e6a279%7Ce33a4fca-0b74-4809-b571-4b4737409421&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.24-21.44.33:441][326]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.24-21.44.33:442][326]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.24-21.44.33:442][326]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.24-21.44.33:442][326]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.24-21.44.33:442][326]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.24-21.44.33:442][326]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.24-21.44.33:447][326]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.24-21.44.33:450][326]LogExit: Exiting.
+[2017.03.24-21.44.33:464][326]Log file closed, 03/24/17 17:44:33
