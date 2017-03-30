@@ -1,0 +1,710 @@
+﻿Log file open, 03/29/17 21:32:01
+LogInit:Display: Running engine for game: Submariner
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2096890905) SRandInit(-2096890905).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083724
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.2(build = 321138) feature version = 0. Client runs version (prod = 1).1.10.2(build = 321138) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.30-01.32.03:399][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-01.32.03:399][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.30-01.32.03:408][  0]LogInit: Computer: SIGLAB-VR5
+[2017.03.30-01.32.03:408][  0]LogInit: User: SIG
+[2017.03.30-01.32.03:408][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.30-01.32.03:409][  0]LogInit: High frequency timer resolution =3.604932 MHz
+[2017.03.30-01.32.03:409][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.30-01.32.03:409][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.30-01.32.03:409][  0]LogMemory: Process Physical Memory: 273.50 MB used, 273.50 MB peak
+[2017.03.30-01.32.03:409][  0]LogMemory: Process Virtual Memory: 270.29 MB used, 270.29 MB peak
+[2017.03.30-01.32.03:409][  0]LogMemory: Physical Memory: 10934.16 MB used,  21756.14 MB free, 32690.30 MB total
+[2017.03.30-01.32.03:409][  0]LogMemory: Virtual Memory: 697.15 MB used,  21756.14 MB free, 134217728.00 MB total
+[2017.03.30-01.32.03:491][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.30-01.32.04:056][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.30-01.32.04:082][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.03.30-01.32.04:082][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.30-01.32.04:083][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.30-01.32.04:083][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.30-01.32.04:083][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.30-01.32.04:088][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.30-01.32.04:088][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.30-01.32.04:088][  0]LogWindows: EnumDisplayDevices:
+[2017.03.30-01.32.04:089][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.03.30-01.32.04:089][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.03.30-01.32.04:089][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.30-01.32.04:089][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.30-01.32.04:089][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.30-01.32.04:089][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.03.30-01.32.04:089][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.03.30-01.32.04:089][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.03.30-01.32.04:089][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.30-01.32.04:102][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.30-01.32.04:113][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.30-01.32.04:201][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/SIG/Downloads/final-project-submariner/Intermediate/Shaders/WorkingDirectory/10944/).
+[2017.03.30-01.32.04:201][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/52A9A3F54DA45671C27C0396BE469DB2/'.
+[2017.03.30-01.32.04:201][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.30-01.32.05:164][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.30-01.32.05:217][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.30-01.32.05:271][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.30-01.32.05:325][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.30-01.32.05:378][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.30-01.32.05:431][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.30-01.32.05:484][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.30-01.32.05:537][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.30-01.32.05:581][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.30-01.32.05:632][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.30-01.32.05:683][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.30-01.32.05:735][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.30-01.32.05:787][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.30-01.32.05:839][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.30-01.32.05:890][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.30-01.32.05:994][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.30-01.32.05:994][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.30-01.32.06:031][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.30-01.32.06:125][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.30-01.32.06:159][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.30-01.32.06:210][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.30-01.32.06:262][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.30-01.32.06:314][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.30-01.32.06:367][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.30-01.32.06:367][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.30-01.32.06:797][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.30-01.32.06:851][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.30-01.32.06:851][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.30-01.32.06:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG/Downloads/final-project-submariner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.30-01.32.06:851][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.30-01.32.06:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG/Downloads/final-project-submariner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.30-01.32.06:851][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.30-01.32.06:867][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.30-01.32.06:879][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.30-01.32.06:887][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.30-01.32.06:888][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-01.32.06:888][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-01.32.06:968][  0]LogModuleManager:Warning: Found module file ../../../../../../Users/SIG/Downloads/final-project-submariner/Plugins/socketio-client-ue4/Binaries/Win64/UE4Editor-SIOJPlugin.dll (API version 3106830), but it was incompatible with the current engine API version (3299760). This is likely a stale module that must be recompiled.
+[2017.03.30-01.32.07:132][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-01.32.07:135][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.30-01.32.07:337][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.30-01.32.07:381][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.30-01.32.07:433][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.30-01.32.07:433][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.30-01.32.07:433][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.30-01.32.07:952][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: submariner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2308320845
+[2017.03.30-01.32.07:999][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.03.30-01.32.08:056][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030182 seconds
+[2017.03.30-01.32.08:062][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.03.30-01.32.08:062][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.03.30-01.32.08:062][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.30-01.32.08:138][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.30-01.32.09:916][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.30-01.32.09:955][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.30-01.32.10:454][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.30-01.32.10:816][  0]SourceControl: Info Source control is disabled
+[2017.03.30-01.32.10:843][  0]SourceControl: Info Source control is disabled
+[2017.03.30-01.32.10:887][  0]SourceControl: Info Source control is disabled
+[2017.03.30-01.32.10:931][  0]SourceControl: Info Source control is disabled
+[2017.03.30-01.32.12:246][  0]LogEngine: Initializing Engine...
+[2017.03.30-01.32.12:269][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.03.30-01.32.12:269][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.10.2, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.03.30-01.32.12:503][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.30-01.32.12:514][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.30-01.32.12:526][  0]LogInit: FAudioDevice initialized.
+[2017.03.30-01.32.12:551][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.30-01.32.12:560][  0]LogInit: Texture streaming: Enabled
+[2017.03.30-01.32.12:653][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.30-01.32.12:738][  0]LogInit: Transaction tracking system initialized
+[2017.03.30-01.32.13:091][  0]BlueprintLog: New page: Editor Load
+[2017.03.30-01.32.13:954][  0]LocalizationService: Info Localization service is disabled
+[2017.03.30-01.32.14:596][  0]LogConsoleResponse:Display: 
+[2017.03.30-01.32.14:709][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.30-01.32.14:709][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.30-01.32.15:160][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/' took 0.01s
+[2017.03.30-01.32.15:703][  0]SourceControl: Info Source control is disabled
+[2017.03.30-01.32.15:703][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-01.32.15:703][  0]LightingResults: New page: Lighting Build
+[2017.03.30-01.32.15:742][  0]MapCheck: New page: Map Check
+[2017.03.30-01.32.15:743][  0]LightingResults: New page: Lighting Build
+[2017.03.30-01.32.15:894][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-01.32.15:896][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-01.32.15:897][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-01.32.15:898][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-01.32.16:020][  0]LogAIModule: Creating AISystem for world Captain
+[2017.03.30-01.32.16:044][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-01.32.16:045][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-01.32.16:087][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.778ms to complete.
+[2017.03.30-01.32.16:087][  0]LogFileHelpers: Loading map 'Captain' took 0.384
+[2017.03.30-01.32.16:157][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.30-01.32.16:260][  0]LogCollectionManager: Loaded 0 collections in 0.001394 seconds
+[2017.03.30-01.32.16:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Saved/Collections/' took 0.01s
+[2017.03.30-01.32.16:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/Developers/SIG/Collections/' took 0.01s
+[2017.03.30-01.32.16:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/Collections/' took 0.01s
+[2017.03.30-01.32.16:342][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.30-01.32.16:351][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2253 classes and 460 folders.
+[2017.03.30-01.32.16:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.30-01.32.16:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.30-01.32.16:415][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.30-01.32.16:447][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.30-01.32.16:489][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.30-01.32.16:534][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.30-01.32.16:540][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.30-01.32.16:604][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.30-01.32.16:604][  0]LogLoad: (Engine Initialization) Total time: 15.92 seconds
+[2017.03.30-01.32.16:604][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.03.30-01.32.16:604][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.30-01.32.16:604][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.30-01.32.16:613][  0]LogOcInput: OculusInput pre-init called
+[2017.03.30-01.32.16:623][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2017.03.30-01.32.16:666][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.30-01.32.16:667][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.30-01.32.16:670][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.30-01.32.16:675][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.30-01.32.16:780][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-01.32.16:815][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.03.30-01.32.16:866][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/' took 0.23s
+[2017.03.30-01.32.16:883][  1]LogAssetRegistry: Asset discovery search completed in 8.9070 seconds
+[2017.03.30-01.32.16:884][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.03.30-01.32.16:884][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.03.30-01.34.58:821][284]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-01.34.59:223][284]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.03.30-01.34.59:764][284]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.30-01.34.59:832][284]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.30-01.35.00:088][285]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.30-01.35.06:782][917]LogUObjectGlobals:Warning: Failed to find object 'Class None.SIOJJsonObject'
+[2017.03.30-01.35.06:782][917]LogUObjectGlobals:Warning: Failed to find object 'Class None.SIOJJsonObject'
+[2017.03.30-01.46.21:681][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.03.30-01.46.23:152][636]LogEditorViewport: Clicking on Actor (LMB): Wheel_C (Wheel)
+[2017.03.30-01.58.32:164][612]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.30-01.58.33:605][766]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-02.08.54:670][744]LogRenderer: Reallocating scene render targets to support 1208x912 NumSamples 1 (Frame:144961).
+[2017.03.30-02.16.02:988][757]LogEditorViewport: Clicking on Actor (LMB): Wheel_C (Wheel)
+[2017.03.30-02.24.51:139][428]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Captain_2, Actor: /Game/Levels/Captain_2.Captain_2:PersistentLevel.Captain_C_1
+[2017.03.30-02.24.51:220][428]LogAIModule: Creating AISystem for world Captain_2
+[2017.03.30-02.24.59:159][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Gunner_BuiltData" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner_BuiltData.uasset" SILENT=true
+[2017.03.30-02.24.59:210][ 80]LogSavePackage: Save=49.30ms
+[2017.03.30-02.24.59:210][ 80]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Gunner_BuiltData126295034F62753AD265969B6EB91996.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner_BuiltData.uasset'
+[2017.03.30-02.24.59:215][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner_BuiltData.uasset
+[2017.03.30-02.25.05:381][520]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Gunner, Actor: /Game/Levels/Gunner.Gunner:PersistentLevel.Captain_2_C_0
+[2017.03.30-02.25.05:467][520]LogMetaData: Removing '/Game/Levels/Gunner.SKEL_Gunner_C' ref from Metadata '/Game/Levels/Captain_2.PackageMetaData'
+[2017.03.30-02.25.05:467][520]LogMetaData: Removing '/Game/Levels/Gunner.Gunner_C' ref from Metadata '/Game/Levels/Captain_2.PackageMetaData'
+[2017.03.30-02.25.05:536][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Gunner" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.30-02.25.05:565][520]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Gunner, Actor: /Game/Levels/Gunner.Gunner:PersistentLevel.Gunner_C_0
+[2017.03.30-02.25.05:713][520]LogSavePackage: Save=152.84ms
+[2017.03.30-02.25.05:713][520]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/GunnerDA5D6DDF43FBD3D6C6D88EA9A1A0E5D3.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap'
+[2017.03.30-02.25.05:715][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap
+[2017.03.30-02.25.05:719][520]LogFileHelpers: Saving map 'Gunner' took 0.235
+[2017.03.30-02.28.16:372][500]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.03.30-02.28.16:373][500]LogTemp:Display: Added material ShaderMap 0x0000017CAC44AE80 with Material 0x0000017CA400EB00 to ShaderMapsBeingCompiled
+[2017.03.30-02.28.16:380][500]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x0000017CAC44AE80
+[2017.03.30-02.28.16:415][501]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.03.30-02.28.16:416][501]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.30-02.28.16:416][501]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2017.03.30-02.28.16:465][502]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.03.30-02.28.16:466][502]LogTemp:Display: Added material ShaderMap 0x0000017C16B65280 with Material 0x0000017C13400280 to ShaderMapsBeingCompiled
+[2017.03.30-02.28.16:469][502]LogTemp:Display: Kicking off shader compilation for Material_2, GameThreadShaderMap 0x0000017C16B65280
+[2017.03.30-02.28.17:415][520]LogTemp:Display: Finished compile of shader map 0x0000017CAC44AE80
+[2017.03.30-02.28.17:415][520]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x0000017CAC44AE80, marking material Material_0 as finished
+[2017.03.30-02.28.17:415][520]LogTemp:Display: Marking material as finished 0x0000017CA400EB00
+[2017.03.30-02.28.17:417][520]LogTemp:Display: Finished compile of shader map 0x0000017C16B65280
+[2017.03.30-02.28.17:417][520]LogTemp:Display: Shader map Material_2 complete, GameThreadShaderMap 0x0000017C16B65280, marking material Material_2 as finished
+[2017.03.30-02.28.17:417][520]LogTemp:Display: Marking material as finished 0x0000017C13400280
+[2017.03.30-02.28.57:076][456]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SIG\Downloads\50_Barrett_obj\50_Barrett_obj\bullet.fbx)
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: Material, ItemCount : 6
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: Texture, ItemCount : 6
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: Model, ItemCount : 2
+[2017.03.30-02.28.57:084][456]LogFbx: ItemName: Video, ItemCount : 6
+[2017.03.30-02.28.57:089][456]LogFbx: Loading FBX Scene from C:\Users\SIG\Downloads\50_Barrett_obj\50_Barrett_obj\bullet.fbx
+[2017.03.30-02.28.57:110][456]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.30-02.28.59:461][456]LogFbx: Loading FBX Scene from C:\Users\SIG\Downloads\50_Barrett_obj\50_Barrett_obj\bullet.fbx
+[2017.03.30-02.28.59:481][456]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.30-02.28.59:484][456]LogLinker: Can't find file '/Game/Assets/Brass1'
+[2017.03.30-02.28.59:484][456]LogLinker: Can't find file '/Game/Assets/Brass1'
+[2017.03.30-02.28.59:488][456]LogLinker: Can't find file '/Game/Assets/Brass'
+[2017.03.30-02.28.59:488][456]LogLinker: Can't find file '/Game/Assets/Brass'
+[2017.03.30-02.28.59:501][456]LogTexture:Display: Building textures: Brass (AutoDXT, 800X800) - 110 MB total VRAM
+[2017.03.30-02.28.59:598][456]LogMaterial: Missing cached shader map for material Brass1, compiling. 
+[2017.03.30-02.28.59:599][456]LogTemp:Display: Added material ShaderMap 0x0000017C53942780 with Material 0x0000017C3D284D00 to ShaderMapsBeingCompiled
+[2017.03.30-02.28.59:616][456]LogTemp:Display: Kicking off shader compilation for Brass1, GameThreadShaderMap 0x0000017C53942780
+[2017.03.30-02.28.59:618][456]LogLinker: Can't find file '/Game/Assets/Steal1'
+[2017.03.30-02.28.59:618][456]LogLinker: Can't find file '/Game/Assets/Steal1'
+[2017.03.30-02.28.59:620][456]LogLinker: Can't find file '/Game/Assets/Steal'
+[2017.03.30-02.28.59:620][456]LogLinker: Can't find file '/Game/Assets/Steal'
+[2017.03.30-02.28.59:633][456]LogTexture:Display: Building textures: Steal (AutoDXT, 800X800) - 111 MB total VRAM
+[2017.03.30-02.28.59:744][456]LogMaterial: Missing cached shader map for material Steal1, compiling. 
+[2017.03.30-02.28.59:745][456]LogTemp:Display: Added material ShaderMap 0x0000017C16B66080 with Material 0x0000017C3E82F280 to ShaderMapsBeingCompiled
+[2017.03.30-02.28.59:761][456]LogTemp:Display: Kicking off shader compilation for Steal1, GameThreadShaderMap 0x0000017C16B66080
+[2017.03.30-02.28.59:763][456]LogLinker: Can't find file '/Game/Assets/Chopper1'
+[2017.03.30-02.28.59:763][456]LogLinker: Can't find file '/Game/Assets/Chopper1'
+[2017.03.30-02.28.59:765][456]LogLinker: Can't find file '/Game/Assets/Chopper'
+[2017.03.30-02.28.59:766][456]LogLinker: Can't find file '/Game/Assets/Chopper'
+[2017.03.30-02.28.59:778][456]LogTexture:Display: Building textures: Chopper (AutoDXT, 800X800) - 111 MB total VRAM
+[2017.03.30-02.28.59:907][456]LogMaterial: Missing cached shader map for material Chopper1, compiling. 
+[2017.03.30-02.28.59:908][456]LogTemp:Display: Added material ShaderMap 0x0000017CAC449280 with Material 0x0000017C405E9D80 to ShaderMapsBeingCompiled
+[2017.03.30-02.28.59:925][456]LogTemp:Display: Kicking off shader compilation for Chopper1, GameThreadShaderMap 0x0000017CAC449280
+[2017.03.30-02.28.59:927][456]LogFbx:Warning: Triangulating static mesh Mesh
+[2017.03.30-02.29.00:482][456]LogStaticMesh: Building static mesh bullet_Mesh...
+[2017.03.30-02.29.00:592][456]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/bullet_Mesh.bullet_Mesh
+[2017.03.30-02.29.00:605][456]LogStaticMesh:Warning: bullet_Mesh has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.03.30-02.29.00:646][456]LogTexture:Display: Building textures: Brass (AutoDXT, 800X800) - 111 MB total VRAM
+[2017.03.30-02.29.00:774][456]LogMaterial: Missing cached shader map for material Brass2, compiling. 
+[2017.03.30-02.29.00:775][456]LogTemp:Display: Added material ShaderMap 0x0000017CAC33F580 with Material 0x0000017C3D2D2C80 to ShaderMapsBeingCompiled
+[2017.03.30-02.29.00:791][456]LogTemp:Display: Kicking off shader compilation for Brass2, GameThreadShaderMap 0x0000017CAC33F580
+[2017.03.30-02.29.00:807][456]LogTexture:Display: Building textures: Steal (AutoDXT, 800X800) - 111 MB total VRAM
+[2017.03.30-02.29.00:946][456]LogMaterial: Missing cached shader map for material Steal2, compiling. 
+[2017.03.30-02.29.00:947][456]LogTemp:Display: Added material ShaderMap 0x0000017CB4A44F00 with Material 0x0000017C3D2D3400 to ShaderMapsBeingCompiled
+[2017.03.30-02.29.00:962][456]LogTemp:Display: Kicking off shader compilation for Steal2, GameThreadShaderMap 0x0000017CB4A44F00
+[2017.03.30-02.29.00:980][456]LogTexture:Display: Building textures: Chopper (AutoDXT, 800X800) - 111 MB total VRAM
+[2017.03.30-02.29.01:113][456]LogMaterial: Missing cached shader map for material Chopper2, compiling. 
+[2017.03.30-02.29.01:114][456]LogTemp:Display: Added material ShaderMap 0x0000017CB91C6780 with Material 0x0000017C4F258580 to ShaderMapsBeingCompiled
+[2017.03.30-02.29.01:131][456]LogTemp:Display: Kicking off shader compilation for Chopper2, GameThreadShaderMap 0x0000017CB91C6780
+[2017.03.30-02.29.01:133][456]LogFbx:Warning: Triangulating static mesh _Barrett:Mesh
+[2017.03.30-02.29.01:693][456]LogStaticMesh: Building static mesh bullet_Mesh_1...
+[2017.03.30-02.29.01:804][456]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/bullet_Mesh_1.bullet_Mesh_1
+[2017.03.30-02.29.01:817][456]LogStaticMesh:Warning: bullet_Mesh_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.03.30-02.29.01:842][456]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.30-02.29.01:842][456]FBXImport:Warning: Warning bullet_Mesh has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.03.30-02.29.01:842][456]FBXImport:Warning: Warning bullet_Mesh_1 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.03.30-02.29.01:887][456]LogTemp:Display: Finished compile of shader map 0x0000017C53942780
+[2017.03.30-02.29.01:887][456]LogTemp:Display: Shader map Brass1 complete, GameThreadShaderMap 0x0000017C53942780, marking material Brass1 as finished
+[2017.03.30-02.29.01:887][456]LogTemp:Display: Marking material as finished 0x0000017C3D284D00
+[2017.03.30-02.29.01:962][457]LogTemp:Display: Finished compile of shader map 0x0000017C16B66080
+[2017.03.30-02.29.01:962][457]LogTemp:Display: Shader map Steal1 complete, GameThreadShaderMap 0x0000017C16B66080, marking material Steal1 as finished
+[2017.03.30-02.29.01:962][457]LogTemp:Display: Marking material as finished 0x0000017C3E82F280
+[2017.03.30-02.29.03:752][543]LogTemp:Display: Finished compile of shader map 0x0000017CAC449280
+[2017.03.30-02.29.03:752][543]LogTemp:Display: Shader map Chopper1 complete, GameThreadShaderMap 0x0000017CAC449280, marking material Chopper1 as finished
+[2017.03.30-02.29.03:752][543]LogTemp:Display: Marking material as finished 0x0000017C405E9D80
+[2017.03.30-02.29.03:943][552]LogTemp:Display: Finished compile of shader map 0x0000017CAC33F580
+[2017.03.30-02.29.03:943][552]LogTemp:Display: Shader map Brass2 complete, GameThreadShaderMap 0x0000017CAC33F580, marking material Brass2 as finished
+[2017.03.30-02.29.03:943][552]LogTemp:Display: Marking material as finished 0x0000017C3D2D2C80
+[2017.03.30-02.29.05:487][636]LogTemp:Display: Finished compile of shader map 0x0000017CB91C6780
+[2017.03.30-02.29.05:487][636]LogTemp:Display: Shader map Chopper2 complete, GameThreadShaderMap 0x0000017CB91C6780, marking material Chopper2 as finished
+[2017.03.30-02.29.05:487][636]LogTemp:Display: Marking material as finished 0x0000017C4F258580
+[2017.03.30-02.29.05:491][636]LogTemp:Display: Finished compile of shader map 0x0000017CB4A44F00
+[2017.03.30-02.29.05:491][636]LogTemp:Display: Shader map Steal2 complete, GameThreadShaderMap 0x0000017CB4A44F00, marking material Steal2 as finished
+[2017.03.30-02.29.05:491][636]LogTemp:Display: Marking material as finished 0x0000017C3D2D3400
+[2017.03.30-02.29.06:344][696]LogActorFactory: Actor Factory created bullet_Mesh
+[2017.03.30-02.29.09:141][894]LogActorFactory: Actor Factory created bullet_Mesh
+[2017.03.30-02.29.10:403][984]LogActorFactory: Actor Factory created bullet_Mesh
+[2017.03.30-02.29.13:010][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bullet_Mesh)
+[2017.03.30-02.29.13:687][238]Cmd: DELETE
+[2017.03.30-02.29.13:687][238]Cmd: ACTOR DELETE
+[2017.03.30-02.29.13:688][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.30-02.29.13:708][238]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.03.30-02.29.24:760][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Brass" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass.uasset" SILENT=true
+[2017.03.30-02.29.24:806][196]LogSavePackage: Save=44.80ms
+[2017.03.30-02.29.24:806][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/BrassDC5311FC4AC935B8B61952A1F3B5E8BF.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass.uasset'
+[2017.03.30-02.29.24:808][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass.uasset
+[2017.03.30-02.29.24:819][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Brass1" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass1.uasset" SILENT=true
+[2017.03.30-02.29.24:834][196]LogSavePackage: Save=13.65ms
+[2017.03.30-02.29.24:834][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Brass1666F10AE4A5AB9684E695C931C10B7FA.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass1.uasset'
+[2017.03.30-02.29.24:837][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass1.uasset
+[2017.03.30-02.29.24:847][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Brass2" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass2.uasset" SILENT=true
+[2017.03.30-02.29.24:861][196]LogSavePackage: Save=12.91ms
+[2017.03.30-02.29.24:861][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Brass2958C4A3847072127F48244A45CE9A7BF.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass2.uasset'
+[2017.03.30-02.29.24:863][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass2.uasset
+[2017.03.30-02.29.24:874][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bullet_Mesh" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/bullet_Mesh.uasset" SILENT=true
+[2017.03.30-02.29.24:888][196]LogSavePackage: Save=12.34ms
+[2017.03.30-02.29.24:888][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/bullet_MeshDD9055D249EAA9A4F806A5A2FF3BB8DF.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/bullet_Mesh.uasset'
+[2017.03.30-02.29.24:890][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/bullet_Mesh.uasset
+[2017.03.30-02.29.24:901][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bullet_Mesh_1" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset" SILENT=true
+[2017.03.30-02.29.24:914][196]LogSavePackage: Save=12.04ms
+[2017.03.30-02.29.24:914][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/bullet_Mesh_1730FA1004CBEC6F16FF07BA52F083D4C.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset'
+[2017.03.30-02.29.24:916][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset
+[2017.03.30-02.29.24:923][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Chopper" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper.uasset" SILENT=true
+[2017.03.30-02.29.24:972][196]LogSavePackage: Save=47.58ms
+[2017.03.30-02.29.24:972][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Chopper865C00D5492D9C48095CECB04C72BDBD.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper.uasset'
+[2017.03.30-02.29.24:974][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper.uasset
+[2017.03.30-02.29.24:984][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Chopper1" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper1.uasset" SILENT=true
+[2017.03.30-02.29.24:999][196]LogSavePackage: Save=13.03ms
+[2017.03.30-02.29.24:999][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Chopper1CBCEC9EF48985BB36501788F22592960.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper1.uasset'
+[2017.03.30-02.29.25:001][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper1.uasset
+[2017.03.30-02.29.25:011][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Chopper2" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper2.uasset" SILENT=true
+[2017.03.30-02.29.25:026][196]LogSavePackage: Save=13.09ms
+[2017.03.30-02.29.25:026][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Chopper227E8AFF94F2F7CAECEBB0F9B0754CF8F.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper2.uasset'
+[2017.03.30-02.29.25:028][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Chopper2.uasset
+[2017.03.30-02.29.25:037][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Steal" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal.uasset" SILENT=true
+[2017.03.30-02.29.25:078][196]LogSavePackage: Save=39.76ms
+[2017.03.30-02.29.25:078][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Steal170FC1DA43107F62613F91A0392AE1FA.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal.uasset'
+[2017.03.30-02.29.25:081][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal.uasset
+[2017.03.30-02.29.25:091][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Steal1" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal1.uasset" SILENT=true
+[2017.03.30-02.29.25:105][196]LogSavePackage: Save=12.76ms
+[2017.03.30-02.29.25:105][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Steal170C1DB5B4BDDCD650882DBB5D023B4F6.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal1.uasset'
+[2017.03.30-02.29.25:107][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal1.uasset
+[2017.03.30-02.29.25:118][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Steal2" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal2.uasset" SILENT=true
+[2017.03.30-02.29.25:132][196]LogSavePackage: Save=12.77ms
+[2017.03.30-02.29.25:132][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Steal2BB3591634A0447379E37BFB7D2D06C72.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal2.uasset'
+[2017.03.30-02.29.25:135][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Steal2.uasset
+[2017.03.30-02.29.25:199][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.30-02.29.25:342][196]LogSavePackage: Save=113.26ms
+[2017.03.30-02.29.25:342][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Captain79503E4B439144B7830F8AB9A067643B.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap'
+[2017.03.30-02.29.25:344][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap
+[2017.03.30-02.29.25:372][196]LogFileHelpers: Saving map 'Captain' took 0.237
+[2017.03.30-02.29.25:372][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_2" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_2.uasset" SILENT=true
+[2017.03.30-02.29.25:376][196]LogSavePackage: Save=3.30ms
+[2017.03.30-02.29.25:376][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Captain_20B1FAA474DD64A43B639A1A8D2B4FE8E.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_2.uasset'
+[2017.03.30-02.29.25:378][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_2.uasset
+[2017.03.30-02.29.25:378][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData_2" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_BuiltData_2.uasset" SILENT=true
+[2017.03.30-02.29.25:383][196]LogSavePackage: Save=3.38ms
+[2017.03.30-02.29.25:383][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Captain_BuiltData_2A99784034A319B091B5081BC8C2A710B.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_BuiltData_2.uasset'
+[2017.03.30-02.29.25:385][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_BuiltData_2.uasset
+[2017.03.30-02.29.25:436][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Gunner" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.30-02.29.25:470][196]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Gunner, Actor: /Game/Levels/Gunner.Gunner:PersistentLevel.Gunner_C_1
+[2017.03.30-02.29.25:615][196]LogSavePackage: Save=150.59ms
+[2017.03.30-02.29.25:615][196]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Gunner68C738584073D3A9B7C1A59D5ED2E92E.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap'
+[2017.03.30-02.29.25:617][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap
+[2017.03.30-02.29.25:622][196]LogFileHelpers: Saving map 'Gunner' took 0.237
+[2017.03.30-02.29.25:628][196]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-02.29.25:628][196]LightingResults: New page: Lighting Build
+[2017.03.30-02.29.25:629][196]LoadErrors: New page: Loading map: Gunner.umap
+[2017.03.30-02.29.25:630][196]MapCheck: New page: Map Check
+[2017.03.30-02.29.25:630][196]LightingResults: New page: Lighting Build
+[2017.03.30-02.29.25:653][196]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-02.29.25:679][196]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-02.29.25:727][196]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.875ms to complete.
+[2017.03.30-02.29.25:727][196]LogFileHelpers: Loading map 'Gunner' took 0.101
+[2017.03.30-02.30.34:273][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Gunner" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.30-02.30.34:448][104]LogSavePackage: Save=152.66ms
+[2017.03.30-02.30.34:448][104]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Gunner4EA8D5D84C47374351B45D9BE626E25E.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap'
+[2017.03.30-02.30.34:454][104]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap
+[2017.03.30-02.30.34:490][104]LogFileHelpers: Saving map 'Gunner' took 0.269
+[2017.03.30-02.30.34:493][104]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-02.30.34:493][104]LightingResults: New page: Lighting Build
+[2017.03.30-02.30.34:495][104]LoadErrors: New page: Loading map: Gunner.umap
+[2017.03.30-02.30.34:495][104]MapCheck: New page: Map Check
+[2017.03.30-02.30.34:495][104]LightingResults: New page: Lighting Build
+[2017.03.30-02.30.34:561][104]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-02.30.34:563][104]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-02.30.34:563][104]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-02.30.34:564][104]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-02.30.34:583][104]LogAIModule: Creating AISystem for world Gunner
+[2017.03.30-02.30.34:588][104]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-02.30.34:614][104]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-02.30.34:661][104]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.668ms to complete.
+[2017.03.30-02.30.34:661][104]LogFileHelpers: Loading map 'Gunner' took 0.169
+[2017.03.30-02.30.49:867][713]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor3)
+[2017.03.30-02.30.53:644][ 32]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.30-02.30.59:865][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor8)
+[2017.03.30-02.31.02:766][816]Cmd: TRANSACTION UNDO
+[2017.03.30-02.31.02:766][816]LogEditorTransaction: Undo Move Actors
+[2017.03.30-02.31.03:103][838]Cmd: TRANSACTION UNDO
+[2017.03.30-02.31.03:103][838]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.30-02.31.03:783][892]Cmd: TRANSACTION UNDO
+[2017.03.30-02.31.03:783][892]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.30-02.31.04:268][930]Cmd: TRANSACTION UNDO
+[2017.03.30-02.31.04:268][930]LogEditorTransaction: Undo Move Actors
+[2017.03.30-02.31.04:998][991]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.30-02.31.14:812][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.03.30-02.31.19:851][268]LogActorFactory: Actor Factory created bullet_Mesh
+[2017.03.30-02.31.20:133][289]LogActorFactory: Actor Factory created bullet_Mesh
+[2017.03.30-02.31.24:015][627]LogActorFactory: Actor Factory created bullet_Mesh_1
+[2017.03.30-02.31.24:271][647]LogActorFactory: Actor Factory created bullet_Mesh_1
+[2017.03.30-02.31.26:971][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bullet_Mesh)
+[2017.03.30-02.31.28:257][977]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.30-02.31.28:293][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.28:293][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-02.31.28:294][977]PIE: New page: PIE session: Gunner (Mar 29, 2017, 6:31:28 PM)
+[2017.03.30-02.31.28:294][977]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Gunner
+[2017.03.30-02.31.28:298][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003932s)
+[2017.03.30-02.31.28:298][977]LogAIModule: Creating AISystem for world Gunner
+[2017.03.30-02.31.28:298][977]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2017.03.30-02.31.28:299][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Gunner.Gunner to /Game/Levels/UEDPIE_0_Gunner.Gunner (0.004988s)
+[2017.03.30-02.31.28:329][977]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.30-02.31.28:340][977]LogInit: FAudioDevice initialized.
+[2017.03.30-02.31.28:383][977]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.30-02.31.28:386][977]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Gunner.Gunner up for play (max tick rate 0) at 2017.03.29-22.31.28
+[2017.03.30-02.31.28:419][977]LogWorld: Bringing up level for play took: 0.034714
+[2017.03.30-02.31.28:420][977]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.30-02.31.28:463][977]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.03.30-02.31.28:464][977]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=120.000 Y=63.716 Z=0.000] for [SubmarineCharacter_C]
+[2017.03.30-02.31.28:465][977]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type SubmarineCharacter_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.03.30-02.31.28:465][977]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Gunner 1.164
+[2017.03.30-02.31.28:465][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.30:533][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.30:603][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.30:625][186]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.31.30:626][186]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.31.30:627][186]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.31.39:564][972]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.30-02.31.39:580][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.39:580][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-02.31.39:580][972]PIE: New page: PIE session: Gunner (Mar 29, 2017, 6:31:39 PM)
+[2017.03.30-02.31.39:580][972]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Gunner
+[2017.03.30-02.31.39:584][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003410s)
+[2017.03.30-02.31.39:584][972]LogAIModule: Creating AISystem for world Gunner
+[2017.03.30-02.31.39:585][972]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2017.03.30-02.31.39:585][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Gunner.Gunner to /Game/Levels/UEDPIE_0_Gunner.Gunner (0.004589s)
+[2017.03.30-02.31.39:607][972]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.30-02.31.39:617][972]LogInit: FAudioDevice initialized.
+[2017.03.30-02.31.39:650][972]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.30-02.31.39:652][972]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Gunner.Gunner up for play (max tick rate 0) at 2017.03.29-22.31.39
+[2017.03.30-02.31.39:686][972]LogWorld: Bringing up level for play took: 0.034342
+[2017.03.30-02.31.39:686][972]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.30-02.31.39:687][972]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=120.000 Y=63.716 Z=0.000] for [SubmarineCharacter_C]
+[2017.03.30-02.31.39:687][972]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type SubmarineCharacter_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.03.30-02.31.39:688][972]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Gunner 0.386
+[2017.03.30-02.31.39:688][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.43:252][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.43:320][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.43:340][335]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.31.43:341][335]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.31.43:342][335]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.31.43:417][337]Cmd: SELECT NONE
+[2017.03.30-02.31.57:420][697]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.30-02.31.57:436][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.31.57:436][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-02.31.57:436][697]PIE: New page: PIE session: Gunner (Mar 29, 2017, 6:31:57 PM)
+[2017.03.30-02.31.57:436][697]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Gunner
+[2017.03.30-02.31.57:440][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003528s)
+[2017.03.30-02.31.57:440][697]LogAIModule: Creating AISystem for world Gunner
+[2017.03.30-02.31.57:441][697]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2017.03.30-02.31.57:441][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Gunner.Gunner to /Game/Levels/UEDPIE_0_Gunner.Gunner (0.004383s)
+[2017.03.30-02.31.57:464][697]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.30-02.31.57:474][697]LogInit: FAudioDevice initialized.
+[2017.03.30-02.31.57:506][697]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.30-02.31.57:508][697]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Gunner.Gunner up for play (max tick rate 0) at 2017.03.29-22.31.57
+[2017.03.30-02.31.57:541][697]LogWorld: Bringing up level for play took: 0.034418
+[2017.03.30-02.31.57:542][697]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.30-02.31.57:543][697]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=120.000 Y=63.716 Z=0.000] for [SubmarineCharacter_C]
+[2017.03.30-02.31.57:543][697]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type SubmarineCharacter_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.03.30-02.31.57:543][697]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Gunner 0.242
+[2017.03.30-02.31.57:544][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.32.01:917][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.32.01:962][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.32.01:982][145]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.32.01:983][145]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.32.01:984][145]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.03.30-02.32.04:720][379]MapCheck: New page: Map Check
+[2017.03.30-02.32.04:734][379]LightingResults: New page: Lighting Build - Mar 29, 2017, 6:32:04 PM
+[2017.03.30-02.32.04:769][379]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.30-02.32.04:815][379]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.30-02.32.04:822][379]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.30-02.32.05:329][379]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.30-02.32.05:329][379]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10944
+[2017.03.30-02.32.08:170][379]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.30-02.32.08:170][379]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.30-02.32.08:170][379]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.30-02.32.08:170][379]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.30-02.32.08:170][379]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.30-02.32.08:170][379]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.30-02.32.08:369][379]LogEditorBuildUtils: Build time 0:03
+[2017.03.30-02.32.08:390][379]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brass1, compiling. 
+[2017.03.30-02.32.08:390][379]LogTemp:Display: Added material ShaderMap 0x0000017C1CCBA780 with Material 0x0000017C6A6F2500 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:392][379]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Brass1, GameThreadShaderMap 0x0000017C1CCBA780
+[2017.03.30-02.32.08:395][379]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brass1, compiling. 
+[2017.03.30-02.32.08:395][379]LogTemp:Display: Added material ShaderMap 0x0000017C5F887580 with Material 0x0000017C6A6F0700 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:397][379]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Brass1, GameThreadShaderMap 0x0000017C5F887580
+[2017.03.30-02.32.08:422][380]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Steal1, compiling. 
+[2017.03.30-02.32.08:422][380]LogTemp:Display: Added material ShaderMap 0x0000017C5F886080 with Material 0x0000017C578BAB00 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:425][380]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Steal1, GameThreadShaderMap 0x0000017C5F886080
+[2017.03.30-02.32.08:428][380]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Steal1, compiling. 
+[2017.03.30-02.32.08:429][380]LogTemp:Display: Added material ShaderMap 0x0000017C5F884800 with Material 0x0000017C578BA200 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:431][380]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Steal1, GameThreadShaderMap 0x0000017C5F884800
+[2017.03.30-02.32.08:464][381]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Chopper1, compiling. 
+[2017.03.30-02.32.08:465][381]LogTemp:Display: Added material ShaderMap 0x0000017C9304EB00 with Material 0x0000017C14728100 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:466][381]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Chopper1, GameThreadShaderMap 0x0000017C9304EB00
+[2017.03.30-02.32.08:469][381]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Chopper1, compiling. 
+[2017.03.30-02.32.08:469][381]LogTemp:Display: Added material ShaderMap 0x0000017C9304D280 with Material 0x0000017C1472B700 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:471][381]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Chopper1, GameThreadShaderMap 0x0000017C9304D280
+[2017.03.30-02.32.08:489][382]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brass2, compiling. 
+[2017.03.30-02.32.08:490][382]LogTemp:Display: Added material ShaderMap 0x0000017C9309BC80 with Material 0x0000017C93EE5900 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:493][382]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Brass2, GameThreadShaderMap 0x0000017C9309BC80
+[2017.03.30-02.32.08:496][382]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brass2, compiling. 
+[2017.03.30-02.32.08:496][382]LogTemp:Display: Added material ShaderMap 0x0000017C9309A400 with Material 0x0000017C93EE7D00 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:498][382]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Brass2, GameThreadShaderMap 0x0000017C9309A400
+[2017.03.30-02.32.08:517][383]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Steal2, compiling. 
+[2017.03.30-02.32.08:517][383]LogTemp:Display: Added material ShaderMap 0x0000017C93098F00 with Material 0x0000017C60839C00 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:519][383]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Steal2, GameThreadShaderMap 0x0000017C93098F00
+[2017.03.30-02.32.08:522][383]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Steal2, compiling. 
+[2017.03.30-02.32.08:522][383]LogTemp:Display: Added material ShaderMap 0x0000017C6A753580 with Material 0x0000017C60839900 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:524][383]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Steal2, GameThreadShaderMap 0x0000017C6A753580
+[2017.03.30-02.32.08:527][383]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Chopper2, compiling. 
+[2017.03.30-02.32.08:527][383]LogTemp:Display: Added material ShaderMap 0x0000017C6A752080 with Material 0x0000017C60838A00 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:529][383]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Chopper2, GameThreadShaderMap 0x0000017C6A752080
+[2017.03.30-02.32.08:531][383]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Chopper2, compiling. 
+[2017.03.30-02.32.08:532][383]LogTemp:Display: Added material ShaderMap 0x0000017C6A750800 with Material 0x0000017C6083A500 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.08:534][383]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer Chopper2, GameThreadShaderMap 0x0000017C6A750800
+[2017.03.30-02.32.10:186][384]LogTemp:Display: Finished compile of shader map 0x0000017C5F886080
+[2017.03.30-02.32.10:186][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Steal1 complete, GameThreadShaderMap 0x0000017C5F886080, marking material FLightmassMaterialRenderer Steal1 as finished
+[2017.03.30-02.32.10:186][384]LogTemp:Display: Marking material as finished 0x0000017C578BAB00
+[2017.03.30-02.32.10:188][384]LogTemp:Display: Finished compile of shader map 0x0000017C5F884800
+[2017.03.30-02.32.10:188][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Steal1 complete, GameThreadShaderMap 0x0000017C5F884800, marking material FLightmassMaterialRenderer Steal1 as finished
+[2017.03.30-02.32.10:188][384]LogTemp:Display: Marking material as finished 0x0000017C578BA200
+[2017.03.30-02.32.10:190][384]LogTemp:Display: Finished compile of shader map 0x0000017C9304EB00
+[2017.03.30-02.32.10:190][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Chopper1 complete, GameThreadShaderMap 0x0000017C9304EB00, marking material FLightmassMaterialRenderer Chopper1 as finished
+[2017.03.30-02.32.10:190][384]LogTemp:Display: Marking material as finished 0x0000017C14728100
+[2017.03.30-02.32.10:192][384]LogTemp:Display: Finished compile of shader map 0x0000017C5F887580
+[2017.03.30-02.32.10:192][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Brass1 complete, GameThreadShaderMap 0x0000017C5F887580, marking material FLightmassMaterialRenderer Brass1 as finished
+[2017.03.30-02.32.10:192][384]LogTemp:Display: Marking material as finished 0x0000017C6A6F0700
+[2017.03.30-02.32.10:193][384]LogTemp:Display: Finished compile of shader map 0x0000017C1CCBA780
+[2017.03.30-02.32.10:193][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Brass1 complete, GameThreadShaderMap 0x0000017C1CCBA780, marking material FLightmassMaterialRenderer Brass1 as finished
+[2017.03.30-02.32.10:193][384]LogTemp:Display: Marking material as finished 0x0000017C6A6F2500
+[2017.03.30-02.32.10:195][384]LogTemp:Display: Finished compile of shader map 0x0000017C6A752080
+[2017.03.30-02.32.10:195][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Chopper2 complete, GameThreadShaderMap 0x0000017C6A752080, marking material FLightmassMaterialRenderer Chopper2 as finished
+[2017.03.30-02.32.10:195][384]LogTemp:Display: Marking material as finished 0x0000017C60838A00
+[2017.03.30-02.32.10:197][384]LogTemp:Display: Finished compile of shader map 0x0000017C6A750800
+[2017.03.30-02.32.10:197][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Chopper2 complete, GameThreadShaderMap 0x0000017C6A750800, marking material FLightmassMaterialRenderer Chopper2 as finished
+[2017.03.30-02.32.10:197][384]LogTemp:Display: Marking material as finished 0x0000017C6083A500
+[2017.03.30-02.32.10:199][384]LogTemp:Display: Finished compile of shader map 0x0000017C9304D280
+[2017.03.30-02.32.10:199][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Chopper1 complete, GameThreadShaderMap 0x0000017C9304D280, marking material FLightmassMaterialRenderer Chopper1 as finished
+[2017.03.30-02.32.10:199][384]LogTemp:Display: Marking material as finished 0x0000017C1472B700
+[2017.03.30-02.32.10:201][384]LogTemp:Display: Finished compile of shader map 0x0000017C9309BC80
+[2017.03.30-02.32.10:201][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Brass2 complete, GameThreadShaderMap 0x0000017C9309BC80, marking material FLightmassMaterialRenderer Brass2 as finished
+[2017.03.30-02.32.10:201][384]LogTemp:Display: Marking material as finished 0x0000017C93EE5900
+[2017.03.30-02.32.10:203][384]LogTemp:Display: Finished compile of shader map 0x0000017C9309A400
+[2017.03.30-02.32.10:203][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Brass2 complete, GameThreadShaderMap 0x0000017C9309A400, marking material FLightmassMaterialRenderer Brass2 as finished
+[2017.03.30-02.32.10:203][384]LogTemp:Display: Marking material as finished 0x0000017C93EE7D00
+[2017.03.30-02.32.10:205][384]LogTemp:Display: Finished compile of shader map 0x0000017C93098F00
+[2017.03.30-02.32.10:205][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Steal2 complete, GameThreadShaderMap 0x0000017C93098F00, marking material FLightmassMaterialRenderer Steal2 as finished
+[2017.03.30-02.32.10:206][384]LogTemp:Display: Marking material as finished 0x0000017C60839C00
+[2017.03.30-02.32.10:208][384]LogTemp:Display: Finished compile of shader map 0x0000017C6A753580
+[2017.03.30-02.32.10:208][384]LogTemp:Display: Shader map FLightmassMaterialRenderer Steal2 complete, GameThreadShaderMap 0x0000017C6A753580, marking material FLightmassMaterialRenderer Steal2 as finished
+[2017.03.30-02.32.10:208][384]LogTemp:Display: Marking material as finished 0x0000017C60839900
+[2017.03.30-02.32.12:157][460]LightingResults:Warning: Warning bullet_Mesh_1 Object has overlapping UVs.
+[2017.03.30-02.32.12:157][460]LightingResults: Info bullet_Mesh_1 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.30-02.32.12:242][464]LightingResults:Warning: Warning bullet_Mesh Object has overlapping UVs.
+[2017.03.30-02.32.12:242][464]LightingResults: Info bullet_Mesh Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
+[2017.03.30-02.32.12:392][472]Job is a success!
+[2017.03.30-02.32.12:462][473]LogMaterial:Warning: Material /Game/Assets/Brass2.Brass2 needed to have new flag set bUsedWithStaticLighting !
+[2017.03.30-02.32.12:464][473]LogMaterial: Missing cached shader map for material Brass2, compiling. 
+[2017.03.30-02.32.12:465][473]LogTemp:Display: Added material ShaderMap 0x0000017C9309B580 with Material 0x0000017C3D2D2C80 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.12:485][473]LogTemp:Display: Kicking off shader compilation for Brass2, GameThreadShaderMap 0x0000017C9309B580
+[2017.03.30-02.32.12:485][473]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.30-02.32.12:485][473]LogMaterial:Warning: Material /Game/Assets/Steal2.Steal2 needed to have new flag set bUsedWithStaticLighting !
+[2017.03.30-02.32.12:487][473]LogMaterial: Missing cached shader map for material Steal2, compiling. 
+[2017.03.30-02.32.12:487][473]LogTemp:Display: Added material ShaderMap 0x0000017C6AA3A400 with Material 0x0000017C3D2D3400 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.12:504][473]LogTemp:Display: Kicking off shader compilation for Steal2, GameThreadShaderMap 0x0000017C6AA3A400
+[2017.03.30-02.32.12:504][473]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.30-02.32.12:504][473]LogMaterial:Warning: Material /Game/Assets/Chopper2.Chopper2 needed to have new flag set bUsedWithStaticLighting !
+[2017.03.30-02.32.12:506][473]LogMaterial: Missing cached shader map for material Chopper2, compiling. 
+[2017.03.30-02.32.12:507][473]LogTemp:Display: Added material ShaderMap 0x0000017C9FFC2B00 with Material 0x0000017C4F258580 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.12:524][473]LogTemp:Display: Kicking off shader compilation for Chopper2, GameThreadShaderMap 0x0000017C9FFC2B00
+[2017.03.30-02.32.12:524][473]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.30-02.32.12:524][473]LogMaterial:Warning: Material /Game/Assets/Brass1.Brass1 needed to have new flag set bUsedWithStaticLighting !
+[2017.03.30-02.32.12:526][473]LogMaterial: Missing cached shader map for material Brass1, compiling. 
+[2017.03.30-02.32.12:527][473]LogTemp:Display: Added material ShaderMap 0x0000017C56ACEB00 with Material 0x0000017C3D284D00 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.12:546][473]LogTemp:Display: Kicking off shader compilation for Brass1, GameThreadShaderMap 0x0000017C56ACEB00
+[2017.03.30-02.32.12:546][473]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.30-02.32.12:546][473]LogMaterial:Warning: Material /Game/Assets/Steal1.Steal1 needed to have new flag set bUsedWithStaticLighting !
+[2017.03.30-02.32.12:549][473]LogMaterial: Missing cached shader map for material Steal1, compiling. 
+[2017.03.30-02.32.12:550][473]LogTemp:Display: Added material ShaderMap 0x0000017C56926400 with Material 0x0000017C3E82F280 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.12:577][473]LogTemp:Display: Kicking off shader compilation for Steal1, GameThreadShaderMap 0x0000017C56926400
+[2017.03.30-02.32.12:577][473]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.30-02.32.12:578][473]LogMaterial:Warning: Material /Game/Assets/Chopper1.Chopper1 needed to have new flag set bUsedWithStaticLighting !
+[2017.03.30-02.32.12:581][473]LogMaterial: Missing cached shader map for material Chopper1, compiling. 
+[2017.03.30-02.32.12:582][473]LogTemp:Display: Added material ShaderMap 0x0000017CB437D600 with Material 0x0000017C405E9D80 to ShaderMapsBeingCompiled
+[2017.03.30-02.32.12:610][473]LogTemp:Display: Kicking off shader compilation for Chopper1, GameThreadShaderMap 0x0000017CB437D600
+[2017.03.30-02.32.12:610][473]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.30-02.32.12:841][473]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512) - 119 MB total VRAM
+[2017.03.30-02.32.12:841][473]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 119 MB total VRAM
+[2017.03.30-02.32.12:841][473]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32) - 119 MB total VRAM
+[2017.03.30-02.32.12:841][473]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 119 MB total VRAM
+[2017.03.30-02.32.12:841][473]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64) - 119 MB total VRAM
+[2017.03.30-02.32.12:841][473]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64) - 119 MB total VRAM
+[2017.03.30-02.32.12:976][473]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32) - 119 MB total VRAM
+[2017.03.30-02.32.12:976][473]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256) - 119 MB total VRAM
+[2017.03.30-02.32.13:008][473]Lightmass on SIGLAB-VR5: 2.13 sec total, 121 ms importing, 22 ms setup, 340 ms photons, 1.62 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 11.2 sec total, 4.44 sec processing.
+[2017.03.30-02.32.13:055][473]LogStaticLightingSystem: Illumination: 8.29 sec (224 ms encoding lightmaps, 128 ms encoding shadowmaps)
+[2017.03.30-02.32.13:055][473]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.30-02.32.13:055][473]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.30-02.32.13:176][473]DumpUnbuiltLightIteractions
+[2017.03.30-02.32.13:176][473]Lights with unbuilt interactions: 0
+[2017.03.30-02.32.13:176][473]
+[2017.03.30-02.32.13:176][473]Primitives with unbuilt interactions: 0
+[2017.03.30-02.32.13:201][474]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.30-02.32.13:202][474]MapCheck: New page: Gunner - Mar 29, 2017, 6:32:13 PM
+[2017.03.30-02.32.13:279][474]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.318ms to complete.
+[2017.03.30-02.32.15:009][561]LogTemp:Display: Finished compile of shader map 0x0000017C9309B580
+[2017.03.30-02.32.15:009][561]LogTemp:Display: Shader map Brass2 complete, GameThreadShaderMap 0x0000017C9309B580, marking material Brass2 as finished
+[2017.03.30-02.32.15:009][561]LogTemp:Display: Marking material as finished 0x0000017C3D2D2C80
+[2017.03.30-02.32.16:627][649]LogTemp:Display: Finished compile of shader map 0x0000017C6AA3A400
+[2017.03.30-02.32.16:627][649]LogTemp:Display: Shader map Steal2 complete, GameThreadShaderMap 0x0000017C6AA3A400, marking material Steal2 as finished
+[2017.03.30-02.32.16:627][649]LogTemp:Display: Marking material as finished 0x0000017C3D2D3400
+[2017.03.30-02.32.18:048][726]LogTemp:Display: Finished compile of shader map 0x0000017C9FFC2B00
+[2017.03.30-02.32.18:048][726]LogTemp:Display: Shader map Chopper2 complete, GameThreadShaderMap 0x0000017C9FFC2B00, marking material Chopper2 as finished
+[2017.03.30-02.32.18:048][726]LogTemp:Display: Marking material as finished 0x0000017C4F258580
+[2017.03.30-02.32.19:390][800]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.30-02.32.19:417][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.32.19:417][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-02.32.19:417][800]PIE: New page: PIE session: Gunner (Mar 29, 2017, 6:32:19 PM)
+[2017.03.30-02.32.19:417][800]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Gunner
+[2017.03.30-02.32.19:422][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005372s)
+[2017.03.30-02.32.19:423][800]LogAIModule: Creating AISystem for world Gunner
+[2017.03.30-02.32.19:423][800]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2017.03.30-02.32.19:424][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Gunner.Gunner to /Game/Levels/UEDPIE_0_Gunner.Gunner (0.006679s)
+[2017.03.30-02.32.19:458][800]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.30-02.32.19:474][800]LogInit: FAudioDevice initialized.
+[2017.03.30-02.32.19:506][800]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.30-02.32.19:509][800]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Gunner.Gunner up for play (max tick rate 0) at 2017.03.29-22.32.19
+[2017.03.30-02.32.19:542][800]LogWorld: Bringing up level for play took: 0.034838
+[2017.03.30-02.32.19:543][800]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.30-02.32.19:544][800]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=120.000 Y=63.716 Z=0.000] for [SubmarineCharacter_C]
+[2017.03.30-02.32.19:544][800]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type SubmarineCharacter_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.03.30-02.32.19:545][800]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Gunner 0.243
+[2017.03.30-02.32.19:545][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.32.19:809][816]LogTemp:Display: Finished compile of shader map 0x0000017C56ACEB00
+[2017.03.30-02.32.19:809][816]LogTemp:Display: Shader map Brass1 complete, GameThreadShaderMap 0x0000017C56ACEB00, marking material Brass1 as finished
+[2017.03.30-02.32.19:809][816]LogTemp:Display: Marking material as finished 0x0000017C3D284D00
+[2017.03.30-02.32.20:964][895]LogTemp:Display: Finished compile of shader map 0x0000017C56926400
+[2017.03.30-02.32.20:964][895]LogTemp:Display: Shader map Steal1 complete, GameThreadShaderMap 0x0000017C56926400, marking material Steal1 as finished
+[2017.03.30-02.32.20:964][895]LogTemp:Display: Marking material as finished 0x0000017C3E82F280
+[2017.03.30-02.32.21:311][922]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.32.21:361][922]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-02.32.21:386][922]SocketIOLog: SocketIO disconnected from namespace: /

@@ -1,0 +1,10 @@
+{
+	"Changelist" : 3299760,
+	"BuildId" : "08a1498a-4db7-4b99-96b1-e3fea4887f77",
+	"Modules" : 
+	{
+		"SocketIOClient" : "UE4Editor-SocketIOClient.dll",
+		"SIOJson" : "UE4Editor-SIOJson.dll",
+		"SIOJEditorPlugin" : "UE4Editor-SIOJEditorPlugin.dll"
+	}
+}

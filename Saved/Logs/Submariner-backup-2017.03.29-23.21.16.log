@@ -1,0 +1,441 @@
+﻿Log file open, 03/29/17 23:00:19
+LogInit:Display: Running engine for game: Submariner
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-177542333) SRandInit(-177542333).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084308
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.2(build = 321138) feature version = 0. Client runs version (prod = 1).1.10.2(build = 321138) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.30-03.00.21:517][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-03.00.21:517][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.30-03.00.21:527][  0]LogInit: Computer: SIGLAB-VR5
+[2017.03.30-03.00.21:527][  0]LogInit: User: SIG
+[2017.03.30-03.00.21:527][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.30-03.00.21:527][  0]LogInit: High frequency timer resolution =3.604932 MHz
+[2017.03.30-03.00.21:527][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.30-03.00.21:527][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.30-03.00.21:527][  0]LogMemory: Process Physical Memory: 273.70 MB used, 273.70 MB peak
+[2017.03.30-03.00.21:527][  0]LogMemory: Process Virtual Memory: 270.36 MB used, 270.36 MB peak
+[2017.03.30-03.00.21:527][  0]LogMemory: Physical Memory: 11472.63 MB used,  21217.67 MB free, 32690.30 MB total
+[2017.03.30-03.00.21:527][  0]LogMemory: Virtual Memory: 697.10 MB used,  21217.67 MB free, 134217728.00 MB total
+[2017.03.30-03.00.21:605][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.30-03.00.22:139][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.30-03.00.22:173][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.03.30-03.00.22:173][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.30-03.00.22:174][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.30-03.00.22:174][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.30-03.00.22:174][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.30-03.00.22:180][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.30-03.00.22:180][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.30-03.00.22:180][  0]LogWindows: EnumDisplayDevices:
+[2017.03.30-03.00.22:180][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.03.30-03.00.22:180][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.03.30-03.00.22:180][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.30-03.00.22:180][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.30-03.00.22:180][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.30-03.00.22:180][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.03.30-03.00.22:180][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.03.30-03.00.22:180][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.03.30-03.00.22:180][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.30-03.00.22:193][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.30-03.00.22:203][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.30-03.00.22:292][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/SIG/Downloads/final-project-submariner/Intermediate/Shaders/WorkingDirectory/11192/).
+[2017.03.30-03.00.22:292][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/448EDF2845DB3728C880E6AF6FC920BA/'.
+[2017.03.30-03.00.22:292][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.30-03.00.23:256][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.30-03.00.23:313][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.30-03.00.23:366][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.30-03.00.23:420][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.30-03.00.23:473][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.30-03.00.23:526][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.30-03.00.23:582][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.30-03.00.23:636][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.30-03.00.23:680][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.30-03.00.23:731][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.30-03.00.23:783][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.30-03.00.23:836][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.30-03.00.23:887][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.30-03.00.23:940][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.30-03.00.23:991][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.30-03.00.24:093][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.30-03.00.24:093][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.30-03.00.24:130][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.30-03.00.24:224][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.30-03.00.24:258][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.30-03.00.24:313][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.30-03.00.24:373][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.30-03.00.24:432][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.30-03.00.24:484][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.30-03.00.24:484][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.30-03.00.24:898][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.30-03.00.24:953][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.30-03.00.24:953][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.30-03.00.24:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG/Downloads/final-project-submariner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.30-03.00.24:953][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.30-03.00.24:953][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG/Downloads/final-project-submariner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.30-03.00.24:953][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.30-03.00.24:969][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.30-03.00.24:981][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.30-03.00.24:989][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.30-03.00.24:990][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-03.00.24:990][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-03.00.25:068][  0]LogModuleManager:Warning: Found module file ../../../../../../Users/SIG/Downloads/final-project-submariner/Plugins/socketio-client-ue4/Binaries/Win64/UE4Editor-SIOJPlugin.dll (API version 3106830), but it was incompatible with the current engine API version (3299760). This is likely a stale module that must be recompiled.
+[2017.03.30-03.00.25:233][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-03.00.25:236][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.30-03.00.25:425][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.30-03.00.25:466][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.30-03.00.25:510][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.30-03.00.25:510][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.30-03.00.25:510][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.30-03.00.26:012][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: submariner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2308320845
+[2017.03.30-03.00.26:059][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.03.30-03.00.26:131][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.041703 seconds
+[2017.03.30-03.00.26:141][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.03.30-03.00.26:141][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.03.30-03.00.26:141][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.30-03.00.26:216][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.30-03.00.27:785][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.30-03.00.27:822][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.30-03.00.28:312][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.30-03.00.28:684][  0]SourceControl: Info Source control is disabled
+[2017.03.30-03.00.28:712][  0]SourceControl: Info Source control is disabled
+[2017.03.30-03.00.28:758][  0]SourceControl: Info Source control is disabled
+[2017.03.30-03.00.28:802][  0]SourceControl: Info Source control is disabled
+[2017.03.30-03.00.30:081][  0]LogEngine: Initializing Engine...
+[2017.03.30-03.00.30:105][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.03.30-03.00.30:105][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.10.2, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.03.30-03.00.30:325][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.30-03.00.30:335][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.30-03.00.30:347][  0]LogInit: FAudioDevice initialized.
+[2017.03.30-03.00.30:374][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.30-03.00.30:384][  0]LogInit: Texture streaming: Enabled
+[2017.03.30-03.00.30:474][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.30-03.00.30:568][  0]LogInit: Transaction tracking system initialized
+[2017.03.30-03.00.30:938][  0]BlueprintLog: New page: Editor Load
+[2017.03.30-03.00.31:807][  0]LocalizationService: Info Localization service is disabled
+[2017.03.30-03.00.32:465][  0]LogConsoleResponse:Display: 
+[2017.03.30-03.00.32:578][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.30-03.00.32:578][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.30-03.00.33:024][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/' took 0.01s
+[2017.03.30-03.00.33:583][  0]SourceControl: Info Source control is disabled
+[2017.03.30-03.00.33:583][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-03.00.33:583][  0]LightingResults: New page: Lighting Build
+[2017.03.30-03.00.33:623][  0]MapCheck: New page: Map Check
+[2017.03.30-03.00.33:623][  0]LightingResults: New page: Lighting Build
+[2017.03.30-03.00.33:794][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-03.00.33:796][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-03.00.33:798][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-03.00.33:799][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.03.30-03.00.33:890][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 48 MB total VRAM
+[2017.03.30-03.00.33:948][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64) - 48 MB total VRAM
+[2017.03.30-03.00.33:961][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 48 MB total VRAM
+[2017.03.30-03.00.34:000][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64) - 48 MB total VRAM
+[2017.03.30-03.00.34:008][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 48 MB total VRAM
+[2017.03.30-03.00.34:038][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32) - 48 MB total VRAM
+[2017.03.30-03.00.34:083][  0]LogAIModule: Creating AISystem for world Captain
+[2017.03.30-03.00.34:106][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-03.00.34:106][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-03.00.34:148][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.857ms to complete.
+[2017.03.30-03.00.34:148][  0]LogFileHelpers: Loading map 'Captain' took 0.565
+[2017.03.30-03.00.34:305][  0]LogCollectionManager: Loaded 0 collections in 0.001431 seconds
+[2017.03.30-03.00.34:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Saved/Collections/' took 0.01s
+[2017.03.30-03.00.34:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/Developers/SIG/Collections/' took 0.01s
+[2017.03.30-03.00.34:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/Collections/' took 0.01s
+[2017.03.30-03.00.34:386][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.30-03.00.34:394][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2253 classes and 460 folders.
+[2017.03.30-03.00.34:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.30-03.00.34:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.30-03.00.34:458][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.30-03.00.34:494][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.30-03.00.34:536][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.30-03.00.34:581][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.30-03.00.34:588][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.30-03.00.34:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.30-03.00.34:659][  0]LogLoad: (Engine Initialization) Total time: 15.89 seconds
+[2017.03.30-03.00.34:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.03.30-03.00.34:659][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.30-03.00.34:659][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.30-03.00.34:999][  0]LogOcInput: OculusInput pre-init called
+[2017.03.30-03.00.35:009][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2017.03.30-03.00.35:041][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.30-03.00.35:042][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.30-03.00.35:045][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.30-03.00.35:050][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.30-03.00.35:159][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-03.00.35:195][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.03.30-03.00.35:332][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/' took 0.31s
+[2017.03.30-03.00.35:348][  1]LogAssetRegistry: Asset discovery search completed in 9.3113 seconds
+[2017.03.30-03.00.35:348][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.03.30-03.00.35:348][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.03.30-03.00.36:020][  3]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-03.00.42:195][341]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.30-03.00.42:211][341]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SIG\Downloads\3d-model.obj\Handle-1.fbx)
+[2017.03.30-03.00.42:223][341]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.30-03.00.42:223][341]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.03.30-03.00.42:223][341]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.03.30-03.00.42:223][341]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.03.30-03.00.42:223][341]LogFbx: ItemName: Material, ItemCount : 1
+[2017.03.30-03.00.42:223][341]LogFbx: ItemName: Model, ItemCount : 3
+[2017.03.30-03.00.42:227][341]LogFbx: Loading FBX Scene from C:\Users\SIG\Downloads\3d-model.obj\Handle-1.fbx
+[2017.03.30-03.00.42:232][341]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.30-03.00.43:447][341]LogFbx: Loading FBX Scene from C:\Users\SIG\Downloads\3d-model.obj\Handle-1.fbx
+[2017.03.30-03.00.43:453][341]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.30-03.00.43:455][341]LogLinker: Can't find file '/Game/Blueprints/lambert1'
+[2017.03.30-03.00.43:455][341]LogLinker: Can't find file '/Game/Blueprints/lambert1'
+[2017.03.30-03.00.43:460][341]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.03.30-03.00.43:461][341]LogTemp:Display: Added material ShaderMap 0x000001A415A2EB00 with Material 0x000001A415A0A500 to ShaderMapsBeingCompiled
+[2017.03.30-03.00.43:482][341]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x000001A415A2EB00
+[2017.03.30-03.00.43:482][341]LogFbx:Warning: Triangulating static mesh d_model:HDDWP_M_001
+[2017.03.30-03.00.43:485][341]LogStaticMesh: Building static mesh Handle-1_HDDWP_M_001...
+[2017.03.30-03.00.43:485][341]LogStaticMesh: Built static mesh [0.00s] /Game/Blueprints/Handle-1_HDDWP_M_001.Handle-1_HDDWP_M_001
+[2017.03.30-03.00.43:491][341]LogFbx:Warning: Triangulating static mesh d_model:HDDWP_R_001
+[2017.03.30-03.00.43:503][341]LogStaticMesh: Building static mesh Handle-1_HDDWP_R_001...
+[2017.03.30-03.00.43:505][341]LogStaticMesh: Built static mesh [0.00s] /Game/Blueprints/Handle-1_HDDWP_R_001.Handle-1_HDDWP_R_001
+[2017.03.30-03.00.43:512][341]LogFbx:Warning: Triangulating static mesh d_model:HDDWP_L_001
+[2017.03.30-03.00.43:524][341]LogStaticMesh: Building static mesh Handle-1_HDDWP_L_001...
+[2017.03.30-03.00.43:525][341]LogStaticMesh: Built static mesh [0.00s] /Game/Blueprints/Handle-1_HDDWP_L_001.Handle-1_HDDWP_L_001
+[2017.03.30-03.00.43:533][341]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.30-03.00.45:289][489]LogTemp:Display: Finished compile of shader map 0x000001A415A2EB00
+[2017.03.30-03.00.45:289][489]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x000001A415A2EB00, marking material lambert1 as finished
+[2017.03.30-03.00.45:289][489]LogTemp:Display: Marking material as finished 0x000001A415A0A500
+[2017.03.30-03.01.18:602][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/lambert1" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Blueprints/lambert1.uasset" SILENT=true
+[2017.03.30-03.01.18:616][731]LogSavePackage: Save=12.01ms
+[2017.03.30-03.01.18:616][731]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/lambert1BE9410F54E174442863324AF47CB965C.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Blueprints/lambert1.uasset'
+[2017.03.30-03.01.18:618][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Blueprints/lambert1.uasset
+[2017.03.30-03.01.18:622][731]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-03.01.18:634][731]LightingResults: New page: Lighting Build
+[2017.03.30-03.01.18:635][731]LoadErrors: New page: Loading map: Gunner.umap
+[2017.03.30-03.01.18:637][731]MapCheck: New page: Map Check
+[2017.03.30-03.01.18:637][731]LightingResults: New page: Lighting Build
+[2017.03.30-03.01.18:670][731]LogAIModule: Creating AISystem for world Gunner
+[2017.03.30-03.01.18:683][731]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-03.01.18:711][731]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-03.01.18:755][731]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.308ms to complete.
+[2017.03.30-03.01.18:755][731]LogFileHelpers: Loading map 'Gunner' took 0.134
+[2017.03.30-03.01.23:765][327]LogEditorViewport: Clicking on Actor (LMB): Wheel_C (Wheel)
+[2017.03.30-03.01.25:032][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.03.30-03.01.44:007][829]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SIG\Downloads\3d-model.obj\Handle.fbx)
+[2017.03.30-03.01.44:011][829]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.03.30-03.01.44:011][829]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.03.30-03.01.44:011][829]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.03.30-03.01.44:011][829]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.03.30-03.01.44:011][829]LogFbx: ItemName: Material, ItemCount : 1
+[2017.03.30-03.01.44:011][829]LogFbx: ItemName: Model, ItemCount : 3
+[2017.03.30-03.01.44:015][829]LogFbx: Loading FBX Scene from C:\Users\SIG\Downloads\3d-model.obj\Handle.fbx
+[2017.03.30-03.01.44:020][829]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.30-03.01.45:078][829]LogFbx: Loading FBX Scene from C:\Users\SIG\Downloads\3d-model.obj\Handle.fbx
+[2017.03.30-03.01.45:084][829]LogFbx: FBX Scene Loaded Succesfully
+[2017.03.30-03.01.45:086][829]LogLinker: Can't find file '/Game/Assets/lambert1'
+[2017.03.30-03.01.45:086][829]LogLinker: Can't find file '/Game/Assets/lambert1'
+[2017.03.30-03.01.45:090][829]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.03.30-03.01.45:091][829]LogTemp:Display: Added material ShaderMap 0x000001A42F99AE80 with Material 0x000001A45A42DD80 to ShaderMapsBeingCompiled
+[2017.03.30-03.01.45:101][829]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x000001A42F99AE80
+[2017.03.30-03.01.45:102][829]LogFbx:Warning: Triangulating static mesh d_model:HDDWP_M_001
+[2017.03.30-03.01.45:105][829]LogStaticMesh: Building static mesh Handle_HDDWP_M_001...
+[2017.03.30-03.01.45:105][829]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Handle_HDDWP_M_001.Handle_HDDWP_M_001
+[2017.03.30-03.01.45:111][829]LogFbx:Warning: Triangulating static mesh d_model:HDDWP_R_001
+[2017.03.30-03.01.45:125][829]LogStaticMesh: Building static mesh Handle_HDDWP_R_001...
+[2017.03.30-03.01.45:126][829]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Handle_HDDWP_R_001.Handle_HDDWP_R_001
+[2017.03.30-03.01.45:133][829]LogFbx:Warning: Triangulating static mesh d_model:HDDWP_L_001
+[2017.03.30-03.01.45:147][829]LogStaticMesh: Building static mesh Handle_HDDWP_L_001...
+[2017.03.30-03.01.45:148][829]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Handle_HDDWP_L_001.Handle_HDDWP_L_001
+[2017.03.30-03.01.45:157][829]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.03.30-03.01.46:965][981]LogTemp:Display: Finished compile of shader map 0x000001A42F99AE80
+[2017.03.30-03.01.46:965][981]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x000001A42F99AE80, marking material lambert1 as finished
+[2017.03.30-03.01.46:965][981]LogTemp:Display: Marking material as finished 0x000001A45A42DD80
+[2017.03.30-03.01.56:433][  2]LogRenderer: Reallocating scene render targets to support 1432x932 NumSamples 1 (Frame:10795).
+[2017.03.30-03.02.05:571][842]LogActorFactory: Actor Factory created Handle_HDDWP_L_001
+[2017.03.30-03.02.05:762][862]LogActorFactory: Actor Factory created Handle_HDDWP_L_001
+[2017.03.30-03.02.06:579][949]LogActorFactory: Actor Factory created Handle_HDDWP_M_001
+[2017.03.30-03.02.06:985][994]LogActorFactory: Actor Factory created Handle_HDDWP_M_001
+[2017.03.30-03.02.07:814][ 78]LogActorFactory: Actor Factory created Handle_HDDWP_R_001
+[2017.03.30-03.02.08:438][149]LogActorFactory: Actor Factory created Handle_HDDWP_R_001
+[2017.03.30-03.02.42:570][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.02.42:919][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.02.52:548][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.03.03:196][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.03.03:879][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.03.09:227][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor7)
+[2017.03.30-03.03.10:191][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.03.10:682][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.03.12:946][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.03.22:692][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.03.30:347][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.03.32:534][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.03.36:778][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.03.37:606][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.04.16:040][ 64]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.30-03.04.17:030][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.04.17:112][189]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.30-03.04.23:335][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.04.24:370][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.04.25:171][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.04.29:162][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.04.32:602][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.04.33:854][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.04.37:536][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.04.39:478][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.04.50:574][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.04.52:242][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.04.58:338][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.04.59:957][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.05.01:056][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.05.05:348][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.05.10:297][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.05.22:257][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.05.28:320][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.05.28:773][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.05.31:404][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.05.32:741][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.05.34:031][203]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2017.03.30-03.05.34:524][253]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.05.35:738][387]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.05.36:616][484]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.05.39:032][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.05.46:151][583]Cmd: TRANSACTION UNDO
+[2017.03.30-03.05.46:151][583]LogEditorTransaction: Undo Move Actors
+[2017.03.30-03.05.46:920][666]Cmd: TRANSACTION UNDO
+[2017.03.30-03.05.46:920][666]LogEditorTransaction: Undo Move Actors
+[2017.03.30-03.05.47:514][736]Cmd: TRANSACTION UNDO
+[2017.03.30-03.05.47:514][736]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.30-03.05.48:670][872]Cmd: TRANSACTION UNDO
+[2017.03.30-03.05.48:670][872]LogEditorTransaction: Undo Regroup Ctrl+G
+[2017.03.30-03.05.51:152][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.05.53:421][429]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Handle_HDDWP_L_001)
+[2017.03.30-03.05.54:760][582]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.05.55:595][667]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Handle_HDDWP_R_001)
+[2017.03.30-03.06.00:456][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.03.30-03.06.01:849][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.06.18:886][357]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Handle_HDDWP_M_001)
+[2017.03.30-03.06.24:263][929]Cmd: DUPLICATE
+[2017.03.30-03.06.24:263][929]Cmd: ACTOR DUPLICATE
+[2017.03.30-03.06.31:467][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.06.34:156][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Gunner" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.30-03.06.34:302][ 80]LogSavePackage: Save=122.10ms
+[2017.03.30-03.06.34:302][ 80]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Gunner99ABA6BE4207EF4A512D1696028D1315.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap'
+[2017.03.30-03.06.34:308][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Gunner.umap
+[2017.03.30-03.06.38:324][543]MapCheck: New page: Map Check
+[2017.03.30-03.06.38:337][543]LightingResults: New page: Lighting Build - Mar 29, 2017, 7:06:38 PM
+[2017.03.30-03.06.38:372][543]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.30-03.06.38:416][543]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.30-03.06.38:426][543]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.30-03.06.38:933][543]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.30-03.06.38:933][543]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11192
+[2017.03.30-03.06.41:758][543]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.30-03.06.41:758][543]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.30-03.06.41:758][543]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.30-03.06.41:758][543]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.30-03.06.41:758][543]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.30-03.06.41:758][543]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.30-03.06.41:925][543]LogEditorBuildUtils: Build time 0:03
+[2017.03.30-03.06.41:937][543]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2017.03.30-03.06.41:938][543]LogTemp:Display: Added material ShaderMap 0x000001A415B7FC80 with Material 0x000001A478474400 to ShaderMapsBeingCompiled
+[2017.03.30-03.06.41:940][543]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer lambert1, GameThreadShaderMap 0x000001A415B7FC80
+[2017.03.30-03.06.41:942][543]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2017.03.30-03.06.41:942][543]LogTemp:Display: Added material ShaderMap 0x000001A45A6DF900 with Material 0x000001A475D7BA00 to ShaderMapsBeingCompiled
+[2017.03.30-03.06.41:944][543]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer lambert1, GameThreadShaderMap 0x000001A45A6DF900
+[2017.03.30-03.06.42:424][544]LogTemp:Display: Finished compile of shader map 0x000001A415B7FC80
+[2017.03.30-03.06.42:424][544]LogTemp:Display: Shader map FLightmassMaterialRenderer lambert1 complete, GameThreadShaderMap 0x000001A415B7FC80, marking material FLightmassMaterialRenderer lambert1 as finished
+[2017.03.30-03.06.42:424][544]LogTemp:Display: Marking material as finished 0x000001A478474400
+[2017.03.30-03.06.42:426][544]LogTemp:Display: Finished compile of shader map 0x000001A45A6DF900
+[2017.03.30-03.06.42:426][544]LogTemp:Display: Shader map FLightmassMaterialRenderer lambert1 complete, GameThreadShaderMap 0x000001A45A6DF900, marking material FLightmassMaterialRenderer lambert1 as finished
+[2017.03.30-03.06.42:426][544]LogTemp:Display: Marking material as finished 0x000001A475D7BA00
+[2017.03.30-03.06.44:362][665]Job is a success!
+[2017.03.30-03.06.44:423][666]LogMaterial:Warning: Material /Game/Assets/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2017.03.30-03.06.44:425][666]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.03.30-03.06.44:425][666]LogTemp:Display: Added material ShaderMap 0x000001A45A6DDD00 with Material 0x000001A45A42DD80 to ShaderMapsBeingCompiled
+[2017.03.30-03.06.44:446][666]LogTemp:Display: Kicking off shader compilation for lambert1, GameThreadShaderMap 0x000001A45A6DDD00
+[2017.03.30-03.06.44:446][666]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.30-03.06.44:691][666]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 129 MB total VRAM
+[2017.03.30-03.06.44:691][666]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 129 MB total VRAM
+[2017.03.30-03.06.44:691][666]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 129 MB total VRAM
+[2017.03.30-03.06.44:691][666]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64) - 129 MB total VRAM
+[2017.03.30-03.06.44:691][666]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32) - 129 MB total VRAM
+[2017.03.30-03.06.44:691][666]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64) - 129 MB total VRAM
+[2017.03.30-03.06.44:798][666]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32) - 129 MB total VRAM
+[2017.03.30-03.06.44:798][666]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256) - 129 MB total VRAM
+[2017.03.30-03.06.44:837][666]Lightmass on SIGLAB-VR5: 1.83 sec total, 115 ms importing, 24 ms setup, 346 ms photons, 1.32 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 9.14 sec total, 4.55 sec processing.
+[2017.03.30-03.06.44:849][666]LogStaticLightingSystem: Illumination: 6.49 sec (244 ms encoding lightmaps, 100 ms encoding shadowmaps)
+[2017.03.30-03.06.44:849][666]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.30-03.06.44:849][666]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.30-03.06.45:764][666]DumpUnbuiltLightIteractions
+[2017.03.30-03.06.45:764][666]Lights with unbuilt interactions: 0
+[2017.03.30-03.06.45:764][666]
+[2017.03.30-03.06.45:764][666]Primitives with unbuilt interactions: 0
+[2017.03.30-03.06.45:772][667]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.30-03.06.45:772][667]MapCheck: New page: Gunner - Mar 29, 2017, 7:06:45 PM
+[2017.03.30-03.06.45:831][667]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.586ms to complete.
+[2017.03.30-03.06.46:499][737]LogTemp:Display: Finished compile of shader map 0x000001A45A6DDD00
+[2017.03.30-03.06.46:499][737]LogTemp:Display: Shader map lambert1 complete, GameThreadShaderMap 0x000001A45A6DDD00, marking material lambert1 as finished
+[2017.03.30-03.06.46:499][737]LogTemp:Display: Marking material as finished 0x000001A45A42DD80
+[2017.03.30-03.07.08:866][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_R_2)
+[2017.03.30-03.07.12:448][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Handle_HDDWP_M_2)
+[2017.03.30-03.07.31:640][ 47]LogStaticMesh: Building static mesh Handle...
+[2017.03.30-03.07.31:642][ 47]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/Handle.Handle
+[2017.03.30-03.07.51:643][948]LogEditorTransaction: Undo Clicking on Actors
+[2017.03.30-03.08.00:462][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-03.08.02:914][ 45]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.30-03.08.02:929][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-03.08.02:929][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-03.08.02:929][ 45]PIE: New page: PIE session: Gunner (Mar 29, 2017, 7:08:02 PM)
+[2017.03.30-03.08.02:929][ 45]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Gunner
+[2017.03.30-03.08.02:933][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003867s)
+[2017.03.30-03.08.02:933][ 45]LogAIModule: Creating AISystem for world Gunner
+[2017.03.30-03.08.02:934][ 45]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2017.03.30-03.08.02:934][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Gunner.Gunner to /Game/Levels/UEDPIE_0_Gunner.Gunner (0.005070s)
+[2017.03.30-03.08.02:955][ 45]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.30-03.08.02:965][ 45]LogInit: FAudioDevice initialized.
+[2017.03.30-03.08.03:140][ 45]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.03.30-03.08.03:143][ 45]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Gunner.Gunner up for play (max tick rate 0) at 2017.03.29-23.08.03
+[2017.03.30-03.08.03:175][ 45]LogWorld: Bringing up level for play took: 0.033609
+[2017.03.30-03.08.03:217][ 45]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.03.30-03.08.03:219][ 45]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Gunner -0.082
+[2017.03.30-03.08.03:219][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-03.08.11:196][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-03.08.11:269][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Gunner.Gunner:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner' with GeneratedClass '/Game/Levels/Gunner.Gunner_C' with ClassGeneratedBy '/Game/Levels/Gunner.Gunner:PersistentLevel.Gunner'
+[2017.03.30-03.08.11:283][997]SocketIOLog: SocketIO disconnected from namespace: /

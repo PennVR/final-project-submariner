@@ -23,6 +23,10 @@ io.on('connection', function(socket) {
 	socket.on('lever', function(data) {
 		console.log(data);
 	});
+
+	socket.on('handle', function(data) {
+		console.log(data);
+	});
 });
 
 
