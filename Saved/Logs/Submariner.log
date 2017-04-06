@@ -1,9 +1,10 @@
-﻿Log file open, 04/05/17 20:52:27
-LogInit:Display: Running engine for game: Submariner
+﻿Log file open, 04/06/17 14:27:22
+LogInit:Display: Running engine without a game
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(2115110704) SRandInit(2115110704).
+LogInit:Display: Loading recent project file: ../../../../../../Submariner/final-project-submariner/Submariner.uproject
+LogInit:Display: RandInit(-1625653123) SRandInit(-1625653123).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.074348
+LogStats: Stats thread started at 0.078577
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,276 +47,1063 @@ LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.06-00.52.28:909][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.06-00.52.28:909][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.06-00.52.28:919][  0]LogInit: Computer: SIGLAB-VR5
-[2017.04.06-00.52.28:919][  0]LogInit: User: SIGStudent
-[2017.04.06-00.52.28:919][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.06-00.52.28:919][  0]LogInit: High frequency timer resolution =3.604933 MHz
-[2017.04.06-00.52.28:919][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.04.06-00.52.28:919][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.06-00.52.28:919][  0]LogMemory: Process Physical Memory: 273.63 MB used, 273.63 MB peak
-[2017.04.06-00.52.28:919][  0]LogMemory: Process Virtual Memory: 270.12 MB used, 270.12 MB peak
-[2017.04.06-00.52.28:919][  0]LogMemory: Physical Memory: 4725.04 MB used,  27965.26 MB free, 32690.30 MB total
-[2017.04.06-00.52.28:919][  0]LogMemory: Virtual Memory: 696.22 MB used,  27965.26 MB free, 134217728.00 MB total
-[2017.04.06-00.52.28:991][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.06-00.52.29:499][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.06-00.52.29:530][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.04.06-00.52.29:530][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.04.06-00.52.29:531][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.06-00.52.29:531][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.06-00.52.29:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.06-00.52.29:535][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.06-00.52.29:535][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.06-00.52.29:535][  0]LogWindows: EnumDisplayDevices:
-[2017.04.06-00.52.29:536][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.04.06-00.52.29:536][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.04.06-00.52.29:536][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.06-00.52.29:536][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.06-00.52.29:536][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.04.06-00.52.29:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.04.06-00.52.29:536][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
-[2017.04.06-00.52.29:536][  0]LogD3D11RHI:      Driver Date: 1-20-2017
-[2017.04.06-00.52.29:536][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.06-00.52.29:549][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.06-00.52.29:559][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.04.06-00.52.29:647][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/SIG Student/Documents/final-project-submariner/Intermediate/Shaders/WorkingDirectory/9232/).
-[2017.04.06-00.52.29:647][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG Student/AppData/Local/Temp/UnrealShaderWorkingDir/C37E637245D9954D107C8D88535748DD/'.
-[2017.04.06-00.52.29:647][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.06-00.52.30:579][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.06-00.52.30:629][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.06-00.52.30:679][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.06-00.52.30:729][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.06-00.52.30:779][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.06-00.52.30:828][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.06-00.52.30:878][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.06-00.52.30:928][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.06-00.52.30:969][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.06-00.52.31:017][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.06-00.52.31:065][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.06-00.52.31:114][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.06-00.52.31:162][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.06-00.52.31:211][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.06-00.52.31:259][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.06-00.52.31:357][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.06-00.52.31:357][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.06-00.52.31:391][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.06-00.52.31:480][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.06-00.52.31:512][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.06-00.52.31:561][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.06-00.52.31:609][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.06-00.52.31:658][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.06-00.52.31:707][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.06-00.52.31:707][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.06-00.52.32:091][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SIG Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.04.06-00.52.32:142][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG Student/Documents/final-project-submariner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG Student/Documents/final-project-submariner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.06-00.52.32:143][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.06-00.52.32:158][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.06-00.52.32:170][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.06-00.52.32:178][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.06-00.52.32:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.06-00.52.32:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.06-00.52.32:253][  0]LogModuleManager:Warning: Found module file ../../../../../../Users/SIG Student/Documents/final-project-submariner/Plugins/socketio-client-ue4/Binaries/Win64/UE4Editor-SIOJPlugin.dll (API version 3106830), but it was incompatible with the current engine API version (3299760). This is likely a stale module that must be recompiled.
-[2017.04.06-00.52.32:418][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.06-00.52.32:420][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.06-00.52.32:605][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.06-00.52.32:644][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.06-00.52.32:684][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.06-00.52.32:684][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.06-00.52.32:684][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.06-00.52.33:166][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: submariner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2308320845
-[2017.04.06-00.52.33:211][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
-[2017.04.06-00.52.33:255][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.023134 seconds
-[2017.04.06-00.52.33:259][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.04.06-00.52.33:259][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.04.06-00.52.33:259][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.06-00.52.33:317][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.06-00.52.34:723][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.06-00.52.34:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.06-00.52.35:212][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.06-00.52.35:545][  0]SourceControl: Info Source control is disabled
-[2017.04.06-00.52.35:568][  0]SourceControl: Info Source control is disabled
-[2017.04.06-00.52.35:609][  0]SourceControl: Info Source control is disabled
-[2017.04.06-00.52.35:649][  0]SourceControl: Info Source control is disabled
-[2017.04.06-00.52.36:817][  0]LogEngine: Initializing Engine...
-[2017.04.06-00.52.36:835][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.04.06-00.52.36:835][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.10.2, SDK: 1.10.0, built Mar 15 2017, 16:59:09
-[2017.04.06-00.52.37:039][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.06-00.52.37:050][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.06-00.52.37:062][  0]LogInit: FAudioDevice initialized.
-[2017.04.06-00.52.37:087][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SIG Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.04.06-00.52.37:098][  0]LogInit: Texture streaming: Enabled
-[2017.04.06-00.52.37:182][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.04.06-00.52.37:262][  0]LogInit: Transaction tracking system initialized
-[2017.04.06-00.52.37:572][  0]BlueprintLog: New page: Editor Load
-[2017.04.06-00.52.38:344][  0]LocalizationService: Info Localization service is disabled
-[2017.04.06-00.52.38:940][  0]LogConsoleResponse:Display: 
-[2017.04.06-00.52.39:051][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.06-00.52.39:051][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.06-00.52.39:559][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/' took 0.01s
-[2017.04.06-00.52.39:966][  0]SourceControl: Info Source control is disabled
-[2017.04.06-00.52.39:966][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.06-00.52.39:966][  0]LightingResults: New page: Lighting Build
-[2017.04.06-00.52.40:004][  0]MapCheck: New page: Map Check
-[2017.04.06-00.52.40:004][  0]LightingResults: New page: Lighting Build
-[2017.04.06-00.52.40:183][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.06-00.52.40:185][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.06-00.52.40:187][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.06-00.52.40:187][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.06-00.52.40:320][  0]LogAIModule: Creating AISystem for world Captain
-[2017.04.06-00.52.40:345][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.06-00.52.40:346][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.06-00.52.40:387][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.759ms to complete.
-[2017.04.06-00.52.40:387][  0]LogFileHelpers: Loading map 'Captain' took 0.421
-[2017.04.06-00.52.40:543][  0]LogCollectionManager: Loaded 0 collections in 0.001209 seconds
-[2017.04.06-00.52.40:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Saved/Collections/' took 0.01s
-[2017.04.06-00.52.40:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/Developers/SIGStudent/Collections/' took 0.01s
-[2017.04.06-00.52.40:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/Collections/' took 0.01s
-[2017.04.06-00.52.40:619][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.04.06-00.52.40:627][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2253 classes and 460 folders.
-[2017.04.06-00.52.40:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.06-00.52.40:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.06-00.52.40:688][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.04.06-00.52.40:721][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.04.06-00.52.40:759][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.04.06-00.52.40:800][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.06-00.52.40:806][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.06-00.52.40:867][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.04.06-00.52.40:867][  0]LogLoad: (Engine Initialization) Total time: 14.25 seconds
-[2017.04.06-00.52.40:867][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
-[2017.04.06-00.52.40:867][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.04.06-00.52.40:867][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.04.06-00.52.41:207][  0]LogOcInput: OculusInput pre-init called
-[2017.04.06-00.52.41:217][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
-[2017.04.06-00.52.41:260][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.06-00.52.41:261][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.04.06-00.52.41:264][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.04.06-00.52.41:268][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.04.06-00.52.41:373][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.04.06-00.52.41:424][  0]LogRenderer: Reallocating scene render targets to support 1208x604 NumSamples 1 (Frame:2).
-[2017.04.06-00.52.41:540][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/' took 0.31s
-[2017.04.06-00.52.41:556][  1]LogAssetRegistry: Asset discovery search completed in 8.3659 seconds
-[2017.04.06-00.52.41:556][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
-[2017.04.06-00.52.41:556][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
-[2017.04.06-00.52.44:227][ 10]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.06-00.52.44:243][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.52.44:244][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.06-00.52.44:244][ 10]PIE: New page: PIE session: Captain (Apr 5, 2017, 4:52:44 PM)
-[2017.04.06-00.52.44:244][ 10]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
-[2017.04.06-00.52.44:249][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004945s)
-[2017.04.06-00.52.44:249][ 10]LogAIModule: Creating AISystem for world Captain
-[2017.04.06-00.52.44:250][ 10]LogPlayLevel: PIE: World Init took: (0.000695s)
-[2017.04.06-00.52.44:250][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.005861s)
-[2017.04.06-00.52.44:270][ 10]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.06-00.52.44:280][ 10]LogInit: FAudioDevice initialized.
-[2017.04.06-00.52.44:461][ 10]LogLoad: Game class is 'SubmarineGameMode_C'
-[2017.04.06-00.52.44:463][ 10]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.05-20.52.44
-[2017.04.06-00.52.44:539][ 10]LogWorld: Bringing up level for play took: 0.076872
-[2017.04.06-00.52.44:577][ 10]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2017.04.06-00.52.44:579][ 10]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.515
-[2017.04.06-00.52.44:579][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.52.46:257][198]LogBlueprintUserMessages: [Button_422] I am a button
-[2017.04.06-00.52.47:832][387]LogBlueprintUserMessages: [NavigatorCrank_332] I am a navigator crank
-[2017.04.06-00.52.50:649][725]LogBlueprintUserMessages: [EngineLever_357] I am a engine lever
-[2017.04.06-00.52.53:757][ 98]LogBlueprintUserMessages: [GunnerHandle_466] I am a gunner handle
-[2017.04.06-00.52.56:224][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.52.56:258][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.52.56:270][394]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.52.56:271][394]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.52.56:272][394]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.52.56:273][394]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.52.56:273][394]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.52.56:274][394]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.52.56:275][394]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.52.58:381][488]SocketIOLog: SocketIO Connected with session: QCWVXvYZbMeq6nHOAAAA
-[2017.04.06-00.52.58:381][488]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.58:713][489]SocketIOLog: SocketIO Connected with session: owmNdKTx_M6DmNBHAAAB
-[2017.04.06-00.52.58:713][489]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:376][491]SocketIOLog: SocketIO Connected with session: 5uRth-xYElrZHA7fAAAC
-[2017.04.06-00.52.59:376][491]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:392][493]SocketIOLog: SocketIO Connected with session: FulmpvTLoU7duRj1AAAD
-[2017.04.06-00.52.59:392][493]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:419][495]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.06-00.52.59:435][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.52.59:435][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.06-00.52.59:435][495]PIE: New page: PIE session: Captain (Apr 5, 2017, 4:52:59 PM)
-[2017.04.06-00.52.59:435][495]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
-[2017.04.06-00.52.59:439][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003685s)
-[2017.04.06-00.52.59:439][495]LogAIModule: Creating AISystem for world Captain
-[2017.04.06-00.52.59:439][495]LogPlayLevel: PIE: World Init took: (0.000604s)
-[2017.04.06-00.52.59:439][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.004481s)
-[2017.04.06-00.52.59:457][495]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.06-00.52.59:467][495]LogInit: FAudioDevice initialized.
-[2017.04.06-00.52.59:500][495]LogLoad: Game class is 'SubmarineGameMode_C'
-[2017.04.06-00.52.59:502][495]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.05-20.52.59
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: qmWPv267qO9H6k35AAAE
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: 1zSElvQdV9L6tbgOAAAF
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: ztROTH6JPP8Q5aTvAAAG
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: tVm60ks_olw2rxTJAAAH
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: XvXoB0dPR9xC9nY9AAAI
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: VjnXBazqwJjQ-y6qAAAJ
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: yjpJkJbtXYVkSv_6AAAK
-[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.52.59:581][495]LogWorld: Bringing up level for play took: 0.080111
-[2017.04.06-00.52.59:583][495]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.489
-[2017.04.06-00.52.59:583][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.52.59:724][502]SocketIOLog: SocketIO Connected with session: kovnuimNBde7E9QwAAAL
-[2017.04.06-00.52.59:724][502]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.53.00:390][577]SocketIOLog: SocketIO Connected with session: ovYRFzELDSyQIk8RAAAM
-[2017.04.06-00.53.00:390][577]SocketIOLog: SocketIO connected to namespace: /
-[2017.04.06-00.53.01:536][714]LogBlueprintUserMessages: [Button_422] I am a button
-[2017.04.06-00.53.02:561][837]LogBlueprintUserMessages: [NavigatorCrank_332] I am a navigator crank
-[2017.04.06-00.53.05:953][244]LogBlueprintUserMessages: [EngineLever_357] I am a engine lever
-[2017.04.06-00.53.07:153][388]LogBlueprintUserMessages: [GunnerHandle_466] I am a gunner handle
-[2017.04.06-00.53.07:977][487]LogBlueprintUserMessages: [ConnectionManager_389] You win!
-[2017.04.06-00.53.11:186][872]LogBlueprintUserMessages: [Button_422] I am a button
-[2017.04.06-00.53.11:345][891]LogBlueprintUserMessages: [Button_422] I am a button
-[2017.04.06-00.53.11:819][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
-[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
-[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
-[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
-[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
-[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
-[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
-[2017.04.06-00.53.11:853][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.04.06-00.53.11:863][948]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.53.11:864][948]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.53.11:865][948]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.53.11:866][948]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.53.11:866][948]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.53.11:867][948]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.53.11:868][948]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.04.06-00.55.46:920][ 24]LogEditorViewport: Clicking on Actor (LMB): Handle_C (Handle)
-[2017.04.06-01.02.56:076][968]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.04.06-01.03.05:046][ 37]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.04.06-01.03.05:184][ 37]LogSavePackage: Save=83.03ms
-[2017.04.06-01.03.05:185][ 37]LogSavePackage: Moving '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Captain_Auto1200C287F469D3500FBA8D8BA87A6F7B2.tmp' to '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Autosaves/Game/Levels/Captain_Auto1.umap'
-[2017.04.06-01.03.05:186][ 37]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Autosaves/Game/Levels/Captain_Auto1.umap
-[2017.04.06-01.03.05:188][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Captain' took 0.114
-[2017.04.06-01.03.05:188][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
-[2017.04.06-01.03.28:245][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
-[2017.04.06-01.04.32:972][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.04.06-01.04.36:011][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.06-01.04.36:099][710]LogSavePackage: Save=71.58ms
-[2017.04.06-01.04.36:099][710]LogSavePackage: Moving '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Captain1DB43CE3425B92F5BE592894D7C287D0.tmp' to '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap'
-[2017.04.06-01.04.36:101][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap
-[2017.04.06-01.04.36:132][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
-[2017.04.06-01.04.36:204][710]LogSavePackage: Save=61.36ms
-[2017.04.06-01.04.36:204][710]LogSavePackage: Moving '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Captain_BuiltData86221C514572CCA3366379B8B15AEBA1.tmp' to '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
-[2017.04.06-01.04.36:205][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.27.23:842][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.06-18.27.23:842][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.06-18.27.23:852][  0]LogInit: Computer: SIGLAB-VR5
+[2017.04.06-18.27.23:852][  0]LogInit: User: SIG
+[2017.04.06-18.27.23:852][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.06-18.27.23:852][  0]LogInit: High frequency timer resolution =3.604933 MHz
+[2017.04.06-18.27.23:852][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.04.06-18.27.23:852][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.06-18.27.23:852][  0]LogMemory: Process Physical Memory: 271.82 MB used, 271.82 MB peak
+[2017.04.06-18.27.23:852][  0]LogMemory: Process Virtual Memory: 270.13 MB used, 270.13 MB peak
+[2017.04.06-18.27.23:852][  0]LogMemory: Physical Memory: 5066.01 MB used,  27624.29 MB free, 32690.30 MB total
+[2017.04.06-18.27.23:852][  0]LogMemory: Virtual Memory: 697.21 MB used,  27624.29 MB free, 134217728.00 MB total
+[2017.04.06-18.27.23:923][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.06-18.27.24:447][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.06-18.27.24:476][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.04.06-18.27.24:476][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.06-18.27.24:478][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.06-18.27.24:478][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.06-18.27.24:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.06-18.27.24:482][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.06-18.27.24:482][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.06-18.27.24:482][  0]LogWindows: EnumDisplayDevices:
+[2017.04.06-18.27.24:483][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.04.06-18.27.24:483][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.04.06-18.27.24:483][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.06-18.27.24:483][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.06-18.27.24:483][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.06-18.27.24:483][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.04.06-18.27.24:483][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.04.06-18.27.24:483][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.04.06-18.27.24:483][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.06-18.27.24:495][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.06-18.27.24:505][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.06-18.27.24:593][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Submariner/final-project-submariner/Intermediate/Shaders/WorkingDirectory/784/).
+[2017.04.06-18.27.24:593][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/54C5C0084D449FEE98C326BAB896BCFA/'.
+[2017.04.06-18.27.24:593][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.06-18.27.25:534][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.06-18.27.25:583][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.06-18.27.25:632][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.06-18.27.25:681][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.06-18.27.25:730][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.06-18.27.25:779][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.06-18.27.25:828][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.06-18.27.25:877][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.06-18.27.25:918][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.06-18.27.25:966][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.06-18.27.26:015][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.06-18.27.26:063][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.06-18.27.26:111][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.06-18.27.26:159][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.06-18.27.26:207][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.06-18.27.26:304][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.06-18.27.26:304][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.06-18.27.26:338][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.06-18.27.26:427][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.06-18.27.26:458][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.06-18.27.26:506][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.06-18.27.26:554][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.06-18.27.26:602][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.06-18.27.26:650][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.06-18.27.26:650][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.06-18.27.27:033][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.06-18.27.27:086][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.06-18.27.27:086][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.06-18.27.27:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Submariner/final-project-submariner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.06-18.27.27:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.06-18.27.27:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Submariner/final-project-submariner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.06-18.27.27:086][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.06-18.27.27:102][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.06-18.27.27:114][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.06-18.27.27:122][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.06-18.27.27:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.06-18.27.27:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.06-18.27.27:200][  0]LogModuleManager:Warning: Found module file ../../../../../../Submariner/final-project-submariner/Plugins/socketio-client-ue4/Binaries/Win64/UE4Editor-SIOJPlugin.dll (API version 3106830), but it was incompatible with the current engine API version (3299760). This is likely a stale module that must be recompiled.
+[2017.04.06-18.27.27:391][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.06-18.27.27:393][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.06-18.27.27:574][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.06-18.27.27:612][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.06-18.27.27:652][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.06-18.27.27:652][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.06-18.27.27:652][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.06-18.27.28:127][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: submariner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2308320845
+[2017.04.06-18.27.28:171][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.04.06-18.27.28:213][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020491 seconds
+[2017.04.06-18.27.28:218][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.06-18.27.28:218][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.06-18.27.28:218][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.06-18.27.28:272][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.06-18.27.29:683][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.06-18.27.29:718][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.06-18.27.30:165][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.06-18.27.30:498][  0]SourceControl: Info Source control is disabled
+[2017.04.06-18.27.30:524][  0]SourceControl: Info Source control is disabled
+[2017.04.06-18.27.30:565][  0]SourceControl: Info Source control is disabled
+[2017.04.06-18.27.30:606][  0]SourceControl: Info Source control is disabled
+[2017.04.06-18.27.31:763][  0]LogEngine: Initializing Engine...
+[2017.04.06-18.27.31:783][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.04.06-18.27.31:783][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.10.2, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.04.06-18.27.31:984][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.06-18.27.31:995][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.27.32:110][  0]LogInit: FAudioDevice initialized.
+[2017.04.06-18.27.32:136][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.06-18.27.32:144][  0]LogInit: Texture streaming: Enabled
+[2017.04.06-18.27.32:227][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.06-18.27.32:227][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={98FE94DD-4AC7-9A62-F08D-B7A6243914F5}
+[2017.04.06-18.27.32:307][  0]LogInit: Transaction tracking system initialized
+[2017.04.06-18.27.32:617][  0]BlueprintLog: New page: Editor Load
+[2017.04.06-18.27.33:397][  0]LocalizationService: Info Localization service is disabled
+[2017.04.06-18.27.33:999][  0]LogConsoleResponse:Display: 
+[2017.04.06-18.27.34:109][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.06-18.27.34:109][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.06-18.27.34:617][  0]LogFileCache: Scanning file cache for directory 'C:/Submariner/final-project-submariner/Content/' took 0.01s
+[2017.04.06-18.27.35:018][  0]SourceControl: Info Source control is disabled
+[2017.04.06-18.27.35:019][  0]Cmd: MAP LOAD FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.06-18.27.35:019][  0]LightingResults: New page: Lighting Build
+[2017.04.06-18.27.35:055][  0]MapCheck: New page: Map Check
+[2017.04.06-18.27.35:055][  0]LightingResults: New page: Lighting Build
+[2017.04.06-18.27.35:244][  0]LogLinker:Warning: Asset '../../../../../../Submariner/final-project-submariner/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-18.27.35:245][  0]LogLinker:Warning: Asset '../../../../../../Submariner/final-project-submariner/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-18.27.35:247][  0]LogLinker:Warning: Asset '../../../../../../Submariner/final-project-submariner/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-18.27.35:247][  0]LogLinker:Warning: Asset '../../../../../../Submariner/final-project-submariner/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-18.27.35:382][  0]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.27.35:407][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.06-18.27.35:407][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.06-18.27.35:447][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.98ms to complete.
+[2017.04.06-18.27.35:447][  0]LogFileHelpers: Loading map 'Captain' took 0.429
+[2017.04.06-18.27.35:517][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.06-18.27.35:617][  0]LogCollectionManager: Loaded 0 collections in 0.001351 seconds
+[2017.04.06-18.27.35:696][  0]LogFileCache: Scanning file cache for directory 'C:/Submariner/final-project-submariner/Saved/Collections/' took 0.01s
+[2017.04.06-18.27.35:696][  0]LogFileCache: Scanning file cache for directory 'C:/Submariner/final-project-submariner/Content/Developers/SIG/Collections/' took 0.01s
+[2017.04.06-18.27.35:696][  0]LogFileCache: Scanning file cache for directory 'C:/Submariner/final-project-submariner/Content/Collections/' took 0.01s
+[2017.04.06-18.27.35:696][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.06-18.27.35:704][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2253 classes and 460 folders.
+[2017.04.06-18.27.35:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.06-18.27.35:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.06-18.27.35:763][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.06-18.27.35:795][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.06-18.27.35:834][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.06-18.27.35:877][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.06-18.27.35:882][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.06-18.27.35:945][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.06-18.27.35:945][  0]LogLoad: (Engine Initialization) Total time: 14.42 seconds
+[2017.04.06-18.27.35:945][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.04.06-18.27.35:945][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.06-18.27.35:945][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.06-18.27.35:954][  0]LogOcInput: OculusInput pre-init called
+[2017.04.06-18.27.35:964][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2017.04.06-18.27.36:008][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.06-18.27.36:009][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.06-18.27.36:012][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.06-18.27.36:017][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.06-18.27.36:126][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.06-18.27.36:179][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.04.06-18.27.36:215][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Submariner/final-project-submariner/Content/' took 0.24s
+[2017.04.06-18.27.36:225][  1]LogAssetRegistry: Asset discovery search completed in 8.0752 seconds
+[2017.04.06-18.27.36:225][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.04.06-18.27.36:225][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.04.06-18.27.36:979][ 73]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.06-18.27.54:806][ 80]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.04.06-18.27.54:860][ 80]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Submariner
+
+[2017.04.06-18.27.54:860][ 80]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.06-18.27.54:860][ 80]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.04.06-18.27.54:860][ 80]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.04.06-18.27.54:860][ 80]LogTemp:Display: BranchPath = SIGLAB-VR5/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = SIGLAB-VR5/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.04.06-18.27.54:869][ 80]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\SIG\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.04.06-18.27.54:869][ 80]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.04.06-18.27.54:869][ 80]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.04.06-18.27.54:869][ 80]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.04.06-18.27.54:869][ 80]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.04.06-18.27.54:869][ 80]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.04.06-18.28.29:181][143]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.06-18.28.29:191][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.28.29:295][143]LogSavePackage: Save=76.26ms
+[2017.04.06-18.28.29:295][143]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain79C00E1C4455783550DF9D9D612DDDAB.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.28.29:296][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.28.29:319][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.28.29:409][143]LogSavePackage: Save=79.25ms
+[2017.04.06-18.28.29:409][143]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltDataE8F9E3F5406030576A15978ED89385F6.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.28.29:410][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.28.30:845][315]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-18.28.30:855][315]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.28.30:855][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-18.28.30:856][315]PIE: New page: PIE session: Captain (Apr 6, 2017, 10:28:30 AM)
+[2017.04.06-18.28.30:856][315]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-18.28.30:860][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003718s)
+[2017.04.06-18.28.30:860][315]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.28.30:860][315]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2017.04.06-18.28.30:860][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.004475s)
+[2017.04.06-18.28.30:874][315]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.28.30:885][315]LogInit: FAudioDevice initialized.
+[2017.04.06-18.28.30:931][315]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-18.28.30:933][315]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.06-14.28.30
+[2017.04.06-18.28.31:011][315]LogWorld: Bringing up level for play took: 0.078345
+[2017.04.06-18.28.31:049][315]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.06-18.28.31:051][315]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.28
+[2017.04.06-18.28.31:051][315]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.28.33:443][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.28.33:477][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.28.33:488][598]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.28.33:489][598]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.28.33:490][598]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.28.33:491][598]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.28.33:492][598]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.28.33:492][598]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.28.33:493][598]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.29.33:228][761]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2017.04.06-18.29.34:802][938]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.06-18.30.03:566][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.06-18.30.04:933][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.30.05:023][466]LogSavePackage: Save=73.77ms
+[2017.04.06-18.30.05:023][466]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain9E657B624D5CB1F8C588FDA8628BC2A8.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.30.05:025][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.30.05:046][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.30.05:108][466]LogSavePackage: Save=55.57ms
+[2017.04.06-18.30.05:108][466]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltData7D046E5F430F6A9D9DA6D098FB81DE49.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.30.05:109][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.30.06:791][667]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-18.30.06:801][667]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.30.06:801][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-18.30.06:801][667]PIE: New page: PIE session: Captain (Apr 6, 2017, 10:30:06 AM)
+[2017.04.06-18.30.06:801][667]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-18.30.06:805][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003790s)
+[2017.04.06-18.30.06:806][667]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.30.06:806][667]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2017.04.06-18.30.06:806][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.004762s)
+[2017.04.06-18.30.06:823][667]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.30.06:834][667]LogInit: FAudioDevice initialized.
+[2017.04.06-18.30.06:867][667]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-18.30.06:869][667]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.06-14.30.06
+[2017.04.06-18.30.06:948][667]LogWorld: Bringing up level for play took: 0.079310
+[2017.04.06-18.30.06:950][667]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.381
+[2017.04.06-18.30.06:950][667]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.30.10:437][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.30.10:499][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.30.10:510][ 83]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.30.10:511][ 83]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.30.10:512][ 83]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.30.10:513][ 83]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.30.10:514][ 83]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.30.10:514][ 83]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.30.10:515][ 83]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.30.58:919][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.06-18.31.01:359][245]LogLinker:Warning: Can't find file '/Game/Assets/05_-_Default'
+[2017.04.06-18.31.01:359][245]LogLinker:Warning: Can't find file for asset '/Game/Assets/05_-_Default' while loading ../../../../../../Submariner/final-project-submariner/Content/Assets/Wheel.uasset.
+[2017.04.06-18.31.01:359][245]LoadErrors:Error: Error /Game/Assets/Wheel : Can't find file for asset. /Game/Assets/05_-_Default
+[2017.04.06-18.31.01:359][245]LogLinker:Warning: Can't find file '/Game/Assets/05_-_Default'
+[2017.04.06-18.31.01:359][245]LogLinker:Warning: Can't find file for asset '/Game/Assets/05_-_Default' while loading ../../../../../../Submariner/final-project-submariner/Content/Assets/Wheel.uasset.
+[2017.04.06-18.31.01:367][245]LogLinker:Warning: Can't find file '/Game/Assets/05_-_Default'
+[2017.04.06-18.31.01:367][245]LoadErrors: Info Failed to load /Game/Assets/05_-_Default.05_-_Default Referenced by Wheel
+[2017.04.06-18.31.01:367][245]LogLinker:Warning: Can't find file for asset '/Game/Assets/05_-_Default' while loading NULL.
+[2017.04.06-18.31.08:927][ 71]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.04.06-18.31.09:460][ 71]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.06-18.31.09:539][ 71]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.06-18.31.16:336][704]LogUObjectGlobals:Warning: Failed to find object 'Class None.SIOJJsonObject'
+[2017.04.06-18.31.16:336][704]LogUObjectGlobals:Warning: Failed to find object 'Class None.SIOJJsonObject'
+[2017.04.06-18.31.18:855][982]Cmd: DELETE
+[2017.04.06-18.31.18:855][982]Cmd: ACTOR DELETE
+[2017.04.06-18.31.18:856][982]LogEditorActor: Deleted Actor: SubmarineCharacter_C
+[2017.04.06-18.31.18:904][982]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2017.04.06-18.31.27:574][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2017.04.06-18.31.30:760][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.04.06-18.34.15:816][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.37.00:394][170]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/SIG/Downloads/Submariner Assets/pipes/pipes.FBX)
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: Model, ItemCount : 25
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: Geometry, ItemCount : 13
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: Material, ItemCount : 5
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: NodeAttribute, ItemCount : 6
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: AnimationCurve, ItemCount : 6
+[2017.04.06-18.37.00:446][170]LogFbx: ItemName: AnimationCurveNode, ItemCount : 26
+[2017.04.06-18.37.00:453][170]LogFbx: Loading FBX Scene from ../../../../../../Users/SIG/Downloads/Submariner Assets/pipes/pipes.FBX
+[2017.04.06-18.37.00:636][170]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.06-18.37.02:332][170]LogFbx: Loading FBX Scene from ../../../../../../Users/SIG/Downloads/Submariner Assets/pipes/pipes.FBX
+[2017.04.06-18.37.02:512][170]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.06-18.37.02:519][170]LogLinker: Can't find file '/Game/Assets/Material__31'
+[2017.04.06-18.37.02:519][170]LogLinker: Can't find file '/Game/Assets/Material__31'
+[2017.04.06-18.37.02:524][170]LogMaterial: Missing cached shader map for material Material__31, compiling. 
+[2017.04.06-18.37.02:525][170]LogTemp:Display: Added material ShaderMap 0x0000020D9E986080 with Material 0x0000020D85E12B00 to ShaderMapsBeingCompiled
+[2017.04.06-18.37.02:546][170]LogTemp:Display: Kicking off shader compilation for Material__31, GameThreadShaderMap 0x0000020D9E986080
+[2017.04.06-18.37.02:633][170]LogStaticMesh: Building static mesh pipes_Line06...
+[2017.04.06-18.37.03:755][170]LogStaticMesh: Built static mesh [1.12s] /Game/Assets/pipes_Line06.pipes_Line06
+[2017.04.06-18.37.03:903][170]LogStaticMesh:Warning: pipes_Line06 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.04:138][170]LogStaticMesh: Building static mesh pipes_Line07...
+[2017.04.06-18.37.04:768][170]LogStaticMesh: Built static mesh [0.63s] /Game/Assets/pipes_Line07.pipes_Line07
+[2017.04.06-18.37.04:882][170]LogStaticMesh:Warning: pipes_Line07 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.05:054][170]LogStaticMesh: Building static mesh pipes_Line08...
+[2017.04.06-18.37.05:984][170]LogStaticMesh: Built static mesh [0.93s] /Game/Assets/pipes_Line08.pipes_Line08
+[2017.04.06-18.37.06:050][170]LogStaticMesh:Warning: pipes_Line08 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.06:187][170]LogStaticMesh: Building static mesh pipes_Line09...
+[2017.04.06-18.37.06:703][170]LogStaticMesh: Built static mesh [0.52s] /Game/Assets/pipes_Line09.pipes_Line09
+[2017.04.06-18.37.06:960][170]LogStaticMesh: Building static mesh pipes_Line10...
+[2017.04.06-18.37.07:640][170]LogStaticMesh: Built static mesh [0.68s] /Game/Assets/pipes_Line10.pipes_Line10
+[2017.04.06-18.37.07:723][170]LogStaticMesh:Warning: pipes_Line10 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.07:820][170]LogLinker: Can't find file '/Game/Assets/04_-_Default'
+[2017.04.06-18.37.07:820][170]LogLinker: Can't find file '/Game/Assets/04_-_Default'
+[2017.04.06-18.37.07:825][170]LogMaterial: Missing cached shader map for material 04_-_Default, compiling. 
+[2017.04.06-18.37.07:826][170]LogTemp:Display: Added material ShaderMap 0x0000020D3DB09D00 with Material 0x0000020D1E541000 to ShaderMapsBeingCompiled
+[2017.04.06-18.37.07:838][170]LogTemp:Display: Kicking off shader compilation for 04_-_Default, GameThreadShaderMap 0x0000020D3DB09D00
+[2017.04.06-18.37.07:839][170]LogFbx:Warning: Triangulating static mesh Circle01
+[2017.04.06-18.37.07:895][170]LogStaticMesh: Building static mesh pipes_Circle01...
+[2017.04.06-18.37.07:901][170]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/pipes_Circle01.pipes_Circle01
+[2017.04.06-18.37.07:904][170]LogStaticMesh:Warning: pipes_Circle01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.07:920][170]LogLinker: Can't find file '/Game/Assets/03_-_Default'
+[2017.04.06-18.37.07:920][170]LogLinker: Can't find file '/Game/Assets/03_-_Default'
+[2017.04.06-18.37.07:924][170]LogMaterial: Missing cached shader map for material 03_-_Default, compiling. 
+[2017.04.06-18.37.07:925][170]LogTemp:Display: Added material ShaderMap 0x0000020D94606E80 with Material 0x0000020D33D3EE00 to ShaderMapsBeingCompiled
+[2017.04.06-18.37.07:939][170]LogTemp:Display: Kicking off shader compilation for 03_-_Default, GameThreadShaderMap 0x0000020D94606E80
+[2017.04.06-18.37.07:941][170]LogStaticMesh: Building static mesh pipes_Shape02...
+[2017.04.06-18.37.07:948][170]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/pipes_Shape02.pipes_Shape02
+[2017.04.06-18.37.07:949][170]LogStaticMesh:Warning: pipes_Shape02 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.07:961][170]LogStaticMesh: Building static mesh pipes_Circle03...
+[2017.04.06-18.37.07:966][170]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/pipes_Circle03.pipes_Circle03
+[2017.04.06-18.37.07:967][170]LogStaticMesh:Warning: pipes_Circle03 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.07:977][170]LogLinker: Can't find file '/Game/Assets/02_-_Default'
+[2017.04.06-18.37.07:977][170]LogLinker: Can't find file '/Game/Assets/02_-_Default'
+[2017.04.06-18.37.07:982][170]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.04.06-18.37.07:983][170]LogTemp:Display: Added material ShaderMap 0x0000020D9EDED600 with Material 0x0000020D33A1EC80 to ShaderMapsBeingCompiled
+[2017.04.06-18.37.08:002][170]LogTemp:Display: Kicking off shader compilation for 02_-_Default, GameThreadShaderMap 0x0000020D9EDED600
+[2017.04.06-18.37.08:003][170]LogFbx:Warning: Triangulating static mesh Object01
+[2017.04.06-18.37.08:011][170]LogStaticMesh: Building static mesh pipes_Object01...
+[2017.04.06-18.37.08:012][170]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/pipes_Object01.pipes_Object01
+[2017.04.06-18.37.08:013][170]LogStaticMesh:Warning: pipes_Object01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.08:036][170]LogStaticMesh: Building static mesh pipes_Text04...
+[2017.04.06-18.37.08:263][170]LogStaticMesh: Built static mesh [0.23s] /Game/Assets/pipes_Text04.pipes_Text04
+[2017.04.06-18.37.08:350][170]LogStaticMesh: Building static mesh pipes_Line11...
+[2017.04.06-18.37.09:572][170]LogStaticMesh: Built static mesh [1.22s] /Game/Assets/pipes_Line11.pipes_Line11
+[2017.04.06-18.37.09:673][170]LogStaticMesh:Warning: pipes_Line11 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.09:793][170]LogLinker: Can't find file '/Game/Assets/05_-_Default'
+[2017.04.06-18.37.09:793][170]LogLinker: Can't find file '/Game/Assets/05_-_Default'
+[2017.04.06-18.37.09:795][170]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Assets/' is not a standard unreal filename or a long path name. Reason: Path may not end with a '/'
+[2017.04.06-18.37.09:795][170]LogLinker: Can't find file '/Game/Assets/'
+[2017.04.06-18.37.09:795][170]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Assets/' is not a standard unreal filename or a long path name. Reason: Path may not end with a '/'
+[2017.04.06-18.37.09:795][170]LogLinker: Can't find file '/Game/Assets/'
+[2017.04.06-18.37.09:795][170]LogStreaming:Warning: Failed to read file '' error.
+[2017.04.06-18.37.09:796][170]LogStreaming:Warning: Failed to read file '../../../../../../Users/SIG/Downloads/Submariner Assets/pipes/' error.
+[2017.04.06-18.37.09:796][170]LogStreaming:Warning: Failed to read file '../../../../../../Users/SIG/Downloads/Submariner Assets/pipes/' error.
+[2017.04.06-18.37.09:796][170]LogFbxMaterialImport:Warning: Unable to find TEXTure file . Tried:
+ - 
+ - ../../../../../../Users/SIG/Downloads/Submariner Assets/pipes/
+ - ../../../../../../Users/SIG/Downloads/Submariner Assets/pipes/
+[2017.04.06-18.37.09:798][170]LogMaterial: Missing cached shader map for material 05_-_Default, compiling. 
+[2017.04.06-18.37.09:799][170]LogTemp:Display: Added material ShaderMap 0x0000020D9E9B2B00 with Material 0x0000020D800EE080 to ShaderMapsBeingCompiled
+[2017.04.06-18.37.09:813][170]LogTemp:Display: Kicking off shader compilation for 05_-_Default, GameThreadShaderMap 0x0000020D9E9B2B00
+[2017.04.06-18.37.09:814][170]LogFbx:Warning: Triangulating static mesh Line01
+[2017.04.06-18.37.09:832][170]LogStaticMesh: Building static mesh pipes_Line01...
+[2017.04.06-18.37.09:834][170]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/pipes_Line01.pipes_Line01
+[2017.04.06-18.37.09:844][170]LogFbx:Warning: Triangulating static mesh Line02
+[2017.04.06-18.37.10:255][170]LogStaticMesh: Building static mesh pipes_Line02...
+[2017.04.06-18.37.10:294][170]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/pipes_Line02.pipes_Line02
+[2017.04.06-18.37.10:303][170]LogStaticMesh:Warning: pipes_Line02 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Line06 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Line07 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Line08 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Line10 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Circle01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Shape02 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Circle03 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Object01 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Line11 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:339][170]FBXImport:Warning: Warning pipes_Line02 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.06-18.37.10:540][170]LogTemp:Display: Finished compile of shader map 0x0000020D9E986080
+[2017.04.06-18.37.10:540][170]LogTemp:Display: Shader map Material__31 complete, GameThreadShaderMap 0x0000020D9E986080, marking material Material__31 as finished
+[2017.04.06-18.37.10:540][170]LogTemp:Display: Marking material as finished 0x0000020D85E12B00
+[2017.04.06-18.37.10:544][170]LogTemp:Display: Finished compile of shader map 0x0000020D3DB09D00
+[2017.04.06-18.37.10:544][170]LogTemp:Display: Shader map 04_-_Default complete, GameThreadShaderMap 0x0000020D3DB09D00, marking material 04_-_Default as finished
+[2017.04.06-18.37.10:544][170]LogTemp:Display: Marking material as finished 0x0000020D1E541000
+[2017.04.06-18.37.10:549][170]LogTemp:Display: Finished compile of shader map 0x0000020D94606E80
+[2017.04.06-18.37.10:549][170]LogTemp:Display: Shader map 03_-_Default complete, GameThreadShaderMap 0x0000020D94606E80, marking material 03_-_Default as finished
+[2017.04.06-18.37.10:549][170]LogTemp:Display: Marking material as finished 0x0000020D33D3EE00
+[2017.04.06-18.37.10:991][188]LogTemp:Display: Finished compile of shader map 0x0000020D9EDED600
+[2017.04.06-18.37.10:991][188]LogTemp:Display: Shader map 02_-_Default complete, GameThreadShaderMap 0x0000020D9EDED600, marking material 02_-_Default as finished
+[2017.04.06-18.37.10:991][188]LogTemp:Display: Marking material as finished 0x0000020D33A1EC80
+[2017.04.06-18.37.11:427][224]LogTemp:Display: Finished compile of shader map 0x0000020D9E9B2B00
+[2017.04.06-18.37.11:427][224]LogTemp:Display: Shader map 05_-_Default complete, GameThreadShaderMap 0x0000020D9E9B2B00, marking material 05_-_Default as finished
+[2017.04.06-18.37.11:427][224]LogTemp:Display: Marking material as finished 0x0000020D800EE080
+[2017.04.06-18.37.16:182][777]Cmd: TRANSACTION UNDO
+[2017.04.06-18.37.16:182][777]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.06-18.37.18:466][ 34]Cmd: TRANSACTION REDO
+[2017.04.06-18.37.18:466][ 34]LogEditorTransaction: Redo Clicking on Actors
+[2017.04.06-18.38.08:648][819]Cmd: TRANSACTION UNDO
+[2017.04.06-18.38.08:648][819]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.06-18.38.10:040][970]Cmd: TRANSACTION REDO
+[2017.04.06-18.38.10:040][970]LogEditorTransaction: Redo Clicking on Actors
+[2017.04.06-18.38.36:332][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Circle01" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle01.uasset" SILENT=true
+[2017.04.06-18.38.36:345][729]LogSavePackage: Save=11.45ms
+[2017.04.06-18.38.36:345][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Circle01B563ED904C305740440B068B1E93DBA3.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle01.uasset'
+[2017.04.06-18.38.36:346][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle01.uasset
+[2017.04.06-18.38.36:362][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Circle03" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle03.uasset" SILENT=true
+[2017.04.06-18.38.36:375][729]LogSavePackage: Save=10.92ms
+[2017.04.06-18.38.36:375][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Circle032C29A05246A90BE5DFC7EDA98AB8C837.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle03.uasset'
+[2017.04.06-18.38.36:376][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle03.uasset
+[2017.04.06-18.38.36:389][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line01" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line01.uasset" SILENT=true
+[2017.04.06-18.38.36:403][729]LogSavePackage: Save=11.80ms
+[2017.04.06-18.38.36:403][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line01BE00530B48AC1B6118F7A08C02EC6E13.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line01.uasset'
+[2017.04.06-18.38.36:404][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line01.uasset
+[2017.04.06-18.38.36:415][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line02" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line02.uasset" SILENT=true
+[2017.04.06-18.38.36:428][729]LogSavePackage: Save=11.61ms
+[2017.04.06-18.38.36:428][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line02D361E2264926CD6094C25497AB3B6F60.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line02.uasset'
+[2017.04.06-18.38.36:430][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line02.uasset
+[2017.04.06-18.38.36:443][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line06" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line06.uasset" SILENT=true
+[2017.04.06-18.38.36:457][729]LogSavePackage: Save=13.38ms
+[2017.04.06-18.38.36:457][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line0659157E9645871CBAF0BDFB9D9C7DD0B6.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line06.uasset'
+[2017.04.06-18.38.36:459][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line06.uasset
+[2017.04.06-18.38.36:470][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line07" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line07.uasset" SILENT=true
+[2017.04.06-18.38.36:485][729]LogSavePackage: Save=13.31ms
+[2017.04.06-18.38.36:485][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line0753DF963941039782652B9B981D220BCE.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line07.uasset'
+[2017.04.06-18.38.36:486][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line07.uasset
+[2017.04.06-18.38.36:498][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line08" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line08.uasset" SILENT=true
+[2017.04.06-18.38.36:512][729]LogSavePackage: Save=12.72ms
+[2017.04.06-18.38.36:512][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line0868C74AC840ED155D128161A6C9EA094A.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line08.uasset'
+[2017.04.06-18.38.36:514][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line08.uasset
+[2017.04.06-18.38.36:525][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line09" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line09.uasset" SILENT=true
+[2017.04.06-18.38.36:539][729]LogSavePackage: Save=12.87ms
+[2017.04.06-18.38.36:539][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line09BF3DFDB548C9910B099E98A607A9C8DF.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line09.uasset'
+[2017.04.06-18.38.36:541][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line09.uasset
+[2017.04.06-18.38.36:552][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line10" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line10.uasset" SILENT=true
+[2017.04.06-18.38.36:566][729]LogSavePackage: Save=12.83ms
+[2017.04.06-18.38.36:566][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line10D12E9CBC4F4B81A6A8CD4E9C37E6125E.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line10.uasset'
+[2017.04.06-18.38.36:568][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line10.uasset
+[2017.04.06-18.38.36:579][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line11" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line11.uasset" SILENT=true
+[2017.04.06-18.38.36:593][729]LogSavePackage: Save=12.85ms
+[2017.04.06-18.38.36:593][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line11CCC352DB4EB641C99AAB55878BD445FA.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line11.uasset'
+[2017.04.06-18.38.36:595][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line11.uasset
+[2017.04.06-18.38.36:608][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Object01" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Object01.uasset" SILENT=true
+[2017.04.06-18.38.36:621][729]LogSavePackage: Save=10.95ms
+[2017.04.06-18.38.36:621][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Object01CA9E82214BE27B05A9AF4EAE87498F08.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Object01.uasset'
+[2017.04.06-18.38.36:622][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Object01.uasset
+[2017.04.06-18.38.36:634][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Shape02" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Shape02.uasset" SILENT=true
+[2017.04.06-18.38.36:646][729]LogSavePackage: Save=10.76ms
+[2017.04.06-18.38.36:646][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Shape02E634CAD14EB0559863F216AC4F59EA21.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Shape02.uasset'
+[2017.04.06-18.38.36:647][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Shape02.uasset
+[2017.04.06-18.38.36:660][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Text04" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Text04.uasset" SILENT=true
+[2017.04.06-18.38.36:673][729]LogSavePackage: Save=11.42ms
+[2017.04.06-18.38.36:673][729]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Text0470D29C944FD44ACCE16A96B842E574C7.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Text04.uasset'
+[2017.04.06-18.38.36:675][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Text04.uasset
+[2017.04.06-18.39.04:976][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.39.05:099][995]LogSavePackage: Save=100.03ms
+[2017.04.06-18.39.05:099][995]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain1C3FE9FA4B37E325A7E4E8A82B397330.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.39.05:101][995]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.39.05:125][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.39.05:192][995]LogSavePackage: Save=54.85ms
+[2017.04.06-18.39.05:192][995]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltDataBFF43472456E99D70C375AA80B298060.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.39.05:193][995]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.39.24:118][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/02_-_Default" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/02_-_Default.uasset" SILENT=true
+[2017.04.06-18.39.24:132][155]LogSavePackage: Save=12.41ms
+[2017.04.06-18.39.24:132][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/02_-_DefaultC07ADA434809684371329790C397E383.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/02_-_Default.uasset'
+[2017.04.06-18.39.24:134][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/02_-_Default.uasset
+[2017.04.06-18.39.24:145][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/03_-_Default" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/03_-_Default.uasset" SILENT=true
+[2017.04.06-18.39.24:159][155]LogSavePackage: Save=12.50ms
+[2017.04.06-18.39.24:159][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/03_-_Default5B2F339D437D2E26079E4D8D66BAB7EA.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/03_-_Default.uasset'
+[2017.04.06-18.39.24:160][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/03_-_Default.uasset
+[2017.04.06-18.39.24:172][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/04_-_Default" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/04_-_Default.uasset" SILENT=true
+[2017.04.06-18.39.24:185][155]LogSavePackage: Save=11.55ms
+[2017.04.06-18.39.24:185][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/04_-_DefaultEB8B7E934F5CD5BDB1B4E09BE7459B95.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/04_-_Default.uasset'
+[2017.04.06-18.39.24:187][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/04_-_Default.uasset
+[2017.04.06-18.39.24:199][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/05_-_Default" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/05_-_Default.uasset" SILENT=true
+[2017.04.06-18.39.24:213][155]LogSavePackage: Save=12.62ms
+[2017.04.06-18.39.24:213][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/05_-_Default8D8A930141F3C96AB758E296B5B42A20.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/05_-_Default.uasset'
+[2017.04.06-18.39.24:214][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/05_-_Default.uasset
+[2017.04.06-18.39.24:225][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Brass" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass.uasset" SILENT=true
+[2017.04.06-18.39.24:241][155]LogSavePackage: Save=14.12ms
+[2017.04.06-18.39.24:241][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Brass720F74D043393D81A7F2CEA29F8A31E9.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass.uasset'
+[2017.04.06-18.39.24:243][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass.uasset
+[2017.04.06-18.39.24:254][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Brass1" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass1.uasset" SILENT=true
+[2017.04.06-18.39.24:269][155]LogSavePackage: Save=12.77ms
+[2017.04.06-18.39.24:269][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Brass1B3080BF9419D6C4F94D8598DBF887B0A.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass1.uasset'
+[2017.04.06-18.39.24:270][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass1.uasset
+[2017.04.06-18.39.24:282][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Brass2" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass2.uasset" SILENT=true
+[2017.04.06-18.39.24:296][155]LogSavePackage: Save=12.73ms
+[2017.04.06-18.39.24:296][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Brass224F5F42B4BB92ACF93F193A471482BC4.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass2.uasset'
+[2017.04.06-18.39.24:297][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Brass2.uasset
+[2017.04.06-18.39.24:300][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Brass2" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/Brass2.uasset" SILENT=true
+[2017.04.06-18.39.24:313][155]LogSavePackage: Save=3.30ms
+[2017.04.06-18.39.24:313][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Brass29687E219465C4EA8D7883B9BD07BD9DF.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/Brass2.uasset'
+[2017.04.06-18.39.24:315][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/Brass2.uasset
+[2017.04.06-18.39.24:324][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Chopper" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper.uasset" SILENT=true
+[2017.04.06-18.39.24:339][155]LogSavePackage: Save=14.32ms
+[2017.04.06-18.39.24:339][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/ChopperBC186BA443E7BC90EC917CBBF70BF823.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper.uasset'
+[2017.04.06-18.39.24:341][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper.uasset
+[2017.04.06-18.39.24:352][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Chopper1" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper1.uasset" SILENT=true
+[2017.04.06-18.39.24:366][155]LogSavePackage: Save=12.68ms
+[2017.04.06-18.39.24:366][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Chopper14ACFF9274806D0DA52F5DDB967DC9214.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper1.uasset'
+[2017.04.06-18.39.24:368][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper1.uasset
+[2017.04.06-18.39.24:379][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Chopper2" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper2.uasset" SILENT=true
+[2017.04.06-18.39.24:394][155]LogSavePackage: Save=13.38ms
+[2017.04.06-18.39.24:394][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Chopper2012CDBC3402F2E32DF343DB1A11C8010.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper2.uasset'
+[2017.04.06-18.39.24:396][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Chopper2.uasset
+[2017.04.06-18.39.24:407][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Steal2" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Steal2.uasset" SILENT=true
+[2017.04.06-18.39.24:421][155]LogSavePackage: Save=12.52ms
+[2017.04.06-18.39.24:421][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Steal29A4A80984F7E9A2873A3E5A5A9BF467E.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Steal2.uasset'
+[2017.04.06-18.39.24:423][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Steal2.uasset
+[2017.04.06-18.39.24:434][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Steal1" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Steal1.uasset" SILENT=true
+[2017.04.06-18.39.24:448][155]LogSavePackage: Save=12.62ms
+[2017.04.06-18.39.24:448][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Steal159D459FD48020AC7440C94A78A1F000F.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Steal1.uasset'
+[2017.04.06-18.39.24:450][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Steal1.uasset
+[2017.04.06-18.39.24:464][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/Material__31" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Material__31.uasset" SILENT=true
+[2017.04.06-18.39.24:477][155]LogSavePackage: Save=11.60ms
+[2017.04.06-18.39.24:477][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Material__3151FC3C464FA2780222ED5681F9E746A5.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Material__31.uasset'
+[2017.04.06-18.39.24:479][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/Material__31.uasset
+[2017.04.06-18.39.24:490][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/lambert1" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/materials/lambert1.uasset" SILENT=true
+[2017.04.06-18.39.24:504][155]LogSavePackage: Save=11.94ms
+[2017.04.06-18.39.24:504][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/lambert17D13EE114EE9794A58C5728D6E91B15B.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/materials/lambert1.uasset'
+[2017.04.06-18.39.24:506][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/materials/lambert1.uasset
+[2017.04.06-18.39.25:240][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Object01" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Object01.uasset" SILENT=true
+[2017.04.06-18.39.25:255][155]LogSavePackage: Save=5.04ms
+[2017.04.06-18.39.25:255][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Object019699138B4759B433934C0D905A806FFE.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Object01.uasset'
+[2017.04.06-18.39.25:256][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Object01.uasset
+[2017.04.06-18.39.25:258][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Circle03" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle03.uasset" SILENT=true
+[2017.04.06-18.39.25:273][155]LogSavePackage: Save=5.00ms
+[2017.04.06-18.39.25:273][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Circle034AF71713482E0FC90F94FFA0CC7E947D.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle03.uasset'
+[2017.04.06-18.39.25:273][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle03.uasset
+[2017.04.06-18.39.25:275][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Shape02" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Shape02.uasset" SILENT=true
+[2017.04.06-18.39.25:291][155]LogSavePackage: Save=5.60ms
+[2017.04.06-18.39.25:291][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Shape02541E081A405547A6117D26AAE98FAEEF.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Shape02.uasset'
+[2017.04.06-18.39.25:292][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Shape02.uasset
+[2017.04.06-18.39.25:294][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Text04" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Text04.uasset" SILENT=true
+[2017.04.06-18.39.25:310][155]LogSavePackage: Save=5.25ms
+[2017.04.06-18.39.25:310][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Text0450176C7448C510FDA234AEB1AF4D0C7F.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Text04.uasset'
+[2017.04.06-18.39.25:311][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Text04.uasset
+[2017.04.06-18.39.25:313][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Circle01" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle01.uasset" SILENT=true
+[2017.04.06-18.39.25:329][155]LogSavePackage: Save=4.89ms
+[2017.04.06-18.39.25:329][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Circle0151AF955A4086BF2B06577AA531BAB723.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle01.uasset'
+[2017.04.06-18.39.25:330][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Circle01.uasset
+[2017.04.06-18.39.25:341][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Wheel" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/Wheel.uasset" SILENT=true
+[2017.04.06-18.39.25:363][155]LogSavePackage: Save=11.20ms
+[2017.04.06-18.39.25:363][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/WheelC579432B43D9C68EA508D28C5143C6CE.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/Wheel.uasset'
+[2017.04.06-18.39.25:364][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/Wheel.uasset
+[2017.04.06-18.39.25:365][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line01" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line01.uasset" SILENT=true
+[2017.04.06-18.39.25:381][155]LogSavePackage: Save=5.14ms
+[2017.04.06-18.39.25:381][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line016C5D5FD14FA51CD13832D7BD12E67630.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line01.uasset'
+[2017.04.06-18.39.25:382][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line01.uasset
+[2017.04.06-18.39.25:384][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line02" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line02.uasset" SILENT=true
+[2017.04.06-18.39.25:400][155]LogSavePackage: Save=5.31ms
+[2017.04.06-18.39.25:400][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line026E1C4F09470C6AF3A74289962C576C1B.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line02.uasset'
+[2017.04.06-18.39.25:400][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line02.uasset
+[2017.04.06-18.39.25:411][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bullet_Mesh" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset" SILENT=true
+[2017.04.06-18.39.25:435][155]LogSavePackage: Save=12.41ms
+[2017.04.06-18.39.25:435][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/bullet_MeshEB685AB14097415A68A49CBCE6F4F26F.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset'
+[2017.04.06-18.39.25:435][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset
+[2017.04.06-18.39.25:437][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bullet_Mesh" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset" SILENT=true
+[2017.04.06-18.39.25:450][155]LogSavePackage: Save=5.57ms
+[2017.04.06-18.39.25:450][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/bullet_Mesh2727BD3B4D4EDD143BE0538BE3F215DE.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset'
+[2017.04.06-18.39.25:451][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset
+[2017.04.06-18.39.25:462][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bullet_Mesh_1" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset" SILENT=true
+[2017.04.06-18.39.25:486][155]LogSavePackage: Save=12.88ms
+[2017.04.06-18.39.25:486][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/bullet_Mesh_18C606B8744D32846A277CE81963ED620.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset'
+[2017.04.06-18.39.25:487][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset
+[2017.04.06-18.39.25:489][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bullet_Mesh_1" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset" SILENT=true
+[2017.04.06-18.39.25:502][155]LogSavePackage: Save=5.58ms
+[2017.04.06-18.39.25:502][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/bullet_Mesh_13A0888664F802D32482C6C89CBD2C84E.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset'
+[2017.04.06-18.39.25:502][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh_1.uasset
+[2017.04.06-18.39.25:504][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/bullet_Mesh" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset" SILENT=true
+[2017.04.06-18.39.25:517][155]LogSavePackage: Save=5.35ms
+[2017.04.06-18.39.25:517][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/bullet_Mesh299A3EC04F68FD0B5B98918F5CA7FC12.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset'
+[2017.04.06-18.39.25:518][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/bullet_Mesh.uasset
+[2017.04.06-18.39.25:519][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line06" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line06.uasset" SILENT=true
+[2017.04.06-18.39.25:541][155]LogSavePackage: Save=7.51ms
+[2017.04.06-18.39.25:541][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line061D4723A14010FB09389D79AFBD91A38D.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line06.uasset'
+[2017.04.06-18.39.25:542][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line06.uasset
+[2017.04.06-18.39.25:544][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line07" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line07.uasset" SILENT=true
+[2017.04.06-18.39.25:565][155]LogSavePackage: Save=7.57ms
+[2017.04.06-18.39.25:565][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line07007705514F9E03146AFEEEBA621E1F90.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line07.uasset'
+[2017.04.06-18.39.25:566][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line07.uasset
+[2017.04.06-18.39.25:568][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line08" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line08.uasset" SILENT=true
+[2017.04.06-18.39.25:588][155]LogSavePackage: Save=6.70ms
+[2017.04.06-18.39.25:588][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line086BA75D3D4B24E32535C5AFA376F77BEB.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line08.uasset'
+[2017.04.06-18.39.25:589][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line08.uasset
+[2017.04.06-18.39.25:591][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line09" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line09.uasset" SILENT=true
+[2017.04.06-18.39.25:612][155]LogSavePackage: Save=7.15ms
+[2017.04.06-18.39.25:612][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line09D84B0C0743556CFEAAF7B6B4AFB7CC84.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line09.uasset'
+[2017.04.06-18.39.25:613][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line09.uasset
+[2017.04.06-18.39.25:615][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line10" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line10.uasset" SILENT=true
+[2017.04.06-18.39.25:635][155]LogSavePackage: Save=6.88ms
+[2017.04.06-18.39.25:635][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line1079B117494FAB9141426A9EB0E45FDFF2.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line10.uasset'
+[2017.04.06-18.39.25:636][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line10.uasset
+[2017.04.06-18.39.25:638][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/pipes/pipes_Line11" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line11.uasset" SILENT=true
+[2017.04.06-18.39.25:658][155]LogSavePackage: Save=7.38ms
+[2017.04.06-18.39.25:658][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/pipes_Line11B7E0E737402D8366B1EF8E93BEB9AA28.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line11.uasset'
+[2017.04.06-18.39.25:659][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/pipes/pipes_Line11.uasset
+[2017.04.06-18.39.25:673][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Handle" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/Handle.uasset" SILENT=true
+[2017.04.06-18.39.25:694][155]LogSavePackage: Save=10.77ms
+[2017.04.06-18.39.25:694][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/HandleCC03850E468DCE38047B958CFE539C79.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/Handle.uasset'
+[2017.04.06-18.39.25:695][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/Handle.uasset
+[2017.04.06-18.39.25:708][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Handle_HDDWP_L_001" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_L_001.uasset" SILENT=true
+[2017.04.06-18.39.25:728][155]LogSavePackage: Save=10.83ms
+[2017.04.06-18.39.25:728][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Handle_HDDWP_L_00142B9BA4648F34EA6BBBC33AE90C3C0D8.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_L_001.uasset'
+[2017.04.06-18.39.25:729][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_L_001.uasset
+[2017.04.06-18.39.25:740][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Handle_HDDWP_M_001" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_M_001.uasset" SILENT=true
+[2017.04.06-18.39.25:761][155]LogSavePackage: Save=11.16ms
+[2017.04.06-18.39.25:761][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Handle_HDDWP_M_001AD88F6844F2BA442BB371089292E74A1.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_M_001.uasset'
+[2017.04.06-18.39.25:762][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_M_001.uasset
+[2017.04.06-18.39.25:773][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Handle_HDDWP_R_001" FILE="../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_R_001.uasset" SILENT=true
+[2017.04.06-18.39.25:793][155]LogSavePackage: Save=10.90ms
+[2017.04.06-18.39.25:793][155]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Handle_HDDWP_R_001184DFFAD4A6A2C4CBBEF1AB53D69E5E2.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_R_001.uasset'
+[2017.04.06-18.39.25:794][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Assets/Handle_HDDWP_R_001.uasset
+[2017.04.06-18.39.37:724][569]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.04.06-18.39.38:424][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.06-18.39.47:359][996]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/SIG/Downloads/Submariner Assets/Gasoline barrel.fbx)
+[2017.04.06-18.39.47:362][996]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.06-18.39.47:362][996]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.04.06-18.39.47:362][996]LogFbx: ItemName: Model, ItemCount : 1
+[2017.04.06-18.39.47:362][996]LogFbx: ItemName: Material, ItemCount : 1
+[2017.04.06-18.39.47:366][996]LogFbx: Loading FBX Scene from ../../../../../../Users/SIG/Downloads/Submariner Assets/Gasoline barrel.fbx
+[2017.04.06-18.39.47:371][996]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.06-18.39.48:814][996]LogFbx: Loading FBX Scene from ../../../../../../Users/SIG/Downloads/Submariner Assets/Gasoline barrel.fbx
+[2017.04.06-18.39.48:820][996]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.06-18.39.48:822][996]LogLinker: Can't find file '/Game/Assets/Material'
+[2017.04.06-18.39.48:822][996]LogLinker: Can't find file '/Game/Assets/Material'
+[2017.04.06-18.39.48:826][996]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.04.06-18.39.48:827][996]LogTemp:Display: Added material ShaderMap 0x0000020D49817200 with Material 0x0000020D3DFA2C80 to ShaderMapsBeingCompiled
+[2017.04.06-18.39.48:837][996]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x0000020D49817200
+[2017.04.06-18.39.48:838][996]LogFbx:Warning: Triangulating static mesh Barrel
+[2017.04.06-18.39.48:943][996]LogStaticMesh: Building static mesh Gasoline_barrel...
+[2017.04.06-18.39.48:956][996]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Gasoline_barrel.Gasoline_barrel
+[2017.04.06-18.39.48:969][996]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.06-18.39.50:533][145]LogTemp:Display: Finished compile of shader map 0x0000020D49817200
+[2017.04.06-18.39.50:533][145]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x0000020D49817200, marking material Material as finished
+[2017.04.06-18.39.50:533][145]LogTemp:Display: Marking material as finished 0x0000020D3DFA2C80
+[2017.04.06-18.39.57:329][952]LogActorFactory: Actor Factory created bullet_Mesh_1
+[2017.04.06-18.39.58:314][ 68]LogActorFactory: Actor Factory created bullet_Mesh_1
+[2017.04.06-18.39.59:174][164]Cmd: DELETE
+[2017.04.06-18.39.59:174][164]Cmd: ACTOR DELETE
+[2017.04.06-18.39.59:174][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.06-18.39.59:186][164]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.04.06-18.40.00:763][352]LogActorFactory: Actor Factory created Gasoline_barrel
+[2017.04.06-18.40.02:718][586]LogActorFactory: Actor Factory created Gasoline_barrel
+[2017.04.06-18.40.15:333][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.40.25:332][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.04.06-18.40.26:135][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.40.55:701][908]Cmd: DELETE
+[2017.04.06-18.40.55:701][908]Cmd: ACTOR DELETE
+[2017.04.06-18.40.55:701][908]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.06-18.40.55:713][908]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.04.06-18.41.47:364][624]LogActorFactory: Actor Factory created pipes_Line11
+[2017.04.06-18.41.47:611][653]LogActorFactory: Actor Factory created pipes_Line11
+[2017.04.06-18.41.56:476][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.06-18.42.01:662][318]LogActorFactory: Actor Factory created pipes_Line06
+[2017.04.06-18.42.02:374][401]LogActorFactory: Actor Factory created pipes_Line06
+[2017.04.06-18.42.08:511][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.42.10:255][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.42.12:405][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.42.16:753][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.42.17:160][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.42.23:479][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.42.24:362][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.42.35:579][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.42.36:139][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.42.48:358][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.42.48:873][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.43.01:581][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.43.01:996][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.43.06:927][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.43.07:603][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.43.10:036][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.43.10:568][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.43.33:169][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.43.34:252][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.43.34:734][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.43.35:167][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.43.35:926][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.43.38:633][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.44.00:493][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.44.06:094][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.44.06:521][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.44.50:631][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.44.51:031][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.44.52:406][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.44.59:895][456]Cmd: TRANSACTION UNDO
+[2017.04.06-18.44.59:895][456]LogEditorTransaction: Undo Set actor scale
+[2017.04.06-18.45.03:389][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.45.03:724][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.45.13:673][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.45.16:630][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.45.16:903][466]Cmd: EDIT COPY
+[2017.04.06-18.45.17:846][578]Cmd: EDIT PASTE
+[2017.04.06-18.45.32:916][351]Cmd: TRANSACTION UNDO
+[2017.04.06-18.45.32:916][351]LogEditorTransaction: Undo Rotate Actors
+[2017.04.06-18.45.40:519][253]Cmd: TRANSACTION UNDO
+[2017.04.06-18.45.40:519][253]LogEditorTransaction: Undo Rotate Actors
+[2017.04.06-18.45.41:411][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.45.42:152][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.45.43:767][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.45.43:990][638]Cmd: TRANSACTION UNDO
+[2017.04.06-18.45.43:990][638]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.06-18.45.44:437][680]Cmd: TRANSACTION UNDO
+[2017.04.06-18.45.44:437][680]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.06-18.45.44:979][738]Cmd: TRANSACTION UNDO
+[2017.04.06-18.45.44:979][738]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.06-18.45.45:398][782]Cmd: TRANSACTION UNDO
+[2017.04.06-18.45.45:399][782]LogEditorTransaction: Undo Move Actors
+[2017.04.06-18.46.25:357][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.46.27:442][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.46.28:728][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.46.30:189][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.46.31:049][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.46.34:319][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.46.35:097][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.46.36:441][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.46.37:636][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.46.39:904][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.46.41:142][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.06-18.46.41:526][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.47.12:435][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.47.15:551][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.47.31:815][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.47.32:585][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.47.33:146][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.47.34:413][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.47.35:441][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.47.37:785][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.47.40:512][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.47.42:954][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.47.44:498][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.47.49:468][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.48.03:811][ 99]LogActorFactory: Actor Factory created Wheel
+[2017.04.06-18.48.04:508][181]LogActorFactory: Actor Factory created Wheel
+[2017.04.06-18.48.06:660][432]Cmd: TRANSACTION UNDO
+[2017.04.06-18.48.06:661][432]LogEditorTransaction: Undo Create Actors
+[2017.04.06-18.48.32:005][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.48.32:543][464]LogEditorViewport: Clicking on Actor (LMB): Wheel1_C (Wheel1)
+[2017.04.06-18.48.37:097][993]Cmd: TRANSACTION UNDO
+[2017.04.06-18.48.37:097][993]LogEditorTransaction: Undo Create Actors
+[2017.04.06-18.48.44:445][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.48.45:605][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.48.46:256][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.48.52:117][724]LogMaterial:Warning: Material /Game/Assets/materials/Steal1.Steal1 needed to have new flag set bUsedWithStaticLighting !
+[2017.04.06-18.48.52:120][724]LogMaterial: Missing cached shader map for material Steal1, compiling. 
+[2017.04.06-18.48.52:120][724]LogTemp:Display: Added material ShaderMap 0x0000020D3D9FC100 with Material 0x0000020D8050D900 to ShaderMapsBeingCompiled
+[2017.04.06-18.48.52:140][724]LogTemp:Display: Kicking off shader compilation for Steal1, GameThreadShaderMap 0x0000020D3D9FC100
+[2017.04.06-18.48.52:141][724]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.06-18.48.52:819][795]Cmd: TRANSACTION UNDO
+[2017.04.06-18.48.52:819][795]LogEditorTransaction: Undo Create Actors
+[2017.04.06-18.48.53:722][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.48.54:256][927]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.48.54:349][930]LogTemp:Display: Finished compile of shader map 0x0000020D3D9FC100
+[2017.04.06-18.48.54:349][930]LogTemp:Display: Shader map Steal1 complete, GameThreadShaderMap 0x0000020D3D9FC100, marking material Steal1 as finished
+[2017.04.06-18.48.54:349][930]LogTemp:Display: Marking material as finished 0x0000020D8050D900
+[2017.04.06-18.48.55:002][  8]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.49.02:809][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.49.03:603][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.06-18.49.04:389][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.49.04:774][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.49.11:971][995]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-18.49.11:982][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.11:982][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-18.49.11:982][995]PIE: New page: PIE session: Captain (Apr 6, 2017, 10:49:11 AM)
+[2017.04.06-18.49.11:982][995]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-18.49.11:986][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004363s)
+[2017.04.06-18.49.11:987][995]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.49.11:988][995]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2017.04.06-18.49.11:988][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.005738s)
+[2017.04.06-18.49.12:010][995]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.49.12:021][995]LogInit: FAudioDevice initialized.
+[2017.04.06-18.49.12:050][995]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-18.49.12:053][995]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.06-14.49.12
+[2017.04.06-18.49.12:140][995]LogWorld: Bringing up level for play took: 0.088303
+[2017.04.06-18.49.12:142][995]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.812
+[2017.04.06-18.49.12:142][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.14:962][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.15:023][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.15:037][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.15:039][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.15:039][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.15:040][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.15:041][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.15:042][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.15:043][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.15:043][331]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.16:120][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.49.16:243][455]LogSavePackage: Save=101.00ms
+[2017.04.06-18.49.16:244][455]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain506D6C64421BA7381D602F8F39EE6C3B.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.49.16:245][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.49.16:267][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.49.16:332][455]LogSavePackage: Save=54.17ms
+[2017.04.06-18.49.16:332][455]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltDataD9022C3A4237AB7BB2628B81260023E1.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.49.16:333][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.49.24:127][389]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-18.49.24:138][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.24:138][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-18.49.24:138][389]PIE: New page: PIE session: Captain (Apr 6, 2017, 10:49:24 AM)
+[2017.04.06-18.49.24:138][389]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-18.49.24:142][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004135s)
+[2017.04.06-18.49.24:143][389]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.49.24:143][389]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2017.04.06-18.49.24:143][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.005308s)
+[2017.04.06-18.49.24:163][389]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.49.24:173][389]LogInit: FAudioDevice initialized.
+[2017.04.06-18.49.24:201][389]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-18.49.24:203][389]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.06-14.49.24
+[2017.04.06-18.49.24:290][389]LogWorld: Bringing up level for play took: 0.088220
+[2017.04.06-18.49.24:292][389]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.962
+[2017.04.06-18.49.24:292][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.30:037][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.30:096][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.49.30:111][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.30:112][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.30:113][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.30:114][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.30:115][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.30:115][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.30:116][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.49.30:117][ 76]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.50.42:421][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.50.42:541][440]LogSavePackage: Save=101.21ms
+[2017.04.06-18.50.42:541][440]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain2245ED1A45185FBE6E2E7BA59B27DEE6.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.50.42:542][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.50.42:564][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.50.42:624][440]LogSavePackage: Save=53.40ms
+[2017.04.06-18.50.42:624][440]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltData23BC3F5C44E949837EFC8AA2CC946773.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.50.42:625][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.51.05:369][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.06-18.51.05:914][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.51.08:232][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.51.08:818][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.51.09:156][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.51.09:575][ 25]Cmd: EDIT COPY
+[2017.04.06-18.51.11:860][296]Cmd: EDIT PASTE
+[2017.04.06-18.51.19:700][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.51.22:293][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.51.22:411][528]LogSavePackage: Save=99.39ms
+[2017.04.06-18.51.22:411][528]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/CaptainA757862647C1D8740F451F80A1812BD1.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.51.22:413][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.51.22:434][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.51.22:494][528]LogSavePackage: Save=53.59ms
+[2017.04.06-18.51.22:494][528]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltData43C326CC46BE61B15F6E63A57E66CAFE.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.51.22:495][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.51.26:529][978]MapCheck: New page: Map Check
+[2017.04.06-18.51.26:553][978]LightingResults: New page: Lighting Build - Apr 6, 2017, 10:51:26 AM
+[2017.04.06-18.51.26:634][978]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.06-18.51.26:705][978]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.06-18.51.26:714][978]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.06-18.51.27:223][978]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.06-18.51.27:224][978]LogSwarmInterface: [TryOpenConnection] Local Process ID is 784
+[2017.04.06-18.51.30:065][978]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.06-18.51.30:066][978]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.06-18.51.30:066][978]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.06-18.51.30:066][978]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.06-18.51.30:066][978]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.06-18.51.30:066][978]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.06-18.51.30:430][978]LogEditorBuildUtils: Build time 0:03
+[2017.04.06-18.51.30:461][979]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 05_-_Default, compiling. 
+[2017.04.06-18.51.30:462][979]LogTemp:Display: Added material ShaderMap 0x0000020D908AB900 with Material 0x0000020D556D5600 to ShaderMapsBeingCompiled
+[2017.04.06-18.51.30:464][979]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer 05_-_Default, GameThreadShaderMap 0x0000020D908AB900
+[2017.04.06-18.51.30:466][979]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer 05_-_Default, compiling. 
+[2017.04.06-18.51.30:466][979]LogTemp:Display: Added material ShaderMap 0x0000020D908AA400 with Material 0x0000020D823C0700 to ShaderMapsBeingCompiled
+[2017.04.06-18.51.30:468][979]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer 05_-_Default, GameThreadShaderMap 0x0000020D908AA400
+[2017.04.06-18.51.31:090][980]LogTemp:Display: Finished compile of shader map 0x0000020D908AA400
+[2017.04.06-18.51.31:090][980]LogTemp:Display: Shader map FLightmassMaterialRenderer 05_-_Default complete, GameThreadShaderMap 0x0000020D908AA400, marking material FLightmassMaterialRenderer 05_-_Default as finished
+[2017.04.06-18.51.31:090][980]LogTemp:Display: Marking material as finished 0x0000020D823C0700
+[2017.04.06-18.51.31:092][980]LogTemp:Display: Finished compile of shader map 0x0000020D908AB900
+[2017.04.06-18.51.31:092][980]LogTemp:Display: Shader map FLightmassMaterialRenderer 05_-_Default complete, GameThreadShaderMap 0x0000020D908AB900, marking material FLightmassMaterialRenderer 05_-_Default as finished
+[2017.04.06-18.51.31:092][980]LogTemp:Display: Marking material as finished 0x0000020D556D5600
+[2017.04.06-18.51.34:027][142]Job is a success!
+[2017.04.06-18.51.43:108][207]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-18.51.43:119][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.51.43:119][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-18.51.43:119][207]PIE: New page: PIE session: Captain (Apr 6, 2017, 10:51:43 AM)
+[2017.04.06-18.51.43:119][207]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-18.51.43:123][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004208s)
+[2017.04.06-18.51.43:124][207]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.51.43:124][207]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.04.06-18.51.43:124][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.005133s)
+[2017.04.06-18.51.43:147][207]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.51.43:158][207]LogInit: FAudioDevice initialized.
+[2017.04.06-18.51.43:190][207]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-18.51.43:192][207]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.06-14.51.43
+[2017.04.06-18.51.43:281][207]LogWorld: Bringing up level for play took: 0.089474
+[2017.04.06-18.51.43:283][207]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.048
+[2017.04.06-18.51.43:283][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.51.49:427][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.51.49:491][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.51.49:505][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.49:506][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.49:507][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.49:508][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.49:509][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.49:510][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.49:510][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.49:511][942]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.51.53:594][421]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line06)
+[2017.04.06-18.51.55:071][591]LogEditorViewport: Clicking on Actor (LMB): Wheel1_C (Wheel1)
+[2017.04.06-18.51.55:554][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line12)
+[2017.04.06-18.51.56:174][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line7)
+[2017.04.06-18.51.57:470][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line12)
+[2017.04.06-18.52.15:633][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.06-18.52.20:786][616]Cmd: TRANSACTION UNDO
+[2017.04.06-18.52.20:786][616]LogEditorTransaction: Undo Move Actors
+[2017.04.06-18.52.21:459][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.52.25:781][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line12)
+[2017.04.06-18.52.30:643][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.52.44:521][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.52.45:324][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.52.47:597][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.52.48:352][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.52.48:789][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.52.49:219][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.53.00:456][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.53.01:217][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.53.01:650][417]Cmd: EDIT COPY
+[2017.04.06-18.53.02:324][497]Cmd: EDIT PASTE
+[2017.04.06-18.53.15:449][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.53.16:285][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line13)
+[2017.04.06-18.53.27:319][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.53.31:290][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line13)
+[2017.04.06-18.53.36:137][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line11)
+[2017.04.06-18.53.37:175][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line13)
+[2017.04.06-18.53.47:254][809]Cmd: TRANSACTION UNDO
+[2017.04.06-18.53.47:254][809]LogEditorTransaction: Undo Set actor rotation
+[2017.04.06-18.53.50:194][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line13)
+[2017.04.06-18.53.50:873][228]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.06-18.54.13:275][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.54.14:659][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.54.14:784][ 61]LogSavePackage: Save=104.05ms
+[2017.04.06-18.54.14:784][ 61]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain4C33E6BD413D29343554929A58D90CBA.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.54.14:786][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.54.14:808][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.54.14:870][ 61]LogSavePackage: Save=55.16ms
+[2017.04.06-18.54.14:870][ 61]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltData5CE58D7C4EFC482D483F42963467DB2B.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.54.14:871][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.54.15:853][178]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-18.54.15:864][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.54.15:864][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-18.54.15:864][178]PIE: New page: PIE session: Captain (Apr 6, 2017, 10:54:15 AM)
+[2017.04.06-18.54.15:864][178]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-18.54.15:868][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004212s)
+[2017.04.06-18.54.15:869][178]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.54.15:869][178]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2017.04.06-18.54.15:869][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.005062s)
+[2017.04.06-18.54.15:888][178]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.54.15:899][178]LogInit: FAudioDevice initialized.
+[2017.04.06-18.54.15:927][178]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-18.54.15:930][178]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.06-14.54.15
+[2017.04.06-18.54.16:017][178]LogWorld: Bringing up level for play took: 0.088942
+[2017.04.06-18.54.16:019][178]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.689
+[2017.04.06-18.54.16:020][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.54.28:083][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.54.28:143][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.54.28:157][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.28:158][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.28:159][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.28:160][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.28:161][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.28:162][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.28:162][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.28:163][623]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.54.30:065][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pipes_Line13)
+[2017.04.06-18.54.39:210][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.54.39:769][978]Cmd: SELECT NONE
+[2017.04.06-18.54.42:994][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.54.43:118][362]LogSavePackage: Save=101.60ms
+[2017.04.06-18.54.43:118][362]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain4208AE0445CEF73E75E67A989B649ED5.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.54.43:120][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.54.43:141][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.54.43:208][362]LogSavePackage: Save=55.90ms
+[2017.04.06-18.54.43:208][362]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltData8D346C894E6160BA076E0EB3E7182495.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.54.43:209][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.54.46:881][795]LogActorFactory: Actor Factory created Gasoline_barrel
+[2017.04.06-18.54.49:453][103]LogActorFactory: Actor Factory created Gasoline_barrel
+[2017.04.06-18.55.05:015][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.55.05:813][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.55.06:100][ 72]Cmd: EDIT COPY
+[2017.04.06-18.55.09:326][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.55.09:813][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.55.12:454][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.55.12:954][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.55.13:800][965]Cmd: EDIT COPY
+[2017.04.06-18.55.14:248][ 18]Cmd: EDIT PASTE
+[2017.04.06-18.55.16:121][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.55.22:130][934]LogMaterial: Missing cached shader map for material Chopper_Mat, compiling. 
+[2017.04.06-18.55.22:131][934]LogTemp:Display: Added material ShaderMap 0x0000020D40F90B80 with Material 0x0000020D8B710B80 to ShaderMapsBeingCompiled
+[2017.04.06-18.55.22:141][934]LogTemp:Display: Kicking off shader compilation for Chopper_Mat, GameThreadShaderMap 0x0000020D40F90B80
+[2017.04.06-18.55.22:151][934]LogMaterial:Warning: Material /Game/Assets/materials/Chopper_Mat.Chopper_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.04.06-18.55.22:153][934]LogMaterial: Missing cached shader map for material Chopper_Mat, compiling. 
+[2017.04.06-18.55.22:154][934]LogTemp:Display: Added material ShaderMap 0x0000020D3DB2DD00 with Material 0x0000020D8B710B80 to ShaderMapsBeingCompiled
+[2017.04.06-18.55.22:172][934]LogTemp:Display: Kicking off shader compilation for Chopper_Mat, GameThreadShaderMap 0x0000020D3DB2DD00
+[2017.04.06-18.55.22:172][934]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.06-18.55.23:431][ 42]Cmd: TRANSACTION UNDO
+[2017.04.06-18.55.23:431][ 42]LogEditorTransaction: Undo Create Actors
+[2017.04.06-18.55.24:034][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel2)
+[2017.04.06-18.55.24:210][ 93]LogTemp:Display: Finished compile of shader map 0x0000020D40F90B80
+[2017.04.06-18.55.24:210][ 93]LogTemp:Display: Shader map Chopper_Mat complete, GameThreadShaderMap 0x0000020D40F90B80, marking material Chopper_Mat as finished
+[2017.04.06-18.55.24:210][ 93]LogTemp:Display: Marking material as finished 0x0000020D8B710B80
+[2017.04.06-18.55.25:193][183]LogTemp:Display: Finished compile of shader map 0x0000020D3DB2DD00
+[2017.04.06-18.55.25:193][183]LogTemp:Display: Shader map Chopper_Mat complete, GameThreadShaderMap 0x0000020D3DB2DD00, marking material Chopper_Mat as finished
+[2017.04.06-18.55.25:193][183]LogTemp:Display: Marking material as finished 0x0000020D8B710B80
+[2017.04.06-18.55.25:878][256]Cmd: TRANSACTION UNDO
+[2017.04.06-18.55.25:878][256]LogEditorTransaction: Undo Create Actors
+[2017.04.06-18.55.40:294][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.55.40:825][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel2)
+[2017.04.06-18.55.48:017][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.55.51:991][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel2)
+[2017.04.06-18.55.53:361][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.56.03:251][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.56.03:861][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.56.04:422][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel2)
+[2017.04.06-18.56.05:665][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Gasoline_barrel)
+[2017.04.06-18.56.12:557][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor10)
+[2017.04.06-18.56.12:935][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.56.13:056][530]LogSavePackage: Save=101.20ms
+[2017.04.06-18.56.13:056][530]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain7F0B3EE94313687A44854991A2E7723B.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.56.13:057][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.56.13:079][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.56.13:139][530]LogSavePackage: Save=53.35ms
+[2017.04.06-18.56.13:139][530]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltData2BCBB5294FCD5A096C68ADAD381CE641.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.56.13:140][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
+[2017.04.06-18.56.14:205][656]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-18.56.14:216][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.56.14:216][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-18.56.14:216][656]PIE: New page: PIE session: Captain (Apr 6, 2017, 10:56:14 AM)
+[2017.04.06-18.56.14:216][656]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-18.56.14:220][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004270s)
+[2017.04.06-18.56.14:220][656]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-18.56.14:220][656]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2017.04.06-18.56.14:221][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.005144s)
+[2017.04.06-18.56.14:240][656]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-18.56.14:250][656]LogInit: FAudioDevice initialized.
+[2017.04.06-18.56.14:279][656]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-18.56.14:281][656]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.06-14.56.14
+[2017.04.06-18.56.14:369][656]LogWorld: Bringing up level for play took: 0.089178
+[2017.04.06-18.56.14:371][656]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 1.04
+[2017.04.06-18.56.14:371][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.56.20:743][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.56.20:804][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-18.56.20:818][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.20:819][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.20:820][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.20:821][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.20:822][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.20:823][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.20:823][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.20:824][418]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-18.56.23:201][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-18.56.23:325][697]LogSavePackage: Save=104.14ms
+[2017.04.06-18.56.23:325][697]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain84E830324C91C24A74E48CBD8CF7125A.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-18.56.23:326][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-18.56.23:347][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-18.56.23:410][697]LogSavePackage: Save=55.82ms
+[2017.04.06-18.56.23:410][697]LogSavePackage: Moving '../../../../../../Submariner/final-project-submariner/Saved/Captain_BuiltData7151DF314DD59A5F7F1150BE69273593.tmp' to '../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-18.56.23:411][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Submariner/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
