@@ -4,11 +4,24 @@ var io = require('socket.io')(http);
 var util = require('util');
 var clients = [];
 
+// Interactable object states
 var buttonPress = false;
 var leverPull = false;
 var crankTurn = false;
 var handlePull = false;
 
+// Character selection variables
+var captainSelect = false;
+var gunnerSelect = false;
+var navigatorSelect = false;
+var engineerSelect = false;
+
+// Logic variables
+var gameStart = false;
+var gameOver = false;
+var deciseconds = 0;
+
+// Server events
 io.on('connection', function(socket) {
 	clients.push(socket.id);
 	var clientConnectedMsg = 'User connected ' + util.inspect(socket.id) + ', total: ' + clients.length;
@@ -44,22 +57,86 @@ io.on('connection', function(socket) {
 		console.log(data);
 		handlePull = true;
 	});
+
+	// Character selection events
+	socket.on('captain select', function(data) {
+		console.log(data);
+		captainSelect = true;
+	});
+
+	socket.on('gunner select', function(data) {
+		console.log(data);
+		gunnerSelect = true;
+	});
+
+	socket.on('navigator select', function(data) {
+		console.log(data);
+		navigatorSelect = true;
+	});
+
+	socket.on('engineer select', function(data) {
+		console.log(data);
+		engineerSelect = true;
+	});
 });
 
-var gameOver = false;
-
-//win = captain button, gunner handle, engine lever, navigator crank
-
+// The main game loop. Current logic:
+// win = captain button, gunner handle, engine lever, navigator crank all activated.
+// lose = wait 10 seconds.
 var loop = function() {
+
+	// Check for game start
+	if (captainSelect && gunnerSelect && 
+			navigatorSelect && engineerSelect) {
+		gameStart = true;
+	}
+
+	// Check for victory
 	if (buttonPress && leverPull && crankTurn && handlePull && !gameOver) {
 		gameOver = true;
 		console.log("sending win");
 		io.sockets.emit('win', { text: 'You win!' });
+
+		// Reset the game
+		resetGame();
+	}
+
+	// Check for defeat; wait for game start (all characters selected)
+	if (gameStart && deciseconds >= 100 && !gameOver) {
+
+		gameOver = true;
+		console.log("sending lose");
+		io.sockets.emit('lose', { text: 'You lose!' });
+
+		// Reset the game
+		resetGame();
+	}
+
+	// Increment timer
+	if (gameStart) {
+		deciseconds++;
 	}
 };
+setInterval(loop, 100);
 
-setInterval(loop, 1000);
+// Reset the game to its initial state.
+var resetGame = function() {
+	buttonPress = false;
+	leverPull = false;
+	crankTurn = false;
+	handlePull = false;
 
+	captainSelect = false;
+	gunnerSelect = false;
+	navigatorSelect = false;
+	engineerSelect = false;
+
+	gameStart = false;
+	gameOver = false;
+	deciseconds = 0;
+}
+
+// Launch the server.
 http.listen(3000, function() {
 	console.log('Submariner server listening on port 3000.');
 });
