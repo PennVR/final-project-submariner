@@ -1,9 +1,9 @@
-﻿Log file open, 03/30/17 00:01:21
+﻿Log file open, 04/05/17 20:52:27
 LogInit:Display: Running engine for game: Submariner
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(138809792) SRandInit(138809792).
+LogInit:Display: RandInit(2115110704) SRandInit(2115110704).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.082790
+LogStats: Stats thread started at 0.074348
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,246 +46,276 @@ LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.03.30-04.01.23:274][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.30-04.01.23:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.03.30-04.01.23:284][  0]LogInit: Computer: SIGLAB-VR5
-[2017.03.30-04.01.23:284][  0]LogInit: User: SIG
-[2017.03.30-04.01.23:284][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.03.30-04.01.23:284][  0]LogInit: High frequency timer resolution =3.604932 MHz
-[2017.03.30-04.01.23:284][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.03.30-04.01.23:284][  0]LogMemory: Platform Memory Stats for Windows
-[2017.03.30-04.01.23:284][  0]LogMemory: Process Physical Memory: 273.91 MB used, 273.91 MB peak
-[2017.03.30-04.01.23:284][  0]LogMemory: Process Virtual Memory: 270.27 MB used, 270.27 MB peak
-[2017.03.30-04.01.23:284][  0]LogMemory: Physical Memory: 11143.04 MB used,  21547.27 MB free, 32690.30 MB total
-[2017.03.30-04.01.23:284][  0]LogMemory: Virtual Memory: 697.14 MB used,  21547.27 MB free, 134217728.00 MB total
-[2017.03.30-04.01.23:359][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.03.30-04.01.23:940][  0]LogD3D11RHI: D3D11 adapters:
-[2017.03.30-04.01.23:971][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.03.30-04.01.23:971][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.03.30-04.01.23:974][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.03.30-04.01.23:974][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.03.30-04.01.23:974][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.03.30-04.01.23:978][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.03.30-04.01.23:978][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.03.30-04.01.23:978][  0]LogWindows: EnumDisplayDevices:
-[2017.03.30-04.01.23:979][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.03.30-04.01.23:979][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.03.30-04.01.23:979][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.03.30-04.01.23:979][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.03.30-04.01.23:979][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.03.30-04.01.23:979][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.03.30-04.01.23:979][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
-[2017.03.30-04.01.23:979][  0]LogD3D11RHI:      Driver Date: 1-20-2017
-[2017.03.30-04.01.23:979][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.03.30-04.01.23:992][  0]LogD3D11RHI: Async texture creation enabled
-[2017.03.30-04.01.24:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.03.30-04.01.24:090][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/SIG/Downloads/final-project-submariner/Intermediate/Shaders/WorkingDirectory/5616/).
-[2017.03.30-04.01.24:090][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/93BFDAF74FC17012A3BBF49EE5373162/'.
-[2017.03.30-04.01.24:090][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.03.30-04.01.25:047][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.03.30-04.01.25:097][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.03.30-04.01.25:147][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.03.30-04.01.25:199][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.03.30-04.01.25:251][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.03.30-04.01.25:305][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.03.30-04.01.25:357][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.03.30-04.01.25:408][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.03.30-04.01.25:449][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.03.30-04.01.25:498][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.03.30-04.01.25:552][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.03.30-04.01.25:601][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.03.30-04.01.25:649][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.03.30-04.01.25:697][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.03.30-04.01.25:746][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.03.30-04.01.25:843][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.03.30-04.01.25:843][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.03.30-04.01.25:878][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.03.30-04.01.25:968][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.03.30-04.01.25:999][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.03.30-04.01.26:048][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.03.30-04.01.26:097][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.03.30-04.01.26:146][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.03.30-04.01.26:195][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.03.30-04.01.26:195][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.03.30-04.01.26:593][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.03.30-04.01.26:646][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.03.30-04.01.26:646][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.03.30-04.01.26:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG/Downloads/final-project-submariner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.30-04.01.26:647][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.03.30-04.01.26:647][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG/Downloads/final-project-submariner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.03.30-04.01.26:647][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.03.30-04.01.26:663][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.03.30-04.01.26:675][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.03.30-04.01.26:683][  0]LogSlate: Using Freetype 2.6.0
-[2017.03.30-04.01.26:684][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.30-04.01.26:684][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.30-04.01.26:763][  0]LogModuleManager:Warning: Found module file ../../../../../../Users/SIG/Downloads/final-project-submariner/Plugins/socketio-client-ue4/Binaries/Win64/UE4Editor-SIOJPlugin.dll (API version 3106830), but it was incompatible with the current engine API version (3299760). This is likely a stale module that must be recompiled.
-[2017.03.30-04.01.26:955][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.30-04.01.26:957][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.03.30-04.01.27:139][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.03.30-04.01.27:179][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.03.30-04.01.27:220][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.03.30-04.01.27:220][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.03.30-04.01.27:220][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.03.30-04.01.27:701][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: submariner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2308320845
-[2017.03.30-04.01.27:745][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2017.03.30-04.01.27:789][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.024902 seconds
-[2017.03.30-04.01.27:794][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.03.30-04.01.27:794][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.03.30-04.01.27:794][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.03.30-04.01.27:856][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.03.30-04.01.29:388][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.03.30-04.01.29:424][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.03.30-04.01.29:906][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.03.30-04.01.30:309][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.01.30:341][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.01.30:387][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.01.30:432][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.01.31:683][  0]LogEngine: Initializing Engine...
-[2017.03.30-04.01.31:706][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.03.30-04.01.31:706][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.10.2, SDK: 1.10.0, built Mar 15 2017, 16:59:09
-[2017.03.30-04.01.31:920][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.03.30-04.01.31:929][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.30-04.01.32:046][  0]LogInit: FAudioDevice initialized.
-[2017.03.30-04.01.32:072][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.03.30-04.01.32:081][  0]LogInit: Texture streaming: Enabled
-[2017.03.30-04.01.32:168][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.03.30-04.01.32:251][  0]LogInit: Transaction tracking system initialized
-[2017.03.30-04.01.32:575][  0]BlueprintLog: New page: Editor Load
-[2017.03.30-04.01.33:399][  0]LocalizationService: Info Localization service is disabled
-[2017.03.30-04.01.34:020][  0]LogConsoleResponse:Display: 
-[2017.03.30-04.01.34:132][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.03.30-04.01.34:132][  0]LogCook:Display: Mobile HDR setting 1
-[2017.03.30-04.01.35:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/' took 0.01s
-[2017.03.30-04.01.35:073][  0]SourceControl: Info Source control is disabled
-[2017.03.30-04.01.35:073][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.30-04.01.35:073][  0]LightingResults: New page: Lighting Build
-[2017.03.30-04.01.35:111][  0]MapCheck: New page: Map Check
-[2017.03.30-04.01.35:111][  0]LightingResults: New page: Lighting Build
-[2017.03.30-04.01.35:274][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.03.30-04.01.35:275][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.03.30-04.01.35:277][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.03.30-04.01.35:278][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.03.30-04.01.35:407][  0]LogAIModule: Creating AISystem for world Captain
-[2017.03.30-04.01.35:430][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.30-04.01.35:430][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.30-04.01.35:470][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.476ms to complete.
-[2017.03.30-04.01.35:470][  0]LogFileHelpers: Loading map 'Captain' took 0.397
-[2017.03.30-04.01.35:525][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.30-04.01.35:626][  0]LogCollectionManager: Loaded 0 collections in 0.001375 seconds
-[2017.03.30-04.01.35:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Saved/Collections/' took 0.01s
-[2017.03.30-04.01.35:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/Developers/SIG/Collections/' took 0.01s
-[2017.03.30-04.01.35:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/Collections/' took 0.01s
-[2017.03.30-04.01.35:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.03.30-04.01.35:714][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2253 classes and 460 folders.
-[2017.03.30-04.01.35:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.03.30-04.01.35:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.03.30-04.01.35:775][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.03.30-04.01.35:805][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.03.30-04.01.35:844][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.03.30-04.01.35:887][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.03.30-04.01.35:892][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.03.30-04.01.35:955][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.03.30-04.01.35:955][  0]LogLoad: (Engine Initialization) Total time: 15.19 seconds
-[2017.03.30-04.01.35:955][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
-[2017.03.30-04.01.35:955][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.03.30-04.01.35:955][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.03.30-04.01.35:964][  0]LogOcInput: OculusInput pre-init called
-[2017.03.30-04.01.35:974][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
-[2017.03.30-04.01.36:017][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.03.30-04.01.36:018][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.03.30-04.01.36:021][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.03.30-04.01.36:026][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.03.30-04.01.36:131][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.03.30-04.01.36:168][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
-[2017.03.30-04.01.36:243][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SIG/Downloads/final-project-submariner/Content/' took 0.26s
-[2017.03.30-04.01.36:260][  1]LogAssetRegistry: Asset discovery search completed in 8.5371 seconds
-[2017.03.30-04.01.36:260][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2017.03.30-04.01.36:260][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2017.03.30-04.01.36:983][ 74]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.03.30-04.01.38:984][313]LogEditorViewport: Clicking on Actor (LMB): Handle_C (Handle)
-[2017.03.30-04.01.40:376][469]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.30-04.01.40:391][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.01.40:391][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.30-04.01.40:391][469]PIE: New page: PIE session: Captain (Mar 29, 2017, 8:01:40 PM)
-[2017.03.30-04.01.40:391][469]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
-[2017.03.30-04.01.40:395][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003745s)
-[2017.03.30-04.01.40:396][469]LogAIModule: Creating AISystem for world Captain
-[2017.03.30-04.01.40:396][469]LogPlayLevel: PIE: World Init took: (0.000596s)
-[2017.03.30-04.01.40:396][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.004536s)
-[2017.03.30-04.01.40:412][469]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.30-04.01.40:423][469]LogInit: FAudioDevice initialized.
-[2017.03.30-04.01.40:575][469]LogLoad: Game class is 'SubmarineGameMode_C'
-[2017.03.30-04.01.40:577][469]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.30-00.01.40
-[2017.03.30-04.01.40:621][469]LogWorld: Bringing up level for play took: 0.044616
-[2017.03.30-04.01.40:660][469]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2017.03.30-04.01.40:662][469]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.64
-[2017.03.30-04.01.40:662][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.01.42:637][702]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.01.42:683][702]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.01.42:695][702]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.01.42:696][702]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.01.42:697][702]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.01.42:698][702]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.01.56:677][931]LogEditorViewport: Clicking on Actor (LMB): Handle_C (Handle)
-[2017.03.30-04.01.58:414][131]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.03.30-04.02.12:928][786]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.03.30-04.02.12:955][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Brass2" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass2.uasset" SILENT=true
-[2017.03.30-04.02.12:980][786]LogSavePackage: Save=12.91ms
-[2017.03.30-04.02.12:980][786]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Brass2D5E2856B4FF2D99D74115E8DDECE1DD7.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass2.uasset'
-[2017.03.30-04.02.12:981][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Assets/Brass2.uasset
-[2017.03.30-04.02.13:217][814]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.30-04.02.13:232][814]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.02.13:232][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.30-04.02.13:232][814]PIE: New page: PIE session: Captain (Mar 29, 2017, 8:02:13 PM)
-[2017.03.30-04.02.13:232][814]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
-[2017.03.30-04.02.13:235][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003428s)
-[2017.03.30-04.02.13:236][814]LogAIModule: Creating AISystem for world Captain
-[2017.03.30-04.02.13:236][814]LogPlayLevel: PIE: World Init took: (0.000639s)
-[2017.03.30-04.02.13:236][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.004264s)
-[2017.03.30-04.02.13:252][814]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.30-04.02.13:262][814]LogInit: FAudioDevice initialized.
-[2017.03.30-04.02.13:291][814]LogLoad: Game class is 'SubmarineGameMode_C'
-[2017.03.30-04.02.13:293][814]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.03.30-00.02.13
-[2017.03.30-04.02.13:337][814]LogWorld: Bringing up level for play took: 0.044758
-[2017.03.30-04.02.13:339][814]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.037
-[2017.03.30-04.02.13:339][814]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.02.18:351][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.02.18:391][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
-[2017.03.30-04.02.18:401][413]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.02.18:402][413]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.02.18:403][413]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.02.18:404][413]SocketIOLog: SocketIO disconnected from namespace: /
-[2017.03.30-04.02.20:498][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.03.30-04.02.20:604][657]LogSavePackage: Save=88.47ms
-[2017.03.30-04.02.20:604][657]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Captain9C5FA1DE40E69BF1834208BC42587C15.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap'
-[2017.03.30-04.02.20:609][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain.umap
-[2017.03.30-04.02.20:641][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
-[2017.03.30-04.02.20:713][657]LogSavePackage: Save=62.83ms
-[2017.03.30-04.02.20:713][657]LogSavePackage: Moving '../../../../../../Users/SIG/Downloads/final-project-submariner/Saved/Captain_BuiltData3E5905A848681135A1D1B1A13EC490A6.tmp' to '../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
-[2017.03.30-04.02.20:714][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Downloads/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
-[2017.03.30-04.02.23:940][ 40]LogEditorViewport: Clicking on Actor (LMB): Handle_C (Handle)
-[2017.03.30-04.02.32:973][ 51]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
-[2017.03.30-04.02.33:585][ 51]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.03.30-04.02.41:148][684]LogUObjectGlobals:Warning: Failed to find object 'Class None.SIOJJsonObject'
-[2017.03.30-04.02.41:148][684]LogUObjectGlobals:Warning: Failed to find object 'Class None.SIOJJsonObject'
-[2017.03.30-04.03.00:904][ 24]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2017.03.30-04.03.00:904][ 24]LogTemp:Display: Added material ShaderMap 0x000002CD35FEF900 with Material 0x000002CD63703D00 to ShaderMapsBeingCompiled
-[2017.03.30-04.03.00:911][ 24]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x000002CD35FEF900
-[2017.03.30-04.03.00:938][ 25]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2017.03.30-04.03.00:938][ 25]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_1 for platform PCD3D_SM5, Default Material will be used in game.
-[2017.03.30-04.03.00:938][ 25]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
-[2017.03.30-04.03.00:968][ 26]LogMaterial: Missing cached shader map for material Material_2, compiling. 
-[2017.03.30-04.03.00:969][ 26]LogTemp:Display: Added material ShaderMap 0x000002CD05A4E780 with Material 0x000002CD63701C00 to ShaderMapsBeingCompiled
-[2017.03.30-04.03.00:972][ 26]LogTemp:Display: Kicking off shader compilation for Material_2, GameThreadShaderMap 0x000002CD05A4E780
-[2017.03.30-04.03.01:734][ 97]LogTemp:Display: Finished compile of shader map 0x000002CD35FEF900
-[2017.03.30-04.03.01:734][ 97]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x000002CD35FEF900, marking material Material_0 as finished
-[2017.03.30-04.03.01:734][ 97]LogTemp:Display: Marking material as finished 0x000002CD63703D00
-[2017.03.30-04.03.01:754][ 99]LogTemp:Display: Finished compile of shader map 0x000002CD05A4E780
-[2017.03.30-04.03.01:754][ 99]LogTemp:Display: Shader map Material_2 complete, GameThreadShaderMap 0x000002CD05A4E780, marking material Material_2 as finished
-[2017.03.30-04.03.01:754][ 99]LogTemp:Display: Marking material as finished 0x000002CD63701C00
+[2017.04.06-00.52.28:909][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.06-00.52.28:909][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.06-00.52.28:919][  0]LogInit: Computer: SIGLAB-VR5
+[2017.04.06-00.52.28:919][  0]LogInit: User: SIGStudent
+[2017.04.06-00.52.28:919][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.06-00.52.28:919][  0]LogInit: High frequency timer resolution =3.604933 MHz
+[2017.04.06-00.52.28:919][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.04.06-00.52.28:919][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.06-00.52.28:919][  0]LogMemory: Process Physical Memory: 273.63 MB used, 273.63 MB peak
+[2017.04.06-00.52.28:919][  0]LogMemory: Process Virtual Memory: 270.12 MB used, 270.12 MB peak
+[2017.04.06-00.52.28:919][  0]LogMemory: Physical Memory: 4725.04 MB used,  27965.26 MB free, 32690.30 MB total
+[2017.04.06-00.52.28:919][  0]LogMemory: Virtual Memory: 696.22 MB used,  27965.26 MB free, 134217728.00 MB total
+[2017.04.06-00.52.28:991][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.06-00.52.29:499][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.06-00.52.29:530][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.04.06-00.52.29:530][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.06-00.52.29:531][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.06-00.52.29:531][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.06-00.52.29:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.06-00.52.29:535][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.06-00.52.29:535][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.06-00.52.29:535][  0]LogWindows: EnumDisplayDevices:
+[2017.04.06-00.52.29:536][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.04.06-00.52.29:536][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.04.06-00.52.29:536][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.06-00.52.29:536][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.06-00.52.29:536][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.06-00.52.29:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.04.06-00.52.29:536][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.04.06-00.52.29:536][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.04.06-00.52.29:536][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.06-00.52.29:549][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.06-00.52.29:559][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.06-00.52.29:647][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/SIG Student/Documents/final-project-submariner/Intermediate/Shaders/WorkingDirectory/9232/).
+[2017.04.06-00.52.29:647][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG Student/AppData/Local/Temp/UnrealShaderWorkingDir/C37E637245D9954D107C8D88535748DD/'.
+[2017.04.06-00.52.29:647][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.06-00.52.30:579][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.06-00.52.30:629][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.06-00.52.30:679][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.06-00.52.30:729][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.06-00.52.30:779][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.06-00.52.30:828][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.06-00.52.30:878][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.06-00.52.30:928][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.06-00.52.30:969][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.06-00.52.31:017][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.06-00.52.31:065][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.06-00.52.31:114][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.06-00.52.31:162][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.06-00.52.31:211][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.06-00.52.31:259][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.06-00.52.31:357][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.06-00.52.31:357][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.06-00.52.31:391][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.06-00.52.31:480][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.06-00.52.31:512][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.06-00.52.31:561][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.06-00.52.31:609][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.06-00.52.31:658][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.06-00.52.31:707][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.06-00.52.31:707][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.06-00.52.32:091][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SIG Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.06-00.52.32:142][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG Student/Documents/final-project-submariner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.06-00.52.32:142][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG Student/Documents/final-project-submariner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.06-00.52.32:143][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.06-00.52.32:158][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.06-00.52.32:170][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.06-00.52.32:178][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.06-00.52.32:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.06-00.52.32:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.06-00.52.32:253][  0]LogModuleManager:Warning: Found module file ../../../../../../Users/SIG Student/Documents/final-project-submariner/Plugins/socketio-client-ue4/Binaries/Win64/UE4Editor-SIOJPlugin.dll (API version 3106830), but it was incompatible with the current engine API version (3299760). This is likely a stale module that must be recompiled.
+[2017.04.06-00.52.32:418][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.06-00.52.32:420][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.06-00.52.32:605][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.06-00.52.32:644][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.06-00.52.32:684][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.06-00.52.32:684][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.06-00.52.32:684][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.06-00.52.33:166][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: submariner, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2308320845
+[2017.04.06-00.52.33:211][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.04.06-00.52.33:255][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.023134 seconds
+[2017.04.06-00.52.33:259][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.06-00.52.33:259][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.06-00.52.33:259][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.06-00.52.33:317][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.06-00.52.34:723][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.06-00.52.34:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.06-00.52.35:212][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.06-00.52.35:545][  0]SourceControl: Info Source control is disabled
+[2017.04.06-00.52.35:568][  0]SourceControl: Info Source control is disabled
+[2017.04.06-00.52.35:609][  0]SourceControl: Info Source control is disabled
+[2017.04.06-00.52.35:649][  0]SourceControl: Info Source control is disabled
+[2017.04.06-00.52.36:817][  0]LogEngine: Initializing Engine...
+[2017.04.06-00.52.36:835][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.04.06-00.52.36:835][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.10.2, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.04.06-00.52.37:039][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.06-00.52.37:050][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-00.52.37:062][  0]LogInit: FAudioDevice initialized.
+[2017.04.06-00.52.37:087][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SIG Student/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.06-00.52.37:098][  0]LogInit: Texture streaming: Enabled
+[2017.04.06-00.52.37:182][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.06-00.52.37:262][  0]LogInit: Transaction tracking system initialized
+[2017.04.06-00.52.37:572][  0]BlueprintLog: New page: Editor Load
+[2017.04.06-00.52.38:344][  0]LocalizationService: Info Localization service is disabled
+[2017.04.06-00.52.38:940][  0]LogConsoleResponse:Display: 
+[2017.04.06-00.52.39:051][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.06-00.52.39:051][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.06-00.52.39:559][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/' took 0.01s
+[2017.04.06-00.52.39:966][  0]SourceControl: Info Source control is disabled
+[2017.04.06-00.52.39:966][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.06-00.52.39:966][  0]LightingResults: New page: Lighting Build
+[2017.04.06-00.52.40:004][  0]MapCheck: New page: Map Check
+[2017.04.06-00.52.40:004][  0]LightingResults: New page: Lighting Build
+[2017.04.06-00.52.40:183][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-00.52.40:185][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-00.52.40:187][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-00.52.40:187][  0]LogLinker:Warning: Asset '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.06-00.52.40:320][  0]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-00.52.40:345][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.06-00.52.40:346][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.06-00.52.40:387][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.759ms to complete.
+[2017.04.06-00.52.40:387][  0]LogFileHelpers: Loading map 'Captain' took 0.421
+[2017.04.06-00.52.40:543][  0]LogCollectionManager: Loaded 0 collections in 0.001209 seconds
+[2017.04.06-00.52.40:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Saved/Collections/' took 0.01s
+[2017.04.06-00.52.40:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/Developers/SIGStudent/Collections/' took 0.01s
+[2017.04.06-00.52.40:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/Collections/' took 0.01s
+[2017.04.06-00.52.40:619][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.06-00.52.40:627][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2253 classes and 460 folders.
+[2017.04.06-00.52.40:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.06-00.52.40:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.06-00.52.40:688][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.06-00.52.40:721][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.06-00.52.40:759][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.06-00.52.40:800][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.06-00.52.40:806][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.06-00.52.40:867][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.06-00.52.40:867][  0]LogLoad: (Engine Initialization) Total time: 14.25 seconds
+[2017.04.06-00.52.40:867][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.04.06-00.52.40:867][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.06-00.52.40:867][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.06-00.52.41:207][  0]LogOcInput: OculusInput pre-init called
+[2017.04.06-00.52.41:217][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2017.04.06-00.52.41:260][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.06-00.52.41:261][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.06-00.52.41:264][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.06-00.52.41:268][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.06-00.52.41:373][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.06-00.52.41:424][  0]LogRenderer: Reallocating scene render targets to support 1208x604 NumSamples 1 (Frame:2).
+[2017.04.06-00.52.41:540][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SIG Student/Documents/final-project-submariner/Content/' took 0.31s
+[2017.04.06-00.52.41:556][  1]LogAssetRegistry: Asset discovery search completed in 8.3659 seconds
+[2017.04.06-00.52.41:556][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.04.06-00.52.41:556][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.04.06-00.52.44:227][ 10]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-00.52.44:243][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.52.44:244][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-00.52.44:244][ 10]PIE: New page: PIE session: Captain (Apr 5, 2017, 4:52:44 PM)
+[2017.04.06-00.52.44:244][ 10]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-00.52.44:249][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004945s)
+[2017.04.06-00.52.44:249][ 10]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-00.52.44:250][ 10]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.04.06-00.52.44:250][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.005861s)
+[2017.04.06-00.52.44:270][ 10]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-00.52.44:280][ 10]LogInit: FAudioDevice initialized.
+[2017.04.06-00.52.44:461][ 10]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-00.52.44:463][ 10]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.05-20.52.44
+[2017.04.06-00.52.44:539][ 10]LogWorld: Bringing up level for play took: 0.076872
+[2017.04.06-00.52.44:577][ 10]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.04.06-00.52.44:579][ 10]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain -0.515
+[2017.04.06-00.52.44:579][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.52.46:257][198]LogBlueprintUserMessages: [Button_422] I am a button
+[2017.04.06-00.52.47:832][387]LogBlueprintUserMessages: [NavigatorCrank_332] I am a navigator crank
+[2017.04.06-00.52.50:649][725]LogBlueprintUserMessages: [EngineLever_357] I am a engine lever
+[2017.04.06-00.52.53:757][ 98]LogBlueprintUserMessages: [GunnerHandle_466] I am a gunner handle
+[2017.04.06-00.52.56:224][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.52.56:258][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.52.56:270][394]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.52.56:271][394]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.52.56:272][394]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.52.56:273][394]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.52.56:273][394]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.52.56:274][394]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.52.56:275][394]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.52.58:381][488]SocketIOLog: SocketIO Connected with session: QCWVXvYZbMeq6nHOAAAA
+[2017.04.06-00.52.58:381][488]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.58:713][489]SocketIOLog: SocketIO Connected with session: owmNdKTx_M6DmNBHAAAB
+[2017.04.06-00.52.58:713][489]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:376][491]SocketIOLog: SocketIO Connected with session: 5uRth-xYElrZHA7fAAAC
+[2017.04.06-00.52.59:376][491]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:392][493]SocketIOLog: SocketIO Connected with session: FulmpvTLoU7duRj1AAAD
+[2017.04.06-00.52.59:392][493]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:419][495]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.06-00.52.59:435][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.52.59:435][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.06-00.52.59:435][495]PIE: New page: PIE session: Captain (Apr 5, 2017, 4:52:59 PM)
+[2017.04.06-00.52.59:435][495]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Captain
+[2017.04.06-00.52.59:439][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003685s)
+[2017.04.06-00.52.59:439][495]LogAIModule: Creating AISystem for world Captain
+[2017.04.06-00.52.59:439][495]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2017.04.06-00.52.59:439][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Captain.Captain to /Game/Levels/UEDPIE_0_Captain.Captain (0.004481s)
+[2017.04.06-00.52.59:457][495]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.06-00.52.59:467][495]LogInit: FAudioDevice initialized.
+[2017.04.06-00.52.59:500][495]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.06-00.52.59:502][495]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Captain.Captain up for play (max tick rate 0) at 2017.04.05-20.52.59
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: qmWPv267qO9H6k35AAAE
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: 1zSElvQdV9L6tbgOAAAF
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: ztROTH6JPP8Q5aTvAAAG
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: tVm60ks_olw2rxTJAAAH
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: XvXoB0dPR9xC9nY9AAAI
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: VjnXBazqwJjQ-y6qAAAJ
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO Connected with session: yjpJkJbtXYVkSv_6AAAK
+[2017.04.06-00.52.59:581][495]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.52.59:581][495]LogWorld: Bringing up level for play took: 0.080111
+[2017.04.06-00.52.59:583][495]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Captain 0.489
+[2017.04.06-00.52.59:583][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.52.59:724][502]SocketIOLog: SocketIO Connected with session: kovnuimNBde7E9QwAAAL
+[2017.04.06-00.52.59:724][502]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.53.00:390][577]SocketIOLog: SocketIO Connected with session: ovYRFzELDSyQIk8RAAAM
+[2017.04.06-00.53.00:390][577]SocketIOLog: SocketIO connected to namespace: /
+[2017.04.06-00.53.01:536][714]LogBlueprintUserMessages: [Button_422] I am a button
+[2017.04.06-00.53.02:561][837]LogBlueprintUserMessages: [NavigatorCrank_332] I am a navigator crank
+[2017.04.06-00.53.05:953][244]LogBlueprintUserMessages: [EngineLever_357] I am a engine lever
+[2017.04.06-00.53.07:153][388]LogBlueprintUserMessages: [GunnerHandle_466] I am a gunner handle
+[2017.04.06-00.53.07:977][487]LogBlueprintUserMessages: [ConnectionManager_389] You win!
+[2017.04.06-00.53.11:186][872]LogBlueprintUserMessages: [Button_422] I am a button
+[2017.04.06-00.53.11:345][891]LogBlueprintUserMessages: [Button_422] I am a button
+[2017.04.06-00.53.11:819][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
+[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
+[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
+[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
+[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
+[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
+[2017.04.06-00.53.11:831][948]SocketIOLog: SocketIO Disconnected
+[2017.04.06-00.53.11:853][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Captain.Captain:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Captain.Captain:PersistentLevel.Captain' with GeneratedClass '/Game/Levels/Captain.Captain_C' with ClassGeneratedBy '/Game/Levels/Captain.Captain:PersistentLevel.Captain'
+[2017.04.06-00.53.11:863][948]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.53.11:864][948]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.53.11:865][948]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.53.11:866][948]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.53.11:866][948]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.53.11:867][948]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.53.11:868][948]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.06-00.55.46:920][ 24]LogEditorViewport: Clicking on Actor (LMB): Handle_C (Handle)
+[2017.04.06-01.02.56:076][968]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.06-01.03.05:046][ 37]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.06-01.03.05:184][ 37]LogSavePackage: Save=83.03ms
+[2017.04.06-01.03.05:185][ 37]LogSavePackage: Moving '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Captain_Auto1200C287F469D3500FBA8D8BA87A6F7B2.tmp' to '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Autosaves/Game/Levels/Captain_Auto1.umap'
+[2017.04.06-01.03.05:186][ 37]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Autosaves/Game/Levels/Captain_Auto1.umap
+[2017.04.06-01.03.05:188][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Captain' took 0.114
+[2017.04.06-01.03.05:188][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2017.04.06-01.03.28:245][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Console)
+[2017.04.06-01.04.32:972][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.06-01.04.36:011][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain" FILE="../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.06-01.04.36:099][710]LogSavePackage: Save=71.58ms
+[2017.04.06-01.04.36:099][710]LogSavePackage: Moving '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Captain1DB43CE3425B92F5BE592894D7C287D0.tmp' to '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap'
+[2017.04.06-01.04.36:101][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain.umap
+[2017.04.06-01.04.36:132][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Captain_BuiltData" FILE="../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain_BuiltData.uasset" SILENT=true
+[2017.04.06-01.04.36:204][710]LogSavePackage: Save=61.36ms
+[2017.04.06-01.04.36:204][710]LogSavePackage: Moving '../../../../../../Users/SIG Student/Documents/final-project-submariner/Saved/Captain_BuiltData86221C514572CCA3366379B8B15AEBA1.tmp' to '../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain_BuiltData.uasset'
+[2017.04.06-01.04.36:205][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Student/Documents/final-project-submariner/Content/Levels/Captain_BuiltData.uasset
