@@ -62,21 +62,25 @@ io.on('connection', function(socket) {
 	socket.on('captain select', function(data) {
 		console.log(data);
 		captainSelect = true;
+		io.sockets.emit('captain select', { text: 'Captain selected.' });
 	});
 
 	socket.on('gunner select', function(data) {
 		console.log(data);
 		gunnerSelect = true;
+		io.sockets.emit('gunner select', { text: 'Gunner selected.' });
 	});
 
 	socket.on('navigator select', function(data) {
 		console.log(data);
 		navigatorSelect = true;
+		io.sockets.emit('navigator select', { text: 'Navigator selected.' });
 	});
 
 	socket.on('engineer select', function(data) {
 		console.log(data);
 		engineerSelect = true;
+		io.sockets.emit('engineer select', { text: 'Engineer selected.' });
 	});
 });
 
