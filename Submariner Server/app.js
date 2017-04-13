@@ -2,6 +2,11 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var util = require('util');
+var exec = require('child_process').exec;
+function execute(command, callback) {
+  exec(command, function(error, stdout, stderr) { callback(stdout); });
+};
+
 var clients = [];
 
 // Interactable object states
@@ -89,35 +94,41 @@ io.on('connection', function(socket) {
 // lose = wait 10 seconds.
 var loop = function() {
 
-	// Check for game start
+	// Check for game start (all characters selected)
 	if (captainSelect && gunnerSelect && 
 			navigatorSelect && engineerSelect) {
 		gameStart = true;
 	}
 
-	// Check for victory
-	if (buttonPress && leverPull && crankTurn && handlePull && !gameOver) {
-		gameOver = true;
-		console.log("sending win");
-		io.sockets.emit('win', { text: 'You win!' });
-
-		// Reset the game
-		resetGame();
-	}
-
-	// Check for defeat; wait for game start (all characters selected)
-	if (gameStart && deciseconds >= 100 && !gameOver) {
-
-		gameOver = true;
-		console.log("sending lose");
-		io.sockets.emit('lose', { text: 'You lose!' });
-
-		// Reset the game
-		resetGame();
-	}
-
-	// Increment timer
 	if (gameStart) {
+	
+		// Generate a task
+		generateTask(function(state) {
+			console.log(state);
+		});
+	
+		// Check for victory
+		if (buttonPress && leverPull && crankTurn && handlePull && !gameOver) {
+			gameOver = true;
+			console.log("sending win");
+			io.sockets.emit('win', { text: 'You win!' });
+
+			// Reset the game
+			resetGame();
+		}
+
+		// Check for defeat
+		if (deciseconds >= 600 && !gameOver) {
+
+			gameOver = true;
+			console.log("sending lose");
+			io.sockets.emit('lose', { text: 'You lose!' });
+
+			// Reset the game
+			resetGame();
+		}
+
+		// Increment timer
 		deciseconds++;
 	}
 };
@@ -138,7 +149,14 @@ var resetGame = function() {
 	gameStart = false;
 	gameOver = false;
 	deciseconds = 0;
-}
+};
+
+// Generate a task
+var generateTask = function(callback) {
+	execute("SubmarinerHelper.exe", function(object) {
+		callback({ state: object });
+	});
+};
 
 // Launch the server.
 http.listen(3000, function() {
