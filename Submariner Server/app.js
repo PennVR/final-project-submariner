@@ -8,6 +8,7 @@ function execute(command, callback) {
 };
 
 var clients = [];
+var life = 3;
 
 // Interactable object states
 var buttonPress = false;
@@ -119,13 +120,20 @@ var loop = function() {
 
 		// Check for defeat
 		if (deciseconds >= 600 && !gameOver) {
+			life--;
+			if (life == 0) {
+				gameOver = true;
+				console.log("sending lose");
+				io.sockets.emit('lose', { text: 'You lose!' });
 
-			gameOver = true;
-			console.log("sending lose");
-			io.sockets.emit('lose', { text: 'You lose!' });
+				// Reset the game
+				resetGame();
+			} else {
+				deciseconds = 0; //reset so this can continue
+				io.sockets.emit('health_down',{ text: 'Wrong!  Your health now goes down by one.'});
+				console.log("health down");
+			}
 
-			// Reset the game
-			resetGame();
 		}
 
 		// Increment timer
