@@ -46,6 +46,7 @@ io.on('connection', function(socket) {
 	
 	socket.on('engine lever', function(data) {
 		console.log(data);
+		io.sockets.emit('depth', { text: data });
 		leverPull = true;
 	});
 
@@ -55,6 +56,7 @@ io.on('connection', function(socket) {
 
 	socket.on('navigator crank', function(data) {
 		console.log(data);
+		io.sockets.emit('direction', { text: data });
 		crankTurn = true;
 	});
 
