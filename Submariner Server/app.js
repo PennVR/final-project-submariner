@@ -196,7 +196,25 @@ var generateTask = function(callback) {
 	execute("SubmarinerHelper.exe", function(object) {
 		callback({ state: object });
 	});
+
 };
+
+var taskParser = function (completeTask) {
+	var taskComponents = completeTask.split(";");
+	var specificTask;
+	specificTask = (taskComponents[0]).split(":");
+	upperBoundDepth = parseInt(specificTask[1]);
+	specificTask = (taskComponents[1]).split(":");
+	lowerBoundDepth = parseInt(specificTask[1]);
+	specificTask = (taskComponents[2]).split(":");
+	upperBoundDirection = parseInt(specificTask[1]);
+	specificTask = (taskComponents[3]).split(":");
+	lowerBoundDirection = parseInt(specificTask[1]);
+	specificTask = (taskComponents[4]).split(":");
+	timeLimit = parseInt(specificTask[1]);
+	specificTask = (taskComponents[5]).split(":");
+	torpedoColor = specificTask[1];
+}
 
 // Launch the server.
 http.listen(3000, function() {
