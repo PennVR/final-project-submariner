@@ -203,15 +203,15 @@ var taskParser = function (completeTask) {
 	var taskComponents = completeTask.split(";");
 	var specificTask;
 	specificTask = taskComponents[0]).split(":");
-	upperBoundDepth = specificTask[1];
+	upperBoundDepth = parseInt(specificTask[1]);
 	specificTask = taskComponents[1]).split(":");
-	lowerBoundDepth = specificTask[1];
+	lowerBoundDepth = parseInt(specificTask[1]);
 	specificTask = taskComponents[2]).split(":");
-	upperBoundDirection = specificTask[1];
+	upperBoundDirection = parseInt(specificTask[1]);
 	specificTask = taskComponents[3]).split(":");
-	lowerBoundDirection = specificTask[1];
+	lowerBoundDirection = parseInt(specificTask[1]);
 	specificTask = taskComponents[4]).split(":");
-	timeLimit = specificTask[1];
+	timeLimit = parseInt(specificTask[1]);
 	specificTask = taskComponents[5]).split(":");
 	torpedoColor = specificTask[1];
 }
