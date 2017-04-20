@@ -202,17 +202,17 @@ var generateTask = function(callback) {
 var taskParser = function (completeTask) {
 	var taskComponents = completeTask.split(";");
 	var specificTask;
-	specificTask = taskComponents[0]).split(":");
+	specificTask = (taskComponents[0]).split(":");
 	upperBoundDepth = parseInt(specificTask[1]);
-	specificTask = taskComponents[1]).split(":");
+	specificTask = (taskComponents[1]).split(":");
 	lowerBoundDepth = parseInt(specificTask[1]);
-	specificTask = taskComponents[2]).split(":");
+	specificTask = (taskComponents[2]).split(":");
 	upperBoundDirection = parseInt(specificTask[1]);
-	specificTask = taskComponents[3]).split(":");
+	specificTask = (taskComponents[3]).split(":");
 	lowerBoundDirection = parseInt(specificTask[1]);
-	specificTask = taskComponents[4]).split(":");
+	specificTask = (taskComponents[4]).split(":");
 	timeLimit = parseInt(specificTask[1]);
-	specificTask = taskComponents[5]).split(":");
+	specificTask = (taskComponents[5]).split(":");
 	torpedoColor = specificTask[1];
 }
 
