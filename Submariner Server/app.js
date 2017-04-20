@@ -8,12 +8,13 @@ function execute(command, callback) {
 };
 
 var clients = [];
+var life = 3;
 
 // Interactable object states
 var buttonPress = false;
-var leverPull = false;
-var crankTurn = false;
-var handlePull = false;
+var leverPull = 0;
+var crankTurn = 0;
+var handlePull = "red";
 
 // Character selection variables
 var captainSelect = false;
@@ -24,7 +25,18 @@ var engineerSelect = false;
 // Logic variables
 var gameStart = false;
 var gameOver = false;
-var deciseconds = 0;
+var globalseconds = 0;
+var taskseconds = 0;
+var taskOver = true;
+
+// Task variables
+
+var lowerBoundDirection = 30;
+var upperBoundDirection = 80;
+var torpedoColor = "red";
+var timeLimit = 600;
+var lowerBoundDepth = 30;
+var upperBoundDepth = 80;
 
 // Server events
 io.on('connection', function(socket) {
@@ -46,7 +58,8 @@ io.on('connection', function(socket) {
 	
 	socket.on('engine lever', function(data) {
 		console.log(data);
-		leverPull = true;
+		io.sockets.emit('depth', { text: data });
+		leverPull = parseInt(data);
 	});
 
 	socket.on('handle', function(data) {
@@ -55,12 +68,13 @@ io.on('connection', function(socket) {
 
 	socket.on('navigator crank', function(data) {
 		console.log(data);
-		crankTurn = true;
+		io.sockets.emit('direction', { text: data });
+		crankTurn = parseInt(data);
 	});
 
 	socket.on('gunner handle', function(data) {
 		console.log(data);
-		handlePull = true;
+		handlePull = data;
 	});
 
 	// Character selection events
@@ -103,33 +117,59 @@ var loop = function() {
 	if (gameStart) {
 	
 		// Generate a task
-		generateTask(function(state) {
-			console.log(state);
-		});
+		if (taskOver) {
+
+			taskOver = false;
+
+			generateTask(function(state) {
+				console.log(state);
+			});
+
+			// TODO: change values for task
+		}
 	
 		// Check for victory
-		if (buttonPress && leverPull && crankTurn && handlePull && !gameOver) {
-			gameOver = true;
+		if (leverPull <= upperBoundDepth && leverPull >= lowerBoundDepth
+			&& crankTurn  <= upperBoundDirection && crankTurn >= lowerBoundDirection
+			&& handlePull.localeCompare(torpedoColor)  && taskseconds <= timeLimit && !gameOver) {
+			
+			taskOver = true;
+			taskseconds = 0;
+			console.log("task finished");
+		}
+
+		if (globalseconds >= 3600 && !gameOver) {
 			console.log("sending win");
 			io.sockets.emit('win', { text: 'You win!' });
+			gameOver = true;
 
 			// Reset the game
 			resetGame();
 		}
 
 		// Check for defeat
-		if (deciseconds >= 600 && !gameOver) {
+		if (taskseconds >= timeLimit && !gameOver) {
+			life--;
+			if (life == 0) {
+				gameOver = true;
+				console.log("sending lose");
+				io.sockets.emit('lose', { text: 'You lose!' });
 
-			gameOver = true;
-			console.log("sending lose");
-			io.sockets.emit('lose', { text: 'You lose!' });
+				// Reset the game
+				resetGame();
+			} else {
+				taskOver = true
+				taskseconds = 0;
+				console.log("task time out");
+				io.sockets.emit('health_down',{ text: 'Wrong!  Your health now goes down by one.'});
+				console.log("health down");
+			}
 
-			// Reset the game
-			resetGame();
 		}
 
 		// Increment timer
-		deciseconds++;
+		taskseconds++;
+		globalseconds++;
 	}
 };
 setInterval(loop, 100);
