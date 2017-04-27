@@ -7,8 +7,8 @@ using namespace std;
 random_device rd;     // only used once to initialise (seed) engine
 mt19937 rng(rd());    // random-number engine used (Mersenne-Twister in this case)
 uniform_int_distribution<int> color_uni(0, 2); // guaranteed unbiased
-uniform_int_distribution<int> depth_uni(20, 160);
-uniform_int_distribution<int> direction_uni(0, 359);
+uniform_int_distribution<int> depth_uni(20, 140);
+uniform_int_distribution<int> direction_uni(0, 339);
 uniform_int_distribution<int> time_uni(10, 30);
 
 // A helper tool for task generation in C++.
@@ -24,21 +24,11 @@ int main() {
 		color = "Green";
 	}
 
-	int u_depth = depth_uni(rng);
 	int l_depth = depth_uni(rng);
-	if (u_depth < l_depth) {
-		int temp = u_depth;
-		u_depth = l_depth;
-		l_depth = temp;
-	}
+	int u_depth = l_depth + 20;
 
-	int u_direction = direction_uni(rng);
 	int l_direction = direction_uni(rng);
-	if (u_direction < l_direction) {
-		int temp = u_direction;
-		u_direction = l_direction;
-		l_direction = temp;
-	}
+	int u_direction = u_direction + 20;
 
 	cout << "u_depth:" << u_depth << ";l_depth:" << l_depth
 		<< ";u_direction:" << u_direction << ";l_direction:" << l_direction
