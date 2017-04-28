@@ -8601,3 +8601,40 @@ Please see Output Log for details.
 [2017.04.28-07.04.28:482][595]LogSavePackage: Save=274.27ms
 [2017.04.28-07.04.28:482][595]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/LobbyD19FD18848391CCBA20EFAB4441CDE7E.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Levels/Lobby.umap'
 [2017.04.28-07.04.28:484][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Levels/Lobby.umap
+[2017.04.28-07.05.53:774][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2017.04.28-07.05.55:293][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Lobby" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Levels/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.28-07.05.55:585][259]LogSavePackage: Save=264.85ms
+[2017.04.28-07.05.55:585][259]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Lobby24AB546A4DDBB92F5B23D78F5BF8E08C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Levels/Lobby.umap'
+[2017.04.28-07.05.55:587][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Levels/Lobby.umap
+[2017.04.28-07.05.56:820][384]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.28-07.05.56:838][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Levels/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.04.28-07.05.56:838][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-07.05.56:838][384]PIE: New page: PIE session: Lobby (Apr 27, 2017, 11:05:56 PM)
+[2017.04.28-07.05.56:839][384]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lobby
+[2017.04.28-07.05.56:851][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011523s)
+[2017.04.28-07.05.56:851][384]LogAIModule: Creating AISystem for world Lobby
+[2017.04.28-07.05.56:852][384]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2017.04.28-07.05.56:852][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lobby.Lobby to /Game/Levels/UEDPIE_0_Lobby.Lobby (0.012719s)
+[2017.04.28-07.05.56:880][384]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-07.05.56:895][384]LogInit: FAudioDevice initialized.
+[2017.04.28-07.05.56:928][384]LogLoad: Game class is 'SubmarineGameMode_C'
+[2017.04.28-07.05.56:935][384]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lobby.Lobby up for play (max tick rate 0) at 2017.04.28-03.05.56
+[2017.04.28-07.05.56:936][384]LogWorld: Bringing up level for play took: 0.005878
+[2017.04.28-07.05.56:938][384]LogBlueprintUserMessages: [Lobby_C_1] Event bound
+[2017.04.28-07.05.57:005][384]SocketIOLog: SocketIO failed to connect.
+[2017.04.28-07.05.57:005][384]SocketIOLog: SocketIO failed to connect.
+[2017.04.28-07.05.57:005][384]SocketIOLog: SocketIO failed to connect.
+[2017.04.28-07.05.57:005][384]SocketIOLog: SocketIO failed to connect.
+[2017.04.28-07.05.57:005][384]SocketIOLog: SocketIO failed to connect.
+[2017.04.28-07.05.57:005][384]SocketIOLog: SocketIO failed to connect.
+[2017.04.28-07.05.57:005][384]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Lobby -0.777
+[2017.04.28-07.05.57:006][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Levels/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.04.28-07.05.59:414][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Levels/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.04.28-07.05.59:493][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/Levels/Lobby.Lobby_C' with ClassGeneratedBy '/Game/Levels/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.04.28-07.05.59:513][667]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.28-07.05.59:513][667]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.28-07.05.59:513][667]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.28-07.05.59:514][667]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.28-07.05.59:514][667]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.28-07.05.59:514][667]SocketIOLog: SocketIO disconnected from namespace: /
+[2017.04.28-07.06.49:772][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
