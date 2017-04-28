@@ -8638,3 +8638,814 @@ Please see Output Log for details.
 [2017.04.28-07.05.59:514][667]SocketIOLog: SocketIO disconnected from namespace: /
 [2017.04.28-07.05.59:514][667]SocketIOLog: SocketIO disconnected from namespace: /
 [2017.04.28-07.06.49:772][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.28-07.09.12:410][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
+[2017.04.28-07.09.17:654][849]LogMaterial: Missing cached shader map for material Soda_can_Print_color_Mat, compiling. 
+[2017.04.28-07.09.17:655][849]LogTemp:Display: Added material ShaderMap 0x00000159BAF1E400 with Material 0x0000015A1F9FDA80 to ShaderMapsBeingCompiled
+[2017.04.28-07.09.17:674][849]LogTemp:Display: Kicking off shader compilation for Soda_can_Print_color_Mat, GameThreadShaderMap 0x00000159BAF1E400
+[2017.04.28-07.09.17:674][849]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.28-07.09.17:690][849]LogTemp:Display: Removed shader map 0x00000159ECD9F200 from material 0x00000159C11C9480
+[2017.04.28-07.09.17:696][849]LogMaterial: Missing cached shader map for material Soda_can_Print_color_Mat, compiling. 
+[2017.04.28-07.09.17:697][849]LogTemp:Display: Added material ShaderMap 0x0000015A56DD5D00 with Material 0x00000159C233A980 to ShaderMapsBeingCompiled
+[2017.04.28-07.09.17:713][849]LogTemp:Display: Kicking off shader compilation for Soda_can_Print_color_Mat, GameThreadShaderMap 0x0000015A56DD5D00
+[2017.04.28-07.09.17:715][849]LogMaterial: Missing cached shader map for material Soda_can_Print_color_Mat, compiling. 
+[2017.04.28-07.09.17:716][849]LogTemp:Display: Added material ShaderMap 0x00000159CFC03900 with Material 0x00000159C233A980 to ShaderMapsBeingCompiled
+[2017.04.28-07.09.17:728][849]LogTemp:Display: Kicking off shader compilation for Soda_can_Print_color_Mat, GameThreadShaderMap 0x00000159CFC03900
+[2017.04.28-07.09.17:730][849]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.28-07.09.17:748][849]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Soda_can_Print_color_Mat, compiling. 
+[2017.04.28-07.09.17:748][849]LogTemp:Display: Added material ShaderMap 0x00000159D7F7B900 with Material 0x0000015A45DB4A00 to ShaderMapsBeingCompiled
+[2017.04.28-07.09.18:510][849]LogTemp:Display: Finished compile of shader map 0x00000159D7F7B900
+[2017.04.28-07.09.18:510][849]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Soda_can_Print_color_Mat complete, GameThreadShaderMap 0x00000159D7F7B900, marking material FDebugViewModeMaterialProxy Soda_can_Print_color_Mat as finished
+[2017.04.28-07.09.18:510][849]LogTemp:Display: Marking material as finished 0x0000015A45DB4A00
+[2017.04.28-07.09.18:515][849]TextureStreamingBuild:Display: Compiling optional shaders took 0.773 seconds.
+[2017.04.28-07.09.19:755][849]LogSavePackage: Save=4.49ms
+[2017.04.28-07.09.19:755][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Airplane_Cabin_Window_Panel_00176DB39464CED3342FE30D898C5FD0DEB.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Airplane_Cabin_Window_Panel_001.uasset'
+[2017.04.28-07.09.19:758][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Airplane_Cabin_Window_Panel_001.uasset
+[2017.04.28-07.09.19:767][849]LogSavePackage: Save=4.09ms
+[2017.04.28-07.09.19:767][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Component_2_00353A518C943027BAF158EACB0AF3C1068.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Component_2_003.uasset'
+[2017.04.28-07.09.19:770][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Component_2_003.uasset
+[2017.04.28-07.09.19:778][849]LogSavePackage: Save=3.78ms
+[2017.04.28-07.09.19:778][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Component_2_0044DB2C3C145896319A7D9AAA1C76C96DA.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Component_2_004.uasset'
+[2017.04.28-07.09.19:780][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Component_2_004.uasset
+[2017.04.28-07.09.19:788][849]LogSavePackage: Save=3.93ms
+[2017.04.28-07.09.19:788][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_00183CBE77F4681DB3E7FF7A5A619B6CF9D.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_001.uasset'
+[2017.04.28-07.09.19:791][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_001.uasset
+[2017.04.28-07.09.19:799][849]LogSavePackage: Save=3.80ms
+[2017.04.28-07.09.19:799][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_002C9126C8C40C47B001A84DAB1FBF2C13C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_002.uasset'
+[2017.04.28-07.09.19:802][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_002.uasset
+[2017.04.28-07.09.19:811][849]LogSavePackage: Save=3.75ms
+[2017.04.28-07.09.19:811][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_004853D092643C0683024C8EF895C2FAFA9.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_004.uasset'
+[2017.04.28-07.09.19:814][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_004.uasset
+[2017.04.28-07.09.19:821][849]LogSavePackage: Save=3.70ms
+[2017.04.28-07.09.19:821][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_007C8D7AEC14C5F993A1B4C26AEE471258D.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_007.uasset'
+[2017.04.28-07.09.19:824][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_007.uasset
+[2017.04.28-07.09.19:832][849]LogSavePackage: Save=3.88ms
+[2017.04.28-07.09.19:832][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_009B277E7F14F6DE692AA0065842B517050.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_009.uasset'
+[2017.04.28-07.09.19:835][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_009.uasset
+[2017.04.28-07.09.19:844][849]LogSavePackage: Save=3.78ms
+[2017.04.28-07.09.19:844][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_001A4ABC09A42AD34DCF595129290E9A7E4.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_001.uasset'
+[2017.04.28-07.09.19:847][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_001.uasset
+[2017.04.28-07.09.19:855][849]LogSavePackage: Save=3.76ms
+[2017.04.28-07.09.19:855][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_002ABB9C5874E9EBFB3AE67368C5C920E5F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_002.uasset'
+[2017.04.28-07.09.19:858][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_002.uasset
+[2017.04.28-07.09.19:866][849]LogSavePackage: Save=3.50ms
+[2017.04.28-07.09.19:866][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_003200488B3496E34B82C7B00A73FF6BE95.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_003.uasset'
+[2017.04.28-07.09.19:869][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_003.uasset
+[2017.04.28-07.09.19:877][849]LogSavePackage: Save=3.77ms
+[2017.04.28-07.09.19:877][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_004A6BB778447587FFD179362B0C63D2EDB.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_004.uasset'
+[2017.04.28-07.09.19:880][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_004.uasset
+[2017.04.28-07.09.19:888][849]LogSavePackage: Save=4.37ms
+[2017.04.28-07.09.19:888][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_005CBDD4BA8426CE187F4FF16A3EE767AE3.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_005.uasset'
+[2017.04.28-07.09.19:891][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_005.uasset
+[2017.04.28-07.09.19:900][849]LogSavePackage: Save=3.88ms
+[2017.04.28-07.09.19:900][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_006ECFDC14B457D7B679AB6C88BE247E0F6.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_006.uasset'
+[2017.04.28-07.09.19:902][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_006.uasset
+[2017.04.28-07.09.19:911][849]LogSavePackage: Save=3.73ms
+[2017.04.28-07.09.19:911][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_007EE894E454A91FADA510E5194B7C4C697.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_007.uasset'
+[2017.04.28-07.09.19:914][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_007.uasset
+[2017.04.28-07.09.19:922][849]LogSavePackage: Save=4.41ms
+[2017.04.28-07.09.19:922][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_008FD9AA41041ADEA5ABEA34782D9107DC0.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_008.uasset'
+[2017.04.28-07.09.19:925][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_008.uasset
+[2017.04.28-07.09.19:933][849]LogSavePackage: Save=4.24ms
+[2017.04.28-07.09.19:933][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_009AF04A09049B48990834CD595901579CA.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_009.uasset'
+[2017.04.28-07.09.19:936][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_009.uasset
+[2017.04.28-07.09.19:944][849]LogSavePackage: Save=3.86ms
+[2017.04.28-07.09.19:944][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_010275A8EF24A8D841CAE39069A2BDC5B76.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_010.uasset'
+[2017.04.28-07.09.19:947][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_010.uasset
+[2017.04.28-07.09.19:954][849]LogSavePackage: Save=3.65ms
+[2017.04.28-07.09.19:954][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_011DF9EC50648BBF16062B9AC9D28697B96.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_011.uasset'
+[2017.04.28-07.09.19:957][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_011.uasset
+[2017.04.28-07.09.19:965][849]LogSavePackage: Save=3.72ms
+[2017.04.28-07.09.19:965][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0126F9A19C34919F599E860B5AB0A0ABB2F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_012.uasset'
+[2017.04.28-07.09.19:968][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_012.uasset
+[2017.04.28-07.09.19:977][849]LogSavePackage: Save=3.74ms
+[2017.04.28-07.09.19:977][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_013AB6C6A8549BAC5FA614B028D2252E856.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_013.uasset'
+[2017.04.28-07.09.19:980][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_013.uasset
+[2017.04.28-07.09.19:988][849]LogSavePackage: Save=3.98ms
+[2017.04.28-07.09.19:988][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_014D3F1B3AE4D088861D707A7B597685F4A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_014.uasset'
+[2017.04.28-07.09.19:991][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_014.uasset
+[2017.04.28-07.09.19:998][849]LogSavePackage: Save=3.57ms
+[2017.04.28-07.09.19:998][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0150E0C71664E78C3C4BCF90698BE143E4B.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_015.uasset'
+[2017.04.28-07.09.20:001][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_015.uasset
+[2017.04.28-07.09.20:010][849]LogSavePackage: Save=3.84ms
+[2017.04.28-07.09.20:010][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0169467FDE546AB5B51016A42994AFDFBB7.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_016.uasset'
+[2017.04.28-07.09.20:013][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_016.uasset
+[2017.04.28-07.09.20:021][849]LogSavePackage: Save=4.03ms
+[2017.04.28-07.09.20:021][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_017298212A642CED807102B81B10C30B446.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_017.uasset'
+[2017.04.28-07.09.20:023][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_017.uasset
+[2017.04.28-07.09.20:031][849]LogSavePackage: Save=3.89ms
+[2017.04.28-07.09.20:031][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_018425D66F34A7D470B5B60ADBAD80CD98C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_018.uasset'
+[2017.04.28-07.09.20:034][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_018.uasset
+[2017.04.28-07.09.20:044][849]LogSavePackage: Save=3.90ms
+[2017.04.28-07.09.20:044][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0199C175FB541125D1A2F5C7C8BDE2B4F08.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_019.uasset'
+[2017.04.28-07.09.20:047][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_019.uasset
+[2017.04.28-07.09.20:055][849]LogSavePackage: Save=4.22ms
+[2017.04.28-07.09.20:055][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0209B8BC8724414F6D3A5073CBF1CF280E2.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_020.uasset'
+[2017.04.28-07.09.20:058][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_020.uasset
+[2017.04.28-07.09.20:066][849]LogSavePackage: Save=4.18ms
+[2017.04.28-07.09.20:066][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_021EB5FBEE241A525268FE38AAB66691508.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_021.uasset'
+[2017.04.28-07.09.20:069][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_021.uasset
+[2017.04.28-07.09.20:077][849]LogSavePackage: Save=4.24ms
+[2017.04.28-07.09.20:077][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0229E6D7A504AF3704643A7F38A96472487.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_022.uasset'
+[2017.04.28-07.09.20:080][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_022.uasset
+[2017.04.28-07.09.20:088][849]LogSavePackage: Save=3.95ms
+[2017.04.28-07.09.20:088][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0237098C3704FD5AE9DFF42A4BF5920F358.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_023.uasset'
+[2017.04.28-07.09.20:091][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_023.uasset
+[2017.04.28-07.09.20:099][849]LogSavePackage: Save=3.68ms
+[2017.04.28-07.09.20:099][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_024A24FFEAD492320BC35BD178EB547DC1F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_024.uasset'
+[2017.04.28-07.09.20:101][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_024.uasset
+[2017.04.28-07.09.20:111][849]LogSavePackage: Save=4.28ms
+[2017.04.28-07.09.20:111][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_025605588CB4F50A4A321D5D992312F17B7.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_025.uasset'
+[2017.04.28-07.09.20:113][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_025.uasset
+[2017.04.28-07.09.20:121][849]LogSavePackage: Save=4.01ms
+[2017.04.28-07.09.20:121][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_026D836EE93487413E5BC20138713C5CA41.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_026.uasset'
+[2017.04.28-07.09.20:124][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_026.uasset
+[2017.04.28-07.09.20:131][849]LogSavePackage: Save=3.73ms
+[2017.04.28-07.09.20:131][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0279EB6342A429A3A4AA2D68694531CA85F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_027.uasset'
+[2017.04.28-07.09.20:134][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_027.uasset
+[2017.04.28-07.09.20:144][849]LogSavePackage: Save=3.79ms
+[2017.04.28-07.09.20:144][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_36_0283E45B116445B206675D12783827EA92D.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_028.uasset'
+[2017.04.28-07.09.20:147][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_36_028.uasset
+[2017.04.28-07.09.20:155][849]LogSavePackage: Save=4.80ms
+[2017.04.28-07.09.20:155][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_38_00183B7632645620F96F2F389BF066F7F4F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_001.uasset'
+[2017.04.28-07.09.20:158][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_001.uasset
+[2017.04.28-07.09.20:166][849]LogSavePackage: Save=3.90ms
+[2017.04.28-07.09.20:166][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_38_002B468BF0649EBC24BB9911DA1A05B4DE8.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_002.uasset'
+[2017.04.28-07.09.20:169][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_002.uasset
+[2017.04.28-07.09.20:177][849]LogSavePackage: Save=3.89ms
+[2017.04.28-07.09.20:177][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_38_0036708C2EC4EFCFBC5DDEA2BA9DA6B3B2C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_003.uasset'
+[2017.04.28-07.09.20:179][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_003.uasset
+[2017.04.28-07.09.20:187][849]LogSavePackage: Save=3.91ms
+[2017.04.28-07.09.20:187][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_38_004219E60B649D5C81827D048AD5D49D6B8.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_004.uasset'
+[2017.04.28-07.09.20:189][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_38_004.uasset
+[2017.04.28-07.09.20:197][849]LogSavePackage: Save=3.89ms
+[2017.04.28-07.09.20:197][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_39_00196462212494189C3A9D195988EB39D80.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_001.uasset'
+[2017.04.28-07.09.20:200][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_001.uasset
+[2017.04.28-07.09.20:211][849]LogSavePackage: Save=4.13ms
+[2017.04.28-07.09.20:211][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_39_002C843DB9242BC6799EAC96A96AEC57A59.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_002.uasset'
+[2017.04.28-07.09.20:214][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_002.uasset
+[2017.04.28-07.09.20:222][849]LogSavePackage: Save=4.03ms
+[2017.04.28-07.09.20:222][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_39_003F10217D548440B5445BF79B9D8E642D7.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_003.uasset'
+[2017.04.28-07.09.20:225][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_003.uasset
+[2017.04.28-07.09.20:232][849]LogSavePackage: Save=3.83ms
+[2017.04.28-07.09.20:232][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_39_004FDC45B994229D17910720D81B68A16C0.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_004.uasset'
+[2017.04.28-07.09.20:235][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_39_004.uasset
+[2017.04.28-07.09.20:244][849]LogSavePackage: Save=3.88ms
+[2017.04.28-07.09.20:244][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_40_0012E9DA8A74CC777A9E96EF09E44BD87BC.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_001.uasset'
+[2017.04.28-07.09.20:246][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_001.uasset
+[2017.04.28-07.09.20:254][849]LogSavePackage: Save=4.12ms
+[2017.04.28-07.09.20:254][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_40_002A21E1163403C0F87929449BD7621700A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_002.uasset'
+[2017.04.28-07.09.20:257][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_002.uasset
+[2017.04.28-07.09.20:265][849]LogSavePackage: Save=3.70ms
+[2017.04.28-07.09.20:265][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_40_003EA17B66145A7AC2048D9978284127E2C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_003.uasset'
+[2017.04.28-07.09.20:267][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_003.uasset
+[2017.04.28-07.09.20:277][849]LogSavePackage: Save=3.68ms
+[2017.04.28-07.09.20:277][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_40_0044C978F9F4601404305EB1194C1CCEC48.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_004.uasset'
+[2017.04.28-07.09.20:280][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_40_004.uasset
+[2017.04.28-07.09.20:288][849]LogSavePackage: Save=4.09ms
+[2017.04.28-07.09.20:288][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_41_0016D6D17524A00454C807CACBA0D403515.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_001.uasset'
+[2017.04.28-07.09.20:290][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_001.uasset
+[2017.04.28-07.09.20:298][849]LogSavePackage: Save=3.98ms
+[2017.04.28-07.09.20:298][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_41_002DC951E404407DAE1AFB8DA8AA2F16958.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_002.uasset'
+[2017.04.28-07.09.20:301][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_002.uasset
+[2017.04.28-07.09.20:311][849]LogSavePackage: Save=3.77ms
+[2017.04.28-07.09.20:311][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_41_0037F458CFB4F124DE5592878B0DB48D8CE.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_003.uasset'
+[2017.04.28-07.09.20:314][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_003.uasset
+[2017.04.28-07.09.20:322][849]LogSavePackage: Save=4.12ms
+[2017.04.28-07.09.20:322][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_41_004B305D3054F862BDA894373B5B4903866.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_004.uasset'
+[2017.04.28-07.09.20:325][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_41_004.uasset
+[2017.04.28-07.09.20:332][849]LogSavePackage: Save=3.77ms
+[2017.04.28-07.09.20:332][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_42_001A5E6568542FDD767D79247BFC1F859D4.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_001.uasset'
+[2017.04.28-07.09.20:335][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_001.uasset
+[2017.04.28-07.09.20:344][849]LogSavePackage: Save=3.84ms
+[2017.04.28-07.09.20:344][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_42_00292BB21B443560005A46EE7A96FBE4715.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_002.uasset'
+[2017.04.28-07.09.20:346][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_002.uasset
+[2017.04.28-07.09.20:353][849]LogSavePackage: Save=3.84ms
+[2017.04.28-07.09.20:353][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_42_003EE5D048045886CB8037FCC9A1A9D3C01.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_003.uasset'
+[2017.04.28-07.09.20:356][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_003.uasset
+[2017.04.28-07.09.20:365][849]LogSavePackage: Save=4.07ms
+[2017.04.28-07.09.20:365][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_42_004DF89D8E946C5B7D424C716A4171EE819.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_004.uasset'
+[2017.04.28-07.09.20:368][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_42_004.uasset
+[2017.04.28-07.09.20:377][849]LogSavePackage: Save=4.22ms
+[2017.04.28-07.09.20:377][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_43_001BE8C535140DD7EDE308833B747071A1B.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_001.uasset'
+[2017.04.28-07.09.20:380][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_001.uasset
+[2017.04.28-07.09.20:388][849]LogSavePackage: Save=4.39ms
+[2017.04.28-07.09.20:388][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_43_00270771D184FCC892383E3439DAA5EF35B.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_002.uasset'
+[2017.04.28-07.09.20:391][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_002.uasset
+[2017.04.28-07.09.20:399][849]LogSavePackage: Save=4.03ms
+[2017.04.28-07.09.20:399][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_43_003C98349D24FA6684D377192BAE6031EDD.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_003.uasset'
+[2017.04.28-07.09.20:402][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_003.uasset
+[2017.04.28-07.09.20:410][849]LogSavePackage: Save=3.86ms
+[2017.04.28-07.09.20:410][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Group_43_0048F8A69D640F49EBB14B69DB747F574AC.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_004.uasset'
+[2017.04.28-07.09.20:413][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Group_43_004.uasset
+[2017.04.28-07.09.20:421][849]LogSavePackage: Save=3.97ms
+[2017.04.28-07.09.20:421][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/3d-model_Layer0_0012EBC6E4847EA57D7AADC7EADCEA11F8A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Layer0_001.uasset'
+[2017.04.28-07.09.20:424][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/3d-model_Layer0_001.uasset
+[2017.04.28-07.09.20:432][849]LogSavePackage: Save=3.83ms
+[2017.04.28-07.09.20:432][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/metalFCA3D04A480002E5F03F09AC80DB0B4A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/metal.uasset'
+[2017.04.28-07.09.20:434][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/metal.uasset
+[2017.04.28-07.09.20:444][849]LogSavePackage: Save=3.91ms
+[2017.04.28-07.09.20:444][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/metalwall00B28DD3499FD78A6A4BC28EA3149F42.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/metalwall.uasset'
+[2017.04.28-07.09.20:447][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/metalwall.uasset
+[2017.04.28-07.09.20:454][849]LogSavePackage: Save=3.69ms
+[2017.04.28-07.09.20:454][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong191EC7CAEE4B6558E89C5117B71C605E6C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong19.uasset'
+[2017.04.28-07.09.20:457][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong19.uasset
+[2017.04.28-07.09.20:465][849]LogSavePackage: Save=3.75ms
+[2017.04.28-07.09.20:465][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong2126A8830E44B98EE6D93CC9968935A832.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong21.uasset'
+[2017.04.28-07.09.20:467][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong21.uasset
+[2017.04.28-07.09.20:478][849]LogSavePackage: Save=3.90ms
+[2017.04.28-07.09.20:478][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong225CCE4D444C93FB06A46A04A26747B0E4.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong22.uasset'
+[2017.04.28-07.09.20:481][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong22.uasset
+[2017.04.28-07.09.20:488][849]LogSavePackage: Save=3.92ms
+[2017.04.28-07.09.20:488][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong23CA9B92704CE660BC5C4C9984D79E7F86.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong23.uasset'
+[2017.04.28-07.09.20:492][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong23.uasset
+[2017.04.28-07.09.20:500][849]LogSavePackage: Save=3.69ms
+[2017.04.28-07.09.20:500][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong25329A649D4FEEC7C15D3394ABA63816AC.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong25.uasset'
+[2017.04.28-07.09.20:502][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong25.uasset
+[2017.04.28-07.09.20:510][849]LogSavePackage: Save=3.98ms
+[2017.04.28-07.09.20:510][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong26C12505764EA8907BE8EB7F95FDD7AD8A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong26.uasset'
+[2017.04.28-07.09.20:513][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong26.uasset
+[2017.04.28-07.09.20:520][849]LogSavePackage: Save=3.88ms
+[2017.04.28-07.09.20:520][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong281A149764416C838E372C38885D1A8B67.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong28.uasset'
+[2017.04.28-07.09.20:522][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong28.uasset
+[2017.04.28-07.09.20:531][849]LogSavePackage: Save=4.43ms
+[2017.04.28-07.09.20:531][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong29FE4CF60B4AB77712A771A38670FD316B.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong29.uasset'
+[2017.04.28-07.09.20:533][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong29.uasset
+[2017.04.28-07.09.20:544][849]LogSavePackage: Save=3.51ms
+[2017.04.28-07.09.20:544][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong31D41F44644B298542F8ED5E9805D32EBD.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong31.uasset'
+[2017.04.28-07.09.20:546][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong31.uasset
+[2017.04.28-07.09.20:554][849]LogSavePackage: Save=3.84ms
+[2017.04.28-07.09.20:554][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong333E4EEAFE41F84C7FBBF17B90415B90B1.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong33.uasset'
+[2017.04.28-07.09.20:558][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong33.uasset
+[2017.04.28-07.09.20:566][849]LogSavePackage: Save=3.75ms
+[2017.04.28-07.09.20:566][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong352707692D4A777FFAE940F7A84E468420.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong35.uasset'
+[2017.04.28-07.09.20:569][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong35.uasset
+[2017.04.28-07.09.20:578][849]LogSavePackage: Save=3.84ms
+[2017.04.28-07.09.20:578][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong3617C081CC411EC0D5AE781E94A5617026.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong36.uasset'
+[2017.04.28-07.09.20:582][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong36.uasset
+[2017.04.28-07.09.20:589][849]LogSavePackage: Save=3.82ms
+[2017.04.28-07.09.20:589][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/phong37285FB119412FB6A326FF06B6D1331F7E.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong37.uasset'
+[2017.04.28-07.09.20:592][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/aeroplane/phong37.uasset
+[2017.04.28-07.09.20:600][849]LogTemp:Display: Finished compile of shader map 0x00000159CFC03900
+[2017.04.28-07.09.20:600][849]LogTemp:Display: Shader map Soda_can_Print_color_Mat complete, GameThreadShaderMap 0x00000159CFC03900, marking material Soda_can_Print_color_Mat as finished
+[2017.04.28-07.09.20:600][849]LogTemp:Display: Marking material as finished 0x00000159C233A980
+[2017.04.28-07.09.20:602][849]LogTemp:Display: Finished compile of shader map 0x00000159BAF1E400
+[2017.04.28-07.09.20:602][849]LogTemp:Display: Shader map Soda_can_Print_color_Mat complete, GameThreadShaderMap 0x00000159BAF1E400, marking material Soda_can_Print_color_Mat as finished
+[2017.04.28-07.09.20:602][849]LogTemp:Display: Marking material as finished 0x0000015A1F9FDA80
+[2017.04.28-07.09.20:653][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/Book_2" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Book_2.uasset" SILENT=true
+[2017.04.28-07.09.20:668][849]LogSavePackage: Save=13.33ms
+[2017.04.28-07.09.20:668][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Book_2635750B94C03D746099691973F19A214.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Book_2.uasset'
+[2017.04.28-07.09.20:670][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Book_2.uasset
+[2017.04.28-07.09.20:700][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/Cables" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Cables.uasset" SILENT=true
+[2017.04.28-07.09.20:715][849]LogSavePackage: Save=14.15ms
+[2017.04.28-07.09.20:715][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/CablesA69E562B41328B5F42D7349BB76DFEE6.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Cables.uasset'
+[2017.04.28-07.09.20:718][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Cables.uasset
+[2017.04.28-07.09.20:762][849]LogSavePackage: Save=13.57ms
+[2017.04.28-07.09.20:762][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/cables_tm171acb4oao1m_1E6ADE8F0436A65CD54A841A0916C864A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/cables_tm171acb4oao1m_1.uasset'
+[2017.04.28-07.09.20:764][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/cables_tm171acb4oao1m_1.uasset
+[2017.04.28-07.09.20:772][849]LogSavePackage: Save=3.90ms
+[2017.04.28-07.09.20:772][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_0015FC5B1CE4A51B7BD99F141B1E3FF4A47.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_001.uasset'
+[2017.04.28-07.09.20:774][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_001.uasset
+[2017.04.28-07.09.20:783][849]LogSavePackage: Save=3.80ms
+[2017.04.28-07.09.20:783][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_002F506EA7B459E3DD111B42E8604870975.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_002.uasset'
+[2017.04.28-07.09.20:785][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_002.uasset
+[2017.04.28-07.09.20:794][849]LogSavePackage: Save=3.87ms
+[2017.04.28-07.09.20:794][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_003154AA34042C2461588D5288A2258270D.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_003.uasset'
+[2017.04.28-07.09.20:796][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_003.uasset
+[2017.04.28-07.09.20:804][849]LogSavePackage: Save=3.96ms
+[2017.04.28-07.09.20:804][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_0047455C721424D061A20990DA84E07A183.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_004.uasset'
+[2017.04.28-07.09.20:806][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_004.uasset
+[2017.04.28-07.09.20:815][849]LogSavePackage: Save=4.01ms
+[2017.04.28-07.09.20:815][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_0052CF65BC24BF533451C1B5E8FC6CDFCCE.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_005.uasset'
+[2017.04.28-07.09.20:817][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_005.uasset
+[2017.04.28-07.09.20:827][849]LogSavePackage: Save=3.60ms
+[2017.04.28-07.09.20:827][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_00615CB034347784A44100338AA5BA7F8BC.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_006.uasset'
+[2017.04.28-07.09.20:830][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_006.uasset
+[2017.04.28-07.09.20:838][849]LogSavePackage: Save=3.91ms
+[2017.04.28-07.09.20:838][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_0079588D2C74DD5B688B2D984AFA1E3AC9F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_007.uasset'
+[2017.04.28-07.09.20:840][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_007.uasset
+[2017.04.28-07.09.20:848][849]LogSavePackage: Save=3.80ms
+[2017.04.28-07.09.20:848][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Airplane_Cabin_Window_Panel_008A584420A4625DD49A38E9BB522EE0CC0.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_008.uasset'
+[2017.04.28-07.09.20:851][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Airplane_Cabin_Window_Panel_008.uasset
+[2017.04.28-07.09.20:856][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Group_003" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_003.uasset" SILENT=true
+[2017.04.28-07.09.20:861][849]LogSavePackage: Save=3.97ms
+[2017.04.28-07.09.20:861][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Group_003646583644270B0BF334FBC9B5F91A718.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_003.uasset'
+[2017.04.28-07.09.20:864][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_003.uasset
+[2017.04.28-07.09.20:866][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Group_004" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_004.uasset" SILENT=true
+[2017.04.28-07.09.20:871][849]LogSavePackage: Save=3.65ms
+[2017.04.28-07.09.20:871][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Group_00432FD549A4C6BA62112FF1AB98BC07C38.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_004.uasset'
+[2017.04.28-07.09.20:873][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_004.uasset
+[2017.04.28-07.09.20:876][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Group_005" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_005.uasset" SILENT=true
+[2017.04.28-07.09.20:881][849]LogSavePackage: Save=3.64ms
+[2017.04.28-07.09.20:881][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Group_0057F2F123E4852EC05E4BB4288F2C1580D.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_005.uasset'
+[2017.04.28-07.09.20:883][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_005.uasset
+[2017.04.28-07.09.20:889][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Group_006" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_006.uasset" SILENT=true
+[2017.04.28-07.09.20:894][849]LogSavePackage: Save=3.91ms
+[2017.04.28-07.09.20:894][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Group_00684848EAC412581C069E959819D2D83B9.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_006.uasset'
+[2017.04.28-07.09.20:896][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_006.uasset
+[2017.04.28-07.09.20:898][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Group_007" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_007.uasset" SILENT=true
+[2017.04.28-07.09.20:904][849]LogSavePackage: Save=3.80ms
+[2017.04.28-07.09.20:904][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Group_007CFC6D3AA4FFC4C678CCE7398F35172AF.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_007.uasset'
+[2017.04.28-07.09.20:906][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_007.uasset
+[2017.04.28-07.09.20:909][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Group_008" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_008.uasset" SILENT=true
+[2017.04.28-07.09.20:914][849]LogSavePackage: Save=3.78ms
+[2017.04.28-07.09.20:914][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Group_0082D80CEF246958C9A0C00EE9289256429.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_008.uasset'
+[2017.04.28-07.09.20:916][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_008.uasset
+[2017.04.28-07.09.20:921][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Group_009" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_009.uasset" SILENT=true
+[2017.04.28-07.09.20:926][849]LogSavePackage: Save=3.63ms
+[2017.04.28-07.09.20:926][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Group_009CD1DD24D439886F2B18AB7AEB05334E8.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_009.uasset'
+[2017.04.28-07.09.20:929][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Group_009.uasset
+[2017.04.28-07.09.20:931][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_001" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_001.uasset" SILENT=true
+[2017.04.28-07.09.20:936][849]LogSavePackage: Save=3.67ms
+[2017.04.28-07.09.20:936][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_0012CC9679740E2DCE1DDE61E8E1B0A85FF.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_001.uasset'
+[2017.04.28-07.09.20:939][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_001.uasset
+[2017.04.28-07.09.20:946][849]LogSavePackage: Save=3.65ms
+[2017.04.28-07.09.20:946][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_001_ncl1_1BA8261714A810D199BA753A9C15A7A82.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_001_ncl1_1.uasset'
+[2017.04.28-07.09.20:949][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_001_ncl1_1.uasset
+[2017.04.28-07.09.20:961][849]LogSavePackage: Save=3.88ms
+[2017.04.28-07.09.20:961][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_001_ncl1_286E878C9404D31D6A2466D9F60B0F0C4.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_001_ncl1_2.uasset'
+[2017.04.28-07.09.20:964][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_001_ncl1_2.uasset
+[2017.04.28-07.09.20:969][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_002" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_002.uasset" SILENT=true
+[2017.04.28-07.09.20:979][849]LogSavePackage: Save=7.04ms
+[2017.04.28-07.09.20:979][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_002D8B5D6D841E9EC93285C08923F5D3691.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_002.uasset'
+[2017.04.28-07.09.20:982][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_002.uasset
+[2017.04.28-07.09.20:991][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_003" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_003.uasset" SILENT=true
+[2017.04.28-07.09.20:998][849]LogSavePackage: Save=5.42ms
+[2017.04.28-07.09.20:998][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_003F89F7FA84C20A19BB9B4E7964E507A79.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_003.uasset'
+[2017.04.28-07.09.21:001][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_003.uasset
+[2017.04.28-07.09.21:006][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_004" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_004.uasset" SILENT=true
+[2017.04.28-07.09.21:012][849]LogSavePackage: Save=4.26ms
+[2017.04.28-07.09.21:012][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_0040A1AF6164290F0699C9019A94DC5A636.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_004.uasset'
+[2017.04.28-07.09.21:014][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_004.uasset
+[2017.04.28-07.09.21:021][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_005" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_005.uasset" SILENT=true
+[2017.04.28-07.09.21:027][849]LogSavePackage: Save=3.84ms
+[2017.04.28-07.09.21:027][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_005B574B5B441832876683E5BB32EC551F2.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_005.uasset'
+[2017.04.28-07.09.21:030][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_005.uasset
+[2017.04.28-07.09.21:035][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_006" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_006.uasset" SILENT=true
+[2017.04.28-07.09.21:041][849]LogSavePackage: Save=4.68ms
+[2017.04.28-07.09.21:041][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_006F0A1EF604FDA2CE53679C98C561A5828.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_006.uasset'
+[2017.04.28-07.09.21:045][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_006.uasset
+[2017.04.28-07.09.21:050][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_007" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_007.uasset" SILENT=true
+[2017.04.28-07.09.21:056][849]LogSavePackage: Save=4.55ms
+[2017.04.28-07.09.21:056][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_007EAC9DCB44B2214734AA8CA9DD89623BD.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_007.uasset'
+[2017.04.28-07.09.21:059][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_007.uasset
+[2017.04.28-07.09.21:064][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_008" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_008.uasset" SILENT=true
+[2017.04.28-07.09.21:071][849]LogSavePackage: Save=5.24ms
+[2017.04.28-07.09.21:071][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_008810D9A0C4001BA12B1A079A0A232768A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_008.uasset'
+[2017.04.28-07.09.21:075][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_008.uasset
+[2017.04.28-07.09.21:080][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_009" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_009.uasset" SILENT=true
+[2017.04.28-07.09.21:089][849]LogSavePackage: Save=6.94ms
+[2017.04.28-07.09.21:089][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_0098613EE86453110685EFB8BB8F6217C98.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_009.uasset'
+[2017.04.28-07.09.21:093][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_009.uasset
+[2017.04.28-07.09.21:097][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_010" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_010.uasset" SILENT=true
+[2017.04.28-07.09.21:103][849]LogSavePackage: Save=4.12ms
+[2017.04.28-07.09.21:103][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_01026EDCBDD49FA25EDEBD7A3BF5FB354D0.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_010.uasset'
+[2017.04.28-07.09.21:107][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_010.uasset
+[2017.04.28-07.09.21:110][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_011" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_011.uasset" SILENT=true
+[2017.04.28-07.09.21:117][849]LogSavePackage: Save=5.05ms
+[2017.04.28-07.09.21:117][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_011220D17484D67B342A398F591FC557A92.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_011.uasset'
+[2017.04.28-07.09.21:119][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_011.uasset
+[2017.04.28-07.09.21:125][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_012" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_012.uasset" SILENT=true
+[2017.04.28-07.09.21:131][849]LogSavePackage: Save=4.22ms
+[2017.04.28-07.09.21:131][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_01275E508E244FF0E73299B3484B7951D13.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_012.uasset'
+[2017.04.28-07.09.21:134][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_012.uasset
+[2017.04.28-07.09.21:140][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_013" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_013.uasset" SILENT=true
+[2017.04.28-07.09.21:147][849]LogSavePackage: Save=4.60ms
+[2017.04.28-07.09.21:147][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_0137736861E4C23DF587F6391A3ED501030.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_013.uasset'
+[2017.04.28-07.09.21:151][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_013.uasset
+[2017.04.28-07.09.21:163][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_014" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_014.uasset" SILENT=true
+[2017.04.28-07.09.21:168][849]LogSavePackage: Save=4.04ms
+[2017.04.28-07.09.21:168][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_014B40C910A411C1417A876EDBC070BC359.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_014.uasset'
+[2017.04.28-07.09.21:171][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_014.uasset
+[2017.04.28-07.09.21:176][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_015" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_015.uasset" SILENT=true
+[2017.04.28-07.09.21:183][849]LogSavePackage: Save=4.57ms
+[2017.04.28-07.09.21:183][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_01574A00E864B65D5D3C98AFDAAA9722878.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_015.uasset'
+[2017.04.28-07.09.21:186][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_015.uasset
+[2017.04.28-07.09.21:192][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_016" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_016.uasset" SILENT=true
+[2017.04.28-07.09.21:198][849]LogSavePackage: Save=3.74ms
+[2017.04.28-07.09.21:198][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_016D40390B540FFE46FBD19E99B87E48748.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_016.uasset'
+[2017.04.28-07.09.21:200][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_016.uasset
+[2017.04.28-07.09.21:206][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_017" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_017.uasset" SILENT=true
+[2017.04.28-07.09.21:212][849]LogSavePackage: Save=4.43ms
+[2017.04.28-07.09.21:212][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_017909ECD464EAF240457BE37AD0FE16955.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_017.uasset'
+[2017.04.28-07.09.21:216][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_017.uasset
+[2017.04.28-07.09.21:224][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_018" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_018.uasset" SILENT=true
+[2017.04.28-07.09.21:230][849]LogSavePackage: Save=4.49ms
+[2017.04.28-07.09.21:230][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_01859CCB81D4E616A3784FE84915A0E87FD.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_018.uasset'
+[2017.04.28-07.09.21:233][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_018.uasset
+[2017.04.28-07.09.21:240][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/dbl_Layer0_019" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_019.uasset" SILENT=true
+[2017.04.28-07.09.21:247][849]LogSavePackage: Save=4.65ms
+[2017.04.28-07.09.21:247][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_019DC36E9E74EDB9096E0AF398DA31BBA99.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_019.uasset'
+[2017.04.28-07.09.21:250][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_019.uasset
+[2017.04.28-07.09.21:265][849]LogSavePackage: Save=4.40ms
+[2017.04.28-07.09.21:265][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/dbl_Layer0_019_ncl1_112D3D72A43643E1ADD3DBA99FE7D8CF2.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_019_ncl1_1.uasset'
+[2017.04.28-07.09.21:267][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/dbl_Layer0_019_ncl1_1.uasset
+[2017.04.28-07.09.21:309][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/Diet_soda" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Diet_soda.uasset" SILENT=true
+[2017.04.28-07.09.21:324][849]LogSavePackage: Save=13.31ms
+[2017.04.28-07.09.21:324][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Diet_soda993C17764CF9835389E0F4AA0B7844CC.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Diet_soda.uasset'
+[2017.04.28-07.09.21:326][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Diet_soda.uasset
+[2017.04.28-07.09.21:357][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/double_chair" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/double_chair.uasset" SILENT=true
+[2017.04.28-07.09.21:374][849]LogSavePackage: Save=15.31ms
+[2017.04.28-07.09.21:374][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/double_chairA584D7AD471B72A5057383ACB2871372.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/double_chair.uasset'
+[2017.04.28-07.09.21:376][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/double_chair.uasset
+[2017.04.28-07.09.21:423][849]LogSavePackage: Save=15.68ms
+[2017.04.28-07.09.21:424][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/double_chair_final36BE1AD141A73D22BB9463A5DB062190.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/double_chair_final.uasset'
+[2017.04.28-07.09.21:426][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/double_chair_final.uasset
+[2017.04.28-07.09.21:470][849]LogSavePackage: Save=13.59ms
+[2017.04.28-07.09.21:470][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/electricity_box_MeshA81CDDB4404CCC00B86CD29BD403261A.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/electricity_box_Mesh.uasset'
+[2017.04.28-07.09.21:472][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/electricity_box_Mesh.uasset
+[2017.04.28-07.09.21:517][849]LogSavePackage: Save=14.52ms
+[2017.04.28-07.09.21:517][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/fish_crate_final1FBDFE4F49BE7974ADDD4D83927D7D13.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fish_crate_final.uasset'
+[2017.04.28-07.09.21:519][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fish_crate_final.uasset
+[2017.04.28-07.09.21:564][849]LogSavePackage: Save=13.41ms
+[2017.04.28-07.09.21:564][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/fishcrate_CrateA4C1A54648A8D6F29378E799F4A4BCFC.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Crate.uasset'
+[2017.04.28-07.09.21:566][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Crate.uasset
+[2017.04.28-07.09.21:596][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/fishcrate_Fish" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Fish.uasset" SILENT=true
+[2017.04.28-07.09.21:611][849]LogSavePackage: Save=13.26ms
+[2017.04.28-07.09.21:611][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/fishcrate_FishEF7EC012439890F113E9099CFA041DA4.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Fish.uasset'
+[2017.04.28-07.09.21:613][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Fish.uasset
+[2017.04.28-07.09.21:649][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/fishcrate_Mat" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Mat.uasset" SILENT=true
+[2017.04.28-07.09.21:664][849]LogSavePackage: Save=14.18ms
+[2017.04.28-07.09.21:664][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/fishcrate_Mat42B4C0D54C0C5051FD98CFADB9E7DB64.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Mat.uasset'
+[2017.04.28-07.09.21:667][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_Mat.uasset
+[2017.04.28-07.09.21:680][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/fishcrate_n" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_n.uasset" SILENT=true
+[2017.04.28-07.09.21:695][849]LogSavePackage: Save=13.92ms
+[2017.04.28-07.09.21:695][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/fishcrate_nC330F3B840F9DB236933909F8353725D.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_n.uasset'
+[2017.04.28-07.09.21:697][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/fishcrate_n.uasset
+[2017.04.28-07.09.21:707][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/FuseBox0051_L" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/FuseBox0051_L.uasset" SILENT=true
+[2017.04.28-07.09.22:489][849]LogSavePackage: Save=779.54ms
+[2017.04.28-07.09.22:489][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/FuseBox0051_LFAC491D84526CA0C1FD3F387FCE7C3FB.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/FuseBox0051_L.uasset'
+[2017.04.28-07.09.22:491][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/FuseBox0051_L.uasset
+[2017.04.28-07.09.22:541][849]LogSavePackage: Save=17.73ms
+[2017.04.28-07.09.22:541][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/FuseBox0051_L_MatFD5E556A4BF69E899121A19EC522BB0C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/FuseBox0051_L_Mat.uasset'
+[2017.04.28-07.09.22:543][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/FuseBox0051_L_Mat.uasset
+[2017.04.28-07.09.22:573][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/lambert1" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/lambert1.uasset" SILENT=true
+[2017.04.28-07.09.22:589][849]LogSavePackage: Save=14.93ms
+[2017.04.28-07.09.22:589][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/lambert1A55B1DEE4C7F42EB49784088F593572C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/lambert1.uasset'
+[2017.04.28-07.09.22:591][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/lambert1.uasset
+[2017.04.28-07.09.22:594][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/lightcage10b-z" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/lightcage10b-z.uasset" SILENT=true
+[2017.04.28-07.09.22:615][849]LogSavePackage: Save=8.03ms
+[2017.04.28-07.09.22:615][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/lightcage10b-z129A2742438F86297A87E3ABE5815967.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/lightcage10b-z.uasset'
+[2017.04.28-07.09.22:619][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/lightcage10b-z.uasset
+[2017.04.28-07.09.22:664][849]LogSavePackage: Save=14.43ms
+[2017.04.28-07.09.22:664][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Material_00__fishcrate_tga395F2EA5436564E6009F269B1F286E4B.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Material_00__fishcrate_tga.uasset'
+[2017.04.28-07.09.22:666][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Material_00__fishcrate_tga.uasset
+[2017.04.28-07.09.22:694][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/Mesh_Book_2Mat" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Mesh_Book_2Mat.uasset" SILENT=true
+[2017.04.28-07.09.22:710][849]LogSavePackage: Save=14.50ms
+[2017.04.28-07.09.22:710][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Mesh_Book_2Mat07851BC24D94D4B3F5AE1BB2CD489BF6.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Mesh_Book_2Mat.uasset'
+[2017.04.28-07.09.22:712][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Mesh_Book_2Mat.uasset
+[2017.04.28-07.09.22:740][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/Print" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Print.uasset" SILENT=true
+[2017.04.28-07.09.22:756][849]LogSavePackage: Save=14.14ms
+[2017.04.28-07.09.22:756][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/PrintB31BF7194FCE74B0C51E6482328EE043.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Print.uasset'
+[2017.04.28-07.09.22:758][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Print.uasset
+[2017.04.28-07.09.22:787][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/single_chair" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/single_chair.uasset" SILENT=true
+[2017.04.28-07.09.22:804][849]LogSavePackage: Save=15.21ms
+[2017.04.28-07.09.22:804][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/single_chair39BAB15446BF6614BBB923B72F36C6FB.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/single_chair.uasset'
+[2017.04.28-07.09.22:806][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/single_chair.uasset
+[2017.04.28-07.09.22:853][849]LogSavePackage: Save=16.35ms
+[2017.04.28-07.09.22:853][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/single_chair_finalBDAE866345B70B18FB55739739BC1A09.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/single_chair_final.uasset'
+[2017.04.28-07.09.22:855][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/single_chair_final.uasset
+[2017.04.28-07.09.23:778][849]LogSavePackage: Save=909.31ms
+[2017.04.28-07.09.23:778][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Soda_can_Print_color2D063F0A4BBFDEFE192A76B24AB7E226.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_color.uasset'
+[2017.04.28-07.09.23:780][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_color.uasset
+[2017.04.28-07.09.23:839][849]LogSavePackage: Save=15.83ms
+[2017.04.28-07.09.23:839][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Soda_can_Print_color_Mat6E4698A842C3E23DF71BCA81E2EC992C.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_color_Mat.uasset'
+[2017.04.28-07.09.23:842][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_color_Mat.uasset
+[2017.04.28-07.09.24:467][849]LogSavePackage: Save=613.52ms
+[2017.04.28-07.09.24:467][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Soda_can_Print_metalness61DFCCC64B7CB6B03FC6B895C44A0EF6.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_metalness.uasset'
+[2017.04.28-07.09.24:469][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_metalness.uasset
+[2017.04.28-07.09.25:285][849]LogSavePackage: Save=800.99ms
+[2017.04.28-07.09.25:285][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Soda_can_Print_rough348A2B5B472820D240865AB078974644.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_rough.uasset'
+[2017.04.28-07.09.25:287][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Soda_can_Print_rough.uasset
+[2017.04.28-07.09.25:298][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/texture_book_2" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/texture_book_2.uasset" SILENT=true
+[2017.04.28-07.09.25:443][849]LogSavePackage: Save=143.65ms
+[2017.04.28-07.09.25:443][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/texture_book_2031F07AC43C5E64DCE294D890080BA6F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/texture_book_2.uasset'
+[2017.04.28-07.09.25:445][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/texture_book_2.uasset
+[2017.04.28-07.09.25:493][849]LogSavePackage: Save=16.57ms
+[2017.04.28-07.09.25:493][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/texture_book_2_Mat5843E3A6418DBEC99FA37EBBD9E7CE05.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/texture_book_2_Mat.uasset'
+[2017.04.28-07.09.25:495][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/texture_book_2_Mat.uasset
+[2017.04.28-07.09.25:542][849]LogSavePackage: Save=14.47ms
+[2017.04.28-07.09.25:542][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/tm171acb4oao1m_color_2C3E12D0A47B126E259BD118F25F739FC.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/tm171acb4oao1m_color_2.uasset'
+[2017.04.28-07.09.25:544][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/tm171acb4oao1m_color_2.uasset
+[2017.04.28-07.09.25:575][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Decorative/Wheel" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Wheel.uasset" SILENT=true
+[2017.04.28-07.09.25:591][849]LogSavePackage: Save=14.81ms
+[2017.04.28-07.09.25:591][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Wheel39480BE041DBE872D30663A95B412EFA.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Wheel.uasset'
+[2017.04.28-07.09.25:593][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Wheel.uasset
+[2017.04.28-07.09.25:640][849]LogSavePackage: Save=13.90ms
+[2017.04.28-07.09.25:640][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Wood_Grain_Light07FA02A841CE5DEEE1FD9C851A308D0F.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Wood_Grain_Light.uasset'
+[2017.04.28-07.09.25:641][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/Decorative/Wood_Grain_Light.uasset
+[2017.04.28-07.09.25:651][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/leagues" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/leagues.uasset" SILENT=true
+[2017.04.28-07.09.25:751][849]LogSavePackage: Save=98.57ms
+[2017.04.28-07.09.25:751][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/leagues00472BDB49D2F31F80DE00AEDB2F7DC0.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/leagues.uasset'
+[2017.04.28-07.09.25:753][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/leagues.uasset
+[2017.04.28-07.09.25:782][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/leagues_Mat" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/leagues_Mat.uasset" SILENT=true
+[2017.04.28-07.09.25:802][849]LogSavePackage: Save=17.84ms
+[2017.04.28-07.09.25:802][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/leagues_Mat64E572D0418FE8FB6F5EFAA55D6FD260.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/leagues_Mat.uasset'
+[2017.04.28-07.09.25:804][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/leagues_Mat.uasset
+[2017.04.28-07.09.25:806][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/metal_flat" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/metal_flat.uasset" SILENT=true
+[2017.04.28-07.09.25:826][849]LogSavePackage: Save=6.02ms
+[2017.04.28-07.09.25:826][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/metal_flat601DC77C401B1FFE1BDE00A86018B553.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/metal_flat.uasset'
+[2017.04.28-07.09.25:828][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/metal_flat.uasset
+[2017.04.28-07.09.25:838][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/warning" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/warning.uasset" SILENT=true
+[2017.04.28-07.09.25:872][849]LogSavePackage: Save=32.83ms
+[2017.04.28-07.09.25:872][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/warning80E1F5BF480D42EFAAC934B41E353F89.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/warning.uasset'
+[2017.04.28-07.09.25:874][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/warning.uasset
+[2017.04.28-07.09.25:903][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/materials/warning_Mat" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/warning_Mat.uasset" SILENT=true
+[2017.04.28-07.09.25:921][849]LogSavePackage: Save=15.96ms
+[2017.04.28-07.09.25:921][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/warning_Mat471B856E4C5DB596F4231DA635B91114.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/warning_Mat.uasset'
+[2017.04.28-07.09.25:923][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/materials/warning_Mat.uasset
+[2017.04.28-07.09.25:953][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/METAL_FLOORING_Mat2" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/METAL_FLOORING_Mat2.uasset" SILENT=true
+[2017.04.28-07.09.25:972][849]LogSavePackage: Save=17.68ms
+[2017.04.28-07.09.25:972][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/METAL_FLOORING_Mat244ABB3FC4FCE5AEAFB451D8DFFDE4C94.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/METAL_FLOORING_Mat2.uasset'
+[2017.04.28-07.09.25:974][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Assets/METAL_FLOORING_Mat2.uasset
+[2017.04.28-07.09.25:976][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Light" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Blueprints/Light.uasset" SILENT=true
+[2017.04.28-07.09.26:002][849]LogSavePackage: Save=13.00ms
+[2017.04.28-07.09.26:002][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Light46EC62BE4564150FA449C8B6DD217224.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Blueprints/Light.uasset'
+[2017.04.28-07.09.26:004][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Blueprints/Light.uasset
+[2017.04.28-07.09.26:007][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Ladder" FILE="../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Meshes/Ladder.uasset" SILENT=true
+[2017.04.28-07.09.26:014][849]LogSavePackage: Save=5.37ms
+[2017.04.28-07.09.26:014][849]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Saved/Ladder497C6EA64A1CEAF3EE5EDF8B29117138.tmp' to '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Meshes/Ladder.uasset'
+[2017.04.28-07.09.26:016][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/Meshes/Ladder.uasset
+[2017.04.28-07.09.26:189][849]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.28-07.09.26:500][850]Cmd: QUIT_EDITOR
+[2017.04.28-07.09.28:583][850]LogExit: Preparing to exit.
+[2017.04.28-07.09.29:186][850]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG Admin/Desktop/final-project-submariner/Content/' was aborted.
+[2017.04.28-07.09.29:264][850]LogExit: Editor shut down
+[2017.04.28-07.09.29:266][850]LogExit: Transaction tracking system shut down
+[2017.04.28-07.09.29:370][850]LogTemp:Display: Removed shader map 0x0000015A44911980 from material 0x0000015A1F9FDA80
+[2017.04.28-07.09.29:370][850]LogTemp:Display: Removed shader map 0x0000015A40EAE080 from material 0x0000015A1F9FDA80
+[2017.04.28-07.09.29:397][850]LogTemp:Display: Removed shader map 0x0000015A893FEE80 from material 0x0000015A893EE980
+[2017.04.28-07.09.29:398][850]LogTemp:Display: Removed shader map 0x00000159CD999600 from material 0x0000015A947E0700
+[2017.04.28-07.09.29:430][850]LogTemp:Display: Removed shader map 0x0000015A56DD5D00 from material 0x00000159C233A980
+[2017.04.28-07.09.29:450][850]LogTemp:Display: Removed shader map 0x00000159C3140800 from material 0x00000159E3C4AC80
+[2017.04.28-07.09.30:011][850]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.28-07.09.30:011][850]LogExit: Object subsystem successfully closed.
+[2017.04.28-07.09.30:098][850]LogD3D11RHI: Shutdown
+[2017.04.28-07.09.30:098][850]LogD3D11RHI: CleanupD3DDevice
+[2017.04.28-07.09.30:498][850]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.28-07.09.30:542][850]LogModuleManager: Shutting down and abandoning module MaterialEditor (512)
+[2017.04.28-07.09.30:542][850]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (510)
+[2017.04.28-07.09.30:542][850]LogModuleManager: Shutting down and abandoning module TextureEditor (508)
+[2017.04.28-07.09.30:543][850]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.04.28-07.09.30:543][850]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
+[2017.04.28-07.09.30:543][850]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
+[2017.04.28-07.09.30:543][850]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
+[2017.04.28-07.09.30:543][850]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
+[2017.04.28-07.09.30:543][850]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.28-07.09.30:550][850]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
+[2017.04.28-07.09.30:550][850]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
+[2017.04.28-07.09.30:550][850]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
+[2017.04.28-07.09.30:551][850]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG Admin/Desktop/final-project-submariner/Content/Collections/' was aborted.
+[2017.04.28-07.09.30:551][850]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG Admin/Desktop/final-project-submariner/Content/Developers/SIGAdmin/Collections/' was aborted.
+[2017.04.28-07.09.30:551][850]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG Admin/Desktop/final-project-submariner/Saved/Collections/' was aborted.
+[2017.04.28-07.09.30:551][850]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (484)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module ActorPickerMode (482)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module GeometryMode (480)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module TextureAlignMode (478)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module BspMode (476)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module HardwareSurvey (474)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (472)
+[2017.04.28-07.09.30:552][850]LogModuleManager: Shutting down and abandoning module AutomationWorker (470)
+[2017.04.28-07.09.30:553][850]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (468)
+[2017.04.28-07.09.30:553][850]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (466)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module PlacementMode (465)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (462)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (460)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module MfMediaFactory (458)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module MfMediaEditor (456)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (454)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (452)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (450)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module Media (449)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (446)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module CharacterAI (444)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module AudioCapture (442)
+[2017.04.28-07.09.30:554][850]LogModuleManager: Shutting down and abandoning module SequenceRecorder (441)
+[2017.04.28-07.09.30:555][850]LogModuleManager: Shutting down and abandoning module SmartSnapping (438)
+[2017.04.28-07.09.30:555][850]LogModuleManager: Shutting down and abandoning module SessionServices (436)
+[2017.04.28-07.09.30:555][850]LogModuleManager: Shutting down and abandoning module ViewportSnapping (434)
+[2017.04.28-07.09.30:555][850]LogModuleManager: Shutting down and abandoning module ViewportInteraction (432)
+[2017.04.28-07.09.30:555][850]LogModuleManager: Shutting down and abandoning module LogVisualizer (430)
+[2017.04.28-07.09.30:557][850]LogModuleManager: Shutting down and abandoning module IntroTutorials (428)
+[2017.04.28-07.09.30:557][850]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (427)
+[2017.04.28-07.09.30:558][850]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (424)
+[2017.04.28-07.09.30:558][850]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (422)
+[2017.04.28-07.09.30:558][850]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (420)
+[2017.04.28-07.09.30:558][850]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (418)
+[2017.04.28-07.09.30:559][850]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (417)
+[2017.04.28-07.09.31:421][850]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (414)
+[2017.04.28-07.09.31:421][850]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (412)
+[2017.04.28-07.09.31:421][850]LogModuleManager: Shutting down and abandoning module InputBindingEditor (410)
+[2017.04.28-07.09.31:422][850]LogModuleManager: Shutting down and abandoning module NiagaraEditor (408)
+[2017.04.28-07.09.31:423][850]LogModuleManager: Shutting down and abandoning module MergeActors (406)
+[2017.04.28-07.09.31:424][850]LogModuleManager: Shutting down and abandoning module SizeMap (404)
+[2017.04.28-07.09.31:424][850]LogModuleManager: Shutting down and abandoning module TreeMap (402)
+[2017.04.28-07.09.31:425][850]LogModuleManager: Shutting down and abandoning module ReferenceViewer (400)
+[2017.04.28-07.09.31:425][850]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (398)
+[2017.04.28-07.09.31:425][850]LogModuleManager: Shutting down and abandoning module LocalizationService (397)
+[2017.04.28-07.09.31:426][850]LogModuleManager: Shutting down and abandoning module HardwareTargeting (394)
+[2017.04.28-07.09.31:426][850]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (392)
+[2017.04.28-07.09.31:426][850]LogModuleManager: Shutting down and abandoning module UndoHistory (390)
+[2017.04.28-07.09.31:427][850]LogModuleManager: Shutting down and abandoning module UserFeedback (388)
+[2017.04.28-07.09.31:427][850]LogModuleManager: Shutting down and abandoning module XmlParser (386)
+[2017.04.28-07.09.31:427][850]LogModuleManager: Shutting down and abandoning module Blutility (384)
+[2017.04.28-07.09.31:427][850]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (382)
+[2017.04.28-07.09.31:427][850]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (381)
+[2017.04.28-07.09.31:427][850]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (378)
+[2017.04.28-07.09.31:427][850]LogModuleManager: Shutting down and abandoning module SettingsEditor (376)
+[2017.04.28-07.09.31:428][850]LogModuleManager: Shutting down and abandoning module ProjectLauncher (374)
+[2017.04.28-07.09.31:429][850]LogModuleManager: Shutting down and abandoning module SessionFrontend (372)
+[2017.04.28-07.09.31:429][850]LogModuleManager: Shutting down and abandoning module ProfilerClient (370)
+[2017.04.28-07.09.31:430][850]LogModuleManager: Shutting down and abandoning module DeviceManager (368)
+[2017.04.28-07.09.31:431][850]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (367)
+[2017.04.28-07.09.31:486][850]LogModuleManager: Shutting down and abandoning module AutomationController (364)
+[2017.04.28-07.09.31:487][850]LogModuleManager: Shutting down and abandoning module AutomationWindow (362)
+[2017.04.28-07.09.31:488][850]LogModuleManager: Shutting down and abandoning module Layers (360)
+[2017.04.28-07.09.31:489][850]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (358)
+[2017.04.28-07.09.31:489][850]LogModuleManager: Shutting down and abandoning module DetailCustomizations (356)
+[2017.04.28-07.09.31:490][850]LogModuleManager: Shutting down and abandoning module PackagesDialog (354)
+[2017.04.28-07.09.31:490][850]LogModuleManager: Shutting down and abandoning module Persona (352)
+[2017.04.28-07.09.31:491][850]LogModuleManager: Shutting down and abandoning module AnimGraph (351)
+[2017.04.28-07.09.31:491][850]LogModuleManager: Shutting down and abandoning module Kismet (348)
+[2017.04.28-07.09.31:493][850]LogModuleManager: Shutting down and abandoning module GraphEditor (346)
+[2017.04.28-07.09.31:493][850]LogModuleManager: Shutting down and abandoning module ClassViewer (344)
+[2017.04.28-07.09.31:493][850]LogModuleManager: Shutting down and abandoning module Toolbox (342)
+[2017.04.28-07.09.31:493][850]LogModuleManager: Shutting down and abandoning module ModuleUI (340)
+[2017.04.28-07.09.31:493][850]LogModuleManager: Shutting down and abandoning module MovieSceneTools (338)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module OutputLog (336)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module GammaUI (334)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module Documentation (332)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (328)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module AnalyticsET (326)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module PortalServices (324)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module PortalRpc (322)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module MessagingRpc (320)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module AIModule (318)
+[2017.04.28-07.09.31:494][850]LogModuleManager: Shutting down and abandoning module GameplayDebugger (317)
+[2017.04.28-07.09.31:495][850]LogModuleManager: Shutting down and abandoning module AITestSuite (315)
+[2017.04.28-07.09.31:495][850]LogModuleManager: Shutting down and abandoning module ProfilerService (312)
+[2017.04.28-07.09.31:614][850]LogModuleManager: Shutting down and abandoning module TaskGraph (310)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module SIOJEditorPlugin (308)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module SocketIOClient (306)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.04.28-07.09.31:615][850]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.04.28-07.09.31:617][850]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.04.28-07.09.31:619][850]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.04.28-07.09.31:619][850]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.04.28-07.09.31:619][850]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.04.28-07.09.31:619][850]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.04.28-07.09.31:620][850]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.04.28-07.09.31:620][850]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.04.28-07.09.31:620][850]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.04.28-07.09.31:621][850]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.04.28-07.09.31:621][850]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.04.28-07.09.31:622][850]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.04.28-07.09.31:622][850]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.04.28-07.09.31:622][850]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.04.28-07.09.31:622][850]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.04.28-07.09.31:622][850]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.04.28-07.09.31:623][850]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.04.28-07.09.31:624][850]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.04.28-07.09.31:625][850]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.04.28-07.09.31:625][850]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.04.28-07.09.31:626][850]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.04.28-07.09.31:628][850]LogModuleManager: Shutting down and abandoning module SIOJson (224)
+[2017.04.28-07.09.31:628][850]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.28-07.09.31:628][850]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.28-07.09.31:628][850]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.28-07.09.31:628][850]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.28-07.09.31:729][850]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.28-07.09.31:830][850]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.28-07.09.31:830][850]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.28-07.09.31:830][850]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.28-07.09.31:830][850]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.28-07.09.31:830][850]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.28-07.09.31:831][850]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.28-07.09.31:831][850]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.28-07.09.31:833][850]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.28-07.09.31:833][850]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.28-07.09.31:833][850]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.28-07.09.31:833][850]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.28-07.09.31:833][850]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.28-07.09.31:833][850]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.28-07.09.31:835][850]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.28-07.09.31:835][850]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.28-07.09.31:836][850]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.28-07.09.31:836][850]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.28-07.09.31:837][850]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.28-07.09.31:839][850]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.28-07.09.31:840][850]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.28-07.09.31:840][850]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.28-07.09.31:840][850]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.28-07.09.31:842][850]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.28-07.09.31:842][850]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.28-07.09.31:845][850]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.28-07.09.31:846][850]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.28-07.09.31:846][850]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.28-07.09.31:846][850]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.28-07.09.31:846][850]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.28-07.09.31:846][850]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.28-07.09.31:958][850]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.28-07.09.31:958][850]LogDirectoryWatcher: A directory notification for '../../../../../../Users/SIG Admin/Desktop/final-project-submariner/Content/' was aborted.
+[2017.04.28-07.09.31:958][850]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.28-07.09.31:959][850]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.28-07.09.31:964][850]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.28-07.09.31:964][850]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.28-07.09.31:964][850]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.28-07.09.31:964][850]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.28-07.09.31:965][850]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.28-07.09.31:965][850]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.28-07.09.31:965][850]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.28-07.09.31:965][850]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.28-07.09.32:024][850]LogDerivedDataCache: Shutdown
+[2017.04.28-07.09.32:024][850]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.28-07.09.32:025][850]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.28-07.09.32:025][850]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.28-07.09.32:026][850]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.28-07.09.32:027][850]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.28-07.09.32:028][850]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.28-07.09.32:028][850]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.28-07.09.32:028][850]LogHMD: Oculus shutdown.
+[2017.04.28-07.09.32:028][850]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.28-07.09.32:028][850]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.28-07.09.32:028][850]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.28-07.09.32:028][850]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.28-07.09.32:028][850]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.28-07.09.32:029][850]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.28-07.09.32:030][850]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.28-07.09.32:030][850]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.28-07.09.32:031][850]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB4F5C0D9-4CE9-7014-6B02-0F81ED689EAA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=cb8fdafe4f8d1ca9a11332a3d52fabd0%7C1ddd30c5c6784d96a0daf4e0108a787c%7C8400279f-8989-4c41-bacc-8238bbfac349&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.28-07.09.32:051][850]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.28-07.09.32:054][850]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.28-07.09.32:055][850]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.28-07.09.32:055][850]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.28-07.09.32:055][850]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.28-07.09.32:055][850]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.28-07.09.32:066][850]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.28-07.09.32:066][850]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.28-07.09.32:066][850]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.28-07.09.32:067][850]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.28-07.09.32:067][850]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.28-07.09.32:067][850]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.28-07.09.32:067][850]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.28-07.09.32:067][850]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.28-07.09.32:067][850]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.28-07.09.32:067][850]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.28-07.09.32:072][850]LogExit: Exiting.
+[2017.04.28-07.09.32:089][850]Log file closed, 04/28/17 03:09:32
