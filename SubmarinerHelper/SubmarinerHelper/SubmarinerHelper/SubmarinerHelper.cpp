@@ -28,7 +28,7 @@ int main() {
 	int u_depth = l_depth + 20;
 
 	int l_direction = direction_uni(rng);
-	int u_direction = u_direction + 20;
+	int u_direction = l_direction + 20;
 
 	cout << "u_depth:" << u_depth << ";l_depth:" << l_depth
 		<< ";u_direction:" << u_direction << ";l_direction:" << l_direction
