@@ -150,7 +150,7 @@ var loop = function() {
 		}
 	
 		// Check for game end.
-		if (globalSeconds >= 1200 && !gameOver) {
+		if (globalSeconds >= 120 && !gameOver) {
 			console.log("sending win");
 			io.sockets.emit('win', { text: 'You win!' });
 			gameOver = true;
@@ -191,8 +191,11 @@ var resetGame = function() {
 
 	gameStart = false;
 	gameOver = false;
+	globalSeconds = 0;
 	deciseconds = 0;
 	
+	taskOver = true;
+	startDelay = 70;
 	life = 4; // Fuck this bug TODO
 };
 
