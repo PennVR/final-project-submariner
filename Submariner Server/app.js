@@ -116,6 +116,11 @@ io.on('connection', function(socket) {
 		engineerSelect = true;
 		io.sockets.emit('engineer select', { text: 'Engineer selected.' });
 	});
+
+	socket.on('engine_pipe', function(data) {
+		console.log("engine pipe fix expired!");
+		issueStrike();
+	})
 });
 
 // The main game loop. Current logic:
