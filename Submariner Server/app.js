@@ -67,18 +67,22 @@ io.on('connection', function(socket) {
 		torpedoColor = data;
 		
 		// Check for victory
-		if (depth <= upperBoundDepth && depth >= lowerBoundDepth
-			&& direction  <= upperBoundDirection && direction >= lowerBoundDirection
-			&& torpedoColor.localeCompare(targetTorpedoColor) && taskSeconds <= timeLimit && !gameOver) {
+		if (depth <= upperBoundDepth && depth >= lowerBoundDepth) {
+			console.log("depth correct");
+			if (direction  <= upperBoundDirection && direction >= lowerBoundDirection) {
+				console.log("direction correct");
+				if (torpedoColor.localeCompare(targetTorpedoColor) && taskSeconds <= timeLimit && !gameOver) {
 			
-			// If correct, proceed to next task.
-			taskOver = true;
-			taskSeconds = 0;
-			console.log("Task succeeded!");
-		} else {
-			
-			// Task completed incorrectly.
-			issueStrike();
+					// If correct, proceed to next task.
+					taskOver = true;
+					taskSeconds = 0;
+					console.log("Task succeeded!");
+				} else {
+					
+					// Task completed incorrectly.
+					issueStrike();
+				}
+			}
 		}
 	});
 
@@ -232,7 +236,7 @@ var taskParser = function (completeTask) {
 	specificTask = (taskComponents[3]).split(":");
 	lowerBoundDirection = parseInt(specificTask[1]);
 	specificTask = (taskComponents[4]).split(":");
-	timeLimit = (parseInt(specificTask[1]) * 10);
+	timeLimit = (parseInt(specificTask[1]) * 10 * 6);
 	specificTask = (taskComponents[5]).split(":");
 	torpedoColor = specificTask[1];
 	
@@ -248,7 +252,9 @@ var taskParser = function (completeTask) {
 	var direction = ((upperBoundDirection + lowerBoundDirection) / 2);
 	var instruction = ("Depth: " + depth + "\nDirection: " + direction + "\nTorpedo: " + torpedoColor);
 	console.log("instruction: " + instruction);
+	console.log("time limit: " + timeLimit);
 	io.sockets.emit('instruction', instruction);
+	io.sockets.emit('time_limit', timeLimit);
 }
 
 // Launch the server.
