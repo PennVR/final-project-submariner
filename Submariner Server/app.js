@@ -8,13 +8,11 @@ function execute(command, callback) {
 };
 
 var clients = [];
-var life = 3;
 
 // Interactable object states
-var buttonPress = false;
-var leverPull = 0;
-var crankTurn = 0;
-var handlePull = "Red";
+var depth = 0;
+var direction = 0;
+var torpedoColor = "Red";
 
 // Character selection variables
 var captainSelect = false;
@@ -23,17 +21,18 @@ var navigatorSelect = false;
 var engineerSelect = false;
 
 // Logic variables
+var life = 3;
 var gameStart = false;
 var gameOver = false;
-var globalseconds = 0;
-var taskseconds = 0;
+var globalSeconds = 0;
+var taskSeconds = 0;
 var taskOver = true;
 var startDelay = 70;
 
 // Task variables
 var lowerBoundDirection = 30;
 var upperBoundDirection = 80;
-var torpedoColor = "Red";
+var targetTorpedoColor = "Red";
 var timeLimit = 600;
 var lowerBoundDepth = 30;
 var upperBoundDepth = 80;
@@ -51,43 +50,34 @@ io.on('connection', function(socket) {
 		console.log(clientDisconnectedMsg);
 	});
 	
-	socket.on('button', function(data) {
-		console.log(data);
-		buttonPress = true;
-	});
-	
 	socket.on('engine lever', function(data) {
 		console.log(data);
 		io.sockets.emit('depth', { text: data });
-		leverPull = parseInt(data);
-	});
-
-	socket.on('handle', function(data) {
-		console.log(data);
+		depth = parseInt(data);
 	});
 
 	socket.on('navigator crank', function(data) {
 		console.log(data);
 		io.sockets.emit('direction', { text: data });
-		crankTurn = parseInt(data);
+		direction = parseInt(data);
 	});
 
 	socket.on('gunner handle', function(data) {
 		console.log(data);
-		handlePull = data;
+		torpedoColor = data;
 		
 		// Check for victory
-		if (leverPull <= upperBoundDepth && leverPull >= lowerBoundDepth
-			&& crankTurn  <= upperBoundDirection && crankTurn >= lowerBoundDirection
-			&& handlePull.localeCompare(torpedoColor) && taskseconds <= timeLimit && !gameOver) {
+		if (depth <= upperBoundDepth && depth >= lowerBoundDepth
+			&& direction  <= upperBoundDirection && direction >= lowerBoundDirection
+			&& torpedoColor.localeCompare(targetTorpedoColor) && taskSeconds <= timeLimit && !gameOver) {
 			
 			// If correct, proceed to next task.
 			taskOver = true;
-			taskseconds = 0;
+			taskSeconds = 0;
 			console.log("Task succeeded!");
 		} else {
 			
-			// Task corrected incorrectly.
+			// Task completed incorrectly.
 			issueStrike();
 		}
 	});
@@ -117,6 +107,7 @@ io.on('connection', function(socket) {
 		io.sockets.emit('engineer select', { text: 'Engineer selected.' });
 	});
 
+	// Busy events
 	socket.on('engine_pipe', function(data) {
 		console.log("engine pipe fix expired!");
 		issueStrike();
@@ -155,7 +146,7 @@ var loop = function() {
 		}
 	
 		// Check for game end.
-		if (globalseconds >= 1200 && !gameOver) {
+		if (globalSeconds >= 1200 && !gameOver) {
 			console.log("sending win");
 			io.sockets.emit('win', { text: 'You win!' });
 			gameOver = true;
@@ -165,19 +156,19 @@ var loop = function() {
 		}
 
 		// Check for defeat
-		if (taskseconds >= timeLimit && !gameOver) {
+		if (taskSeconds >= timeLimit && !gameOver) {
 			issueStrike();
 		}
 
 		// Emit current depth.
-		io.sockets.emit('current depth', leverPull);
+		io.sockets.emit('current depth', depth);
 		
 		// Emit current direction.
-		io.sockets.emit('current direction', crankTurn);
+		io.sockets.emit('current direction', direction);
 		
 		// Handle timers
-		taskseconds++;
-		globalseconds++;
+		taskSeconds++;
+		globalSeconds++;
 	}
 };
 setInterval(loop, 100);
@@ -185,9 +176,9 @@ setInterval(loop, 100);
 // Reset the game to its initial state.
 var resetGame = function() {
 	buttonPress = false;
-	leverPull = false;
-	crankTurn = false;
-	handlePull = false;
+	depth = false;
+	direction = false;
+	torpedoColor = false;
 
 	captainSelect = false;
 	gunnerSelect = false;
@@ -214,7 +205,7 @@ var issueStrike = function() {
 		resetGame();
 	} else {
 		taskOver = true
-		taskseconds = 0;
+		taskSeconds = 0;
 		console.log("task time out");
 		io.sockets.emit('health_down',{ text: 'Wrong! Your health now goes down by one.'});
 		console.log("health down");
