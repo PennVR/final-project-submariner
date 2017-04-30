@@ -1,0 +1,1 @@
+Realistic M1 Garand by Karl Schecht is licensed under CC Attribution.
