@@ -4,7 +4,7 @@ Submariner - Jason Tang, Ray Dongho Kim, Santiago Buenahora, Kunal Garg, Tim Cla
 
 ### Link to Demo
 
-You can view our prototype demo reel [here(https://www.youtube.com/watch?v=E1o_stj1ScQ)].
+You can view our prototype demo reel [here](https://www.youtube.com/watch?v=E1o_stj1ScQ).
 
 ### Techniques used, and why those techniques.
 
