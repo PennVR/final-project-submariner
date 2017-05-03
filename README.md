@@ -4,6 +4,8 @@ Submariner - Jason Tang, Ray Dongho Kim, Santiago Buenahora, Kunal Garg, Tim Cla
 
 ### Link to Demo
 
+You can view our prototype demo reel [here](https://www.youtube.com/watch?v=E1o_stj1ScQ).
+
 ### Techniques used, and why those techniques.
 
 We used a Node.js/SocketIO server so that our puzzle logic can be coded in JavaScript on the server. We use a C++ class to generate the puzzles, and we also have some C++ code in our post-processing material for the radar. We had a blueprint interface to make the items be intractable in similar way.
