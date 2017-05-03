@@ -1,4 +1,4 @@
-# Name and Project Name
+### Name and Project Name
 
 Submariner - Jason Tang, Ray Dongho Kim, Santiago Buenahora, Kunal Garg, Tim Clancy
 
