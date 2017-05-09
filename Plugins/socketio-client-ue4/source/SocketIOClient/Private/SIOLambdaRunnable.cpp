@@ -40,9 +40,10 @@ bool FSIOLambdaRunnable::Init()
 //Run
 uint32 FSIOLambdaRunnable::Run()
 {
-	if (FunctionPointer)
+	if (FunctionPointer != nullptr)
+	{
 		FunctionPointer();
-
+	}
 	//UE_LOG(LogClass, Log, TEXT("FLambdaRunnable %d Run complete"), Number);
 	return 0;
 }
@@ -50,6 +51,12 @@ uint32 FSIOLambdaRunnable::Run()
 //stop
 void FSIOLambdaRunnable::Stop()
 {
+	Finished = true;
+}
+
+void FSIOLambdaRunnable::Kill()
+{
+	Thread->Kill(false);
 	Finished = true;
 }
 

@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+
 
 #include "SocketIOClientPrivatePCH.h"
 
@@ -9,6 +9,11 @@ typedef TJsonWriter< TCHAR, TCondensedJsonPrintPolicy<TCHAR> > FCondensedJsonStr
 
 TSharedPtr<FJsonValue> USIOMessageConvert::ToJsonValue(const sio::message::ptr& Message)
 {
+	if (Message == nullptr)
+	{
+		return MakeShareable(new FJsonValueNull());
+	}
+
 	auto flag = Message->get_flag();
 
 	if (flag == sio::message::flag_integer)
@@ -62,9 +67,7 @@ TSharedPtr<FJsonValue> USIOMessageConvert::ToJsonValue(const sio::message::ptr& 
 	}
 	else if (flag == sio::message::flag_boolean)
 	{
-		bool InBoolean = false;
-
-		return MakeShareable(new FJsonValueBoolean(InBoolean));
+		return MakeShareable(new FJsonValueBoolean(Message->get_bool()));
 	}
 	else if (flag == sio::message::flag_null)
 	{
@@ -150,4 +153,22 @@ std::string USIOMessageConvert::StdString(FString UEString)
 FString USIOMessageConvert::FStringFromStd(std::string StdString)
 {
 	return FString(UTF8_TO_TCHAR(StdString.c_str()));
+}
+
+std::map<std::string, std::string> USIOMessageConvert::JsonObjectToStdStringMap(TSharedPtr<FJsonObject> InObject)
+{
+	std::map<std::string, std::string> HeadersMap;
+
+	for (auto Pair : InObject->Values)
+	{
+		TSharedPtr<FJsonValue> Value = Pair.Value;
+
+		//If it's a string value, add it to the std map
+		if (Value->Type == EJson::String)
+		{
+			HeadersMap[USIOMessageConvert::StdString(Pair.Key)] = USIOMessageConvert::StdString(Value->AsString());
+		}
+	}
+
+	return HeadersMap;
 }

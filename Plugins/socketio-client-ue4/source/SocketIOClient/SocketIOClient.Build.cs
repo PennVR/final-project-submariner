@@ -1,4 +1,4 @@
-// Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
+
 
 using System.IO;
 
@@ -32,9 +32,9 @@ namespace UnrealBuildTool.Rules
                 string BoostLibPath = Path.Combine(BoostThirdParty, "Lib");
                 string SocketLibPath = Path.Combine(SocketIOThirdParty, "Lib");
 
-                PublicAdditionalLibraries.Add(Path.Combine(BoostLibPath, PlatformString, "libboost_date_time-vc140-mt-1_60.lib"));
-                PublicAdditionalLibraries.Add(Path.Combine(BoostLibPath, PlatformString, "libboost_random-vc140-mt-1_60.lib"));
-                PublicAdditionalLibraries.Add(Path.Combine(BoostLibPath, PlatformString, "libboost_system-vc140-mt-1_60.lib"));
+                PublicAdditionalLibraries.Add(Path.Combine(BoostLibPath, PlatformString, "libboost_date_time-vc140-mt-1_62.lib"));
+                PublicAdditionalLibraries.Add(Path.Combine(BoostLibPath, PlatformString, "libboost_random-vc140-mt-1_62.lib"));
+                PublicAdditionalLibraries.Add(Path.Combine(BoostLibPath, PlatformString, "libboost_system-vc140-mt-1_62.lib"));
                 PublicAdditionalLibraries.Add(Path.Combine(SocketLibPath, PlatformString, "sioclient.lib"));
 
             }
@@ -96,7 +96,6 @@ namespace UnrealBuildTool.Rules
 
         public SocketIOClient(TargetInfo Target)
         {
-
             PublicIncludePaths.AddRange(
                 new string[] {
                 "SocketIOClient/Public",

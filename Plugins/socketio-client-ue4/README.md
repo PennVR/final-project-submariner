@@ -1,5 +1,8 @@
 # socketio-client-ue4
-socket.io client plugin for UE4
+Socket.io client plugin for UE4.
+
+[![GitHub release](https://img.shields.io/github/release/getnamo/socketio-client-ue4.svg)](https://github.com/getnamo/socketio-client-ue4/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/getnamo/socketio-client-ue4/total.svg)](https://github.com/getnamo/socketio-client-ue4/releases)
 
 [Socket.io](http://socket.io/) is a performant real-time bi-directional communication library. There are two parts, the server written in node.js and the client typically javascript for the web. There are alternative client implementations and this repo uses the [C++11 client library](https://github.com/socketio/socket.io-client-cpp) ported to UE4.
 
@@ -130,6 +133,17 @@ Instead of using the event graph and comparing strings, you can bind an event di
 
 ![IMG](http://i.imgur.com/7fA1qca.png)
 
+
+### Complex Connect
+
+You can fill the optional _Query_ and _Headers_ parameters to pass in e.g. your own headers for authentication. 
+
+The input type for both fields is a _SIOJsonObject_ with purely string fields or leaving it empty for default.
+
+Here's an example of constructing a single header  _X-Forwarded-Host: qnova.io_ and then connecting.
+
+![connectwithheader](https://cloud.githubusercontent.com/assets/542365/25309683/63bfe26e-27cb-11e7-877e-0590e40605f3.PNG)
+
 ## How to use - C++
 
 ### Setup
@@ -187,11 +201,22 @@ SIOClientComponent->Disconnect();
 SIOClientComponent->Connect(FString("http://127.0.0.1:3000"));
 ```
 
+### Receiving Events
+
+To receive events call _OnNativeEvent_ and pass in your expected event name and callback lambda or function with ```const FString& Event, const TSharedPtr<FJsonValue>& Message``` signature. Optionally pass in another FString to specify namespace, omit if not using a namespace.
+
+```c++
+SIOClientComponent->OnNativeEvent(FString("MyEvent"), [](const FString& Event, const TSharedPtr<FJsonValue>& Message)
+	{
+		//Called when the event is received
+	}, FString("Optional Namespace"));
+```
+
 ### Emitting Events
 
 In C++ you can use *EmitNative*, *EmitRaw*, or *EmitRawBinary*. *EmitNative* is fully overloaded and expects all kinds of native UE4 data types and is the recommended method.
 
-####String
+#### String
 
 Emit an FString. Note that *FString(TEXT("yourString"))* is recommended if you have performance concerns due to internal conversion from ```char*```
 
@@ -199,7 +224,7 @@ Emit an FString. Note that *FString(TEXT("yourString"))* is recommended if you h
 SIOClientComponent->EmitNative(FString("nativeTest"), FString("hi"));
 ```
 
-####Number
+#### Number
 
 Emit a double
 
@@ -207,7 +232,7 @@ Emit a double
 SIOClientComponent->EmitNative(FString("nativeTest"), -3.5f);
 ```
 
-####Boolean
+#### Boolean
 
 Emit a raw boolean
 
@@ -215,7 +240,7 @@ Emit a raw boolean
 SIOClientComponent->EmitNative(FString("nativeTest"), true);
 ```
 
-####Binary or raw data
+#### Binary or raw data
 
 Emit raw data via a TArray<uint8>
 
@@ -235,7 +260,7 @@ or
 SIOComponent->EmitRawBinary(FString("myBinarySendEvent"), Buffer.GetData(), Buffer.Num());
 ```
 
-####FJsonObject - Simple
+#### FJsonObject - Simple
 
 Option 1 - Shorthand
 
@@ -253,7 +278,7 @@ Option 2 - Standard
 TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);	
 ```
 
-####FJsonObject - Complex Example
+#### FJsonObject - Complex Example
 
 A nested example using various methods
 
@@ -273,7 +298,7 @@ JsonObject->SetObjectField(FString("myNestedObject"), SmallObject);
 SIOClientComponent->EmitNative(FString("nativeTest"), JsonObject);
 ```
 
-####Callback Example
+#### Callback Example
 
 Below is an example of emitting a simple object with the server using the passed in callback to return a response or acknowledgement.
 
@@ -296,7 +321,7 @@ SIOClientComponent->EmitNative(FString("callbackTest"), JsonObject, [&](auto Res
 });
 ```
 
-####UStruct
+#### UStruct
 
 Plugin supports automatic conversion to/from UStructs, below is an example of a struct roundtrip, being in Json format on the server side.
 
@@ -339,7 +364,7 @@ SIOClientComponent->EmitNative(FString("callbackTest"),  FTestCppStruct::StaticS
 });
 ```
 
-###Alternative Raw C++ Complex message using sio::message
+### Alternative Raw C++ Complex message using sio::message
 
 see [sio::message](https://github.com/socketio/socket.io-client-cpp/blob/master/src/sio_message.h) for how to form a raw message. Generally it supports a lot of std:: variants e.g. std::string or more complex messages e.g. [socket.io c++ emit readme](https://github.com/socketio/socket.io-client-cpp#emit-an-event). Note that there are static helper functions attached to the component class to convert from std::string to FString and the reverse.
 
@@ -384,7 +409,7 @@ SIOComponent->OnBinaryEvent([&](const FString& Name, const TArray<uint8>& Buffer
 		}, FString(TEXT("myBinaryReceiveEvent")));
 ```
 
-####Complex message using sio::message
+#### Complex message using sio::message
 
 See [sio::message](https://github.com/socketio/socket.io-client-cpp/blob/master/src/sio_message.h) or [socket.io c++ readme](https://github.com/socketio/socket.io-client-cpp#emit-an-event) for examples.
 
@@ -415,4 +440,4 @@ SIOComponent->OnRawEvent([&](const FString& Name, const sio::message::ptr& Messa
 
 ## License
 
-MIT
+[![license](https://img.shields.io/github/license/getnamo/socketio-client-ue4.svg)](https://github.com/getnamo/socketio-client-ue4/blob/master/LICENSE)
